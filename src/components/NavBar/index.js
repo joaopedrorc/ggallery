@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { Styles } from './styles';
 
-import { Navbar, Nav, NavDropdown, Button } from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import Logo from '../../assets/logos/White.svg';
 
 function NavBar() {
