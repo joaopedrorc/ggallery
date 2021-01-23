@@ -264,16 +264,25 @@ function Footer() {
                 5 Thames Ct, Basingstoke RG21 4DP, <br />
                 United Kingdom
               </p>
-              <p className="mb-0 text-white">
-                +44 7414 765278 | +44 0751 4505765
-              </p>
-              <p className="mb-0 text-white">dpserviceltd@gmail.com</p>
+              <a href="tel:+44 7414 765278" className="mb-0 text-white">
+                +44 7414 765278 |
+              </a>
+              <a href="tel:+44 0751 4505765" className="mb-0 text-white">
+                +44 0751 4505765
+              </a>
+              <br />
+              <a
+                href="mailto: contato@danansanps.com"
+                className="mb-0 text-white"
+              >
+                contato@danansanps.com
+              </a>
             </div>
           </div>
         </Container>
         <div className="w-100 rights-container d-flex justify-content-center align-items-center">
           <p className="m-0 text-black">
-            &copy; 2021 Copyright: danansanps.com
+            &copy; 2021 Copyright: Danansan Propery Services
           </p>
         </div>
       </footer>

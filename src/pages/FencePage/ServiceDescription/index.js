@@ -24,6 +24,13 @@ import Image14 from '../../../assets/contractPage/officeCleaning/img14.jpg';
 import Image15 from '../../../assets/contractPage/officeCleaning/img15.jpg';
 import Image16 from '../../../assets/contractPage/officeCleaning/img16.jpg';
 
+import ImageF0 from '../images/image0.png';
+import ImageF1 from '../images/image1.png';
+import ImageF2 from '../images/image2.png';
+import ImageF3 from '../images/image3.png';
+import ImageF4 from '../images/image4.png';
+import ImageF5 from '../images/image5.png';
+
 const images = [
   {
     original: Image0,
@@ -84,27 +91,84 @@ export default function ServiceDescription() {
     <Styles>
       <Title title="Erecting fence" />
       <ContainerBox>
-        <p className="p-container">
-          Providing a clean office environment is a key component of a modern,
-          effective organisation.
-        </p>
-
-        <p className="p-container">
-          Cleanliness is of paramount importance to a company's brand persona
-          and client perception. It also has a major role to play for employee
-          health and wellbeing and can directly influence productivity through
-          the prevention of absences from work.
-        </p>
-
-        <p className="p-container">
-          From reception area, offices, meeting rooms, washrooms to kitchens we
-          will tailor your office cleans to your exact requirements including
-          frequency, depth of clean, time of clean.
+        <p className="p-container text-center">
+          The type of fence you choose will not only play a key role in your
+          home’s exterior design, but also provide one of the most important
+          benefits of all homes, security. A professionally installed fence
+          gives every homeowner that true sense of home we all desire
         </p>
       </ContainerBox>
-      <Title title="Our erecting fence can include:" />
+      <Title title="We offer 3 different fence materials:" />
+      {/* <ContainerBox> */}
+      <div className="w-100 pb-5 pt-lg-2 pb-lg-5">
+        <div className="container pt-2 pb-2 pt-lg-2 pb-lg-0">
+          <div className="row mb-1">
+            <div className="col-12 col-md-12 col-lg-4 mb-5">
+              <div className="card shadow border-0">
+                <div className="position-relative">
+                  <img
+                    src={ImageF0}
+                    className="card-img-top"
+                    alt="Insulated garden room"
+                  />
+                </div>
+                <div className="card-body p-3">
+                  <h5 className="card-title text-center title-box">
+                    Wood fences
+                  </h5>
+                  {/* <Button className="card-button">
+                      <Link to="/insulated-garden-room">Learn more</Link>
+                    </Button> */}
+                </div>
+              </div>
+            </div>
+            <div className="col-12 col-md-12 col-lg-4 mb-5">
+              <div className="card shadow border-0">
+                <div className="position-relative">
+                  <img
+                    src={ImageF1}
+                    className="card-img-top"
+                    alt="Erecting fence"
+                  />
+                </div>
+                <div className="card-body p-3">
+                  <h5 className="card-title text-center title-box">
+                    PVC fences
+                  </h5>
+                  {/* <Button className="card-button">
+                      <Link to="/erecting-fence">Learn more</Link>
+                    </Button> */}
+                </div>
+              </div>
+            </div>
+            <div className="col-12 col-md-12 col-lg-4 mb-5">
+              <div className="card shadow border-0">
+                <div className="position-relative">
+                  <img
+                    src={ImageF2}
+                    className="card-img-top"
+                    alt="Garden storage shed"
+                  />
+                </div>
+                <div className="card-body p-3">
+                  <h5 className="card-title text-center title-box">
+                    Metal fences
+                  </h5>
+                  {/* <Button className="card-button">
+                      <Link to="/garden-storage-shed">Learn more</Link>
+                    </Button> */}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <ContainerBox>
-        <div class="row mb-4">
+        <Link className="link-button btn p-2 mb-5" to="/get-a-quote">
+          Get a free quote
+        </Link>
+      </ContainerBox>
+      {/* <div class="row mb-4">
           <div className="list-conteniner">
             <div className="row mb-4">
               <div className="col-12 col-md-4 col-lg-4 mb-3">
@@ -163,8 +227,80 @@ export default function ServiceDescription() {
               </div>
             </div>
           </div>
+        </div> */}
+      {/* </ContainerBox> */}
+
+      <Title title="For 3 different use case scenarios:" />
+
+      <div className="w-100 pb-5 pt-lg-2 pb-lg-5">
+        <div className="container pt-2 pb-2 pt-lg-2 pb-lg-0">
+          <div className="row mb-1">
+            <div className="col-12 col-md-12 col-lg-4 mb-5">
+              <div className="card shadow border-0">
+                <div className="position-relative">
+                  <img
+                    src={ImageF3}
+                    className="card-img-top"
+                    alt="Insulated garden room"
+                  />
+                </div>
+                <div className="card-body p-3">
+                  <h5 className="card-title text-center title-box">
+                    Residential Fences
+                  </h5>
+                  {/* <Button className="card-button">
+                      <Link to="/insulated-garden-room">Learn more</Link>
+                    </Button> */}
+                </div>
+              </div>
+            </div>
+            <div className="col-12 col-md-12 col-lg-4 mb-5">
+              <div className="card shadow border-0">
+                <div className="position-relative">
+                  <img
+                    src={ImageF4}
+                    className="card-img-top"
+                    alt="Erecting fence"
+                  />
+                </div>
+                <div className="card-body p-3">
+                  <h5 className="card-title text-center title-box">
+                    Industrial Fences
+                  </h5>
+                  {/* <Button className="card-button">
+                      <Link to="/erecting-fence">Learn more</Link>
+                    </Button> */}
+                </div>
+              </div>
+            </div>
+            <div className="col-12 col-md-12 col-lg-4 mb-5">
+              <div className="card shadow border-0">
+                <div className="position-relative">
+                  <img
+                    src={ImageF5}
+                    className="card-img-top"
+                    alt="Garden storage shed"
+                  />
+                </div>
+                <div className="card-body p-3">
+                  <h5 className="card-title text-center title-box">
+                    Rural Fences
+                  </h5>
+                  {/* <Button className="card-button">
+                      <Link to="/garden-storage-shed">Learn more</Link>
+                    </Button> */}
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <ContainerBox>
+        <Link className="link-button btn p-2 mb-5" to="/get-a-quote">
+          Get a free quote
+        </Link>
       </ContainerBox>
+
       <Title title="Erecting fence benefits:" />
       <Container>
         <div class="row mb-4 container-box">

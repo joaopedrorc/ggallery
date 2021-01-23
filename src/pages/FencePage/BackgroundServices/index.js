@@ -11,11 +11,12 @@ export default function BackgroundServices() {
         <div className="container">
           <div className=" banner-content">
             <h1>
-              <strong>Contract Services</strong>
+              <strong>Fence Erecting</strong>
             </h1>
             <p>
-              Some of our services are provided through annual <br /> or
-              half-yearly contracts
+              Danansan Property Services supply and fit new and replacement
+              fence panels <br />
+              at yours exact requirements.
             </p>
           </div>
         </div>

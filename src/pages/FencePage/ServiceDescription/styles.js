@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Styles = styled.div`
   .p-container {
-    width: 59.333%;
+    width: 70%;
     font-size: 1.75rem;
     font-weight: 300;
 
@@ -14,6 +14,11 @@ export const Styles = styled.div`
     &:last-child {
       margin-bottom: 2.813rem;
     }
+  }
+
+  .title-box {
+    padding: 0;
+    margin: 0;
   }
 
   .list-conteniner {
@@ -76,7 +81,7 @@ export const Styles = styled.div`
   .link-button {
     background-color: var(--primary);
     width: 400px;
-    margin-bottom: 3rem;
+    margin-bottom: 50px;
     color: var(--white);
 
     &:hover {
