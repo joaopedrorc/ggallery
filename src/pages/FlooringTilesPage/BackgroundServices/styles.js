@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import mainPageBanner from '../../../assets/banners/mainPageBanner.jpg';
+import ContractBg from '../../../assets/generalServicesBg/contractBg.jpg';
 
 export const Styles = styled.div`
   p {
@@ -9,7 +9,7 @@ export const Styles = styled.div`
   }
 
   .background-banner {
-    background-image: url(${mainPageBanner});
+    background-image: url(${ContractBg});
     height: 500px;
     background-size: cover;
     position: relative;
@@ -17,8 +17,6 @@ export const Styles = styled.div`
     background-repeat: no-repeat;
 
     display: flex;
-    justify-content: center;
-    text-align: center;
     align-items: center;
   }
 
@@ -34,11 +32,7 @@ export const Styles = styled.div`
 
   .banner-content {
     color: var(--white);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+    margin-top: -4rem;
 
     position: absolute;
     z-index: 2;

@@ -1,9 +1,15 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import { Styles } from './styles';
+
+import BackgroundServices from './BackgroundServices';
 
 function ContractPages() {
-  return <h1>Contract</h1>;
+  return (
+    <Styles>
+      <BackgroundServices />
+    </Styles>
+  );
 }
 
 export default ContractPages;

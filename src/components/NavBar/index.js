@@ -31,57 +31,57 @@ function NavBar() {
 
             <NavDropdown title="SERVICES" id="basic-nav-dropdown">
               <NavDropdown.Item>
-                <Link to="/contracts">Bathroom renovation</Link>
+                <Link to="/bathroom-renovation">Bathroom renovation</Link>
               </NavDropdown.Item>
 
               <NavDropdown.Item>
-                <Link to="#">Erecting fence</Link>
+                <Link to="/erecting-fence">Erecting fence</Link>
               </NavDropdown.Item>
 
               <NavDropdown.Item>
-                <Link to="#">Garden storage shed</Link>
+                <Link to="/garden-storage-shed">Garden storage shed</Link>
               </NavDropdown.Item>
 
               <NavDropdown.Item>
-                <Link to="#">Insulated garden room/office/studio</Link>
+                <Link to="/insulated-garden-room">
+                  Insulated garden room/office/studio
+                </Link>
               </NavDropdown.Item>
 
               <NavDropdown.Divider />
 
               <NavDropdown.Item>
-                <Link to="/">Heating and plumbing</Link>
+                <Link to="/heating-plumbing">Heating and plumbing</Link>
               </NavDropdown.Item>
 
               <NavDropdown.Item>
-                <Link to="/">Roof cleaning</Link>
+                <Link to="/roof-cleaning">Roof cleaning</Link>
               </NavDropdown.Item>
 
               <NavDropdown.Item>
-                <Link to="/">Garden maintenance</Link>
+                <Link to="/contracts">Garden maintenance</Link>
               </NavDropdown.Item>
 
               <NavDropdown.Item>
-                <Link to="/">Painting and decoration</Link>
+                <Link to="/painting-decoration">Painting and decoration</Link>
               </NavDropdown.Item>
 
               <NavDropdown.Item>
-                <Link to="/">Commercial office cleaning</Link>
+                <Link to="/contracts">Commercial office cleaning</Link>
               </NavDropdown.Item>
 
               <NavDropdown.Item>
-                <Link to="/">Flooring/tiles Installation</Link>
+                <Link to="/flooring-tiles-instalation">
+                  Flooring/tiles Installation
+                </Link>
               </NavDropdown.Item>
 
               <NavDropdown.Item>
-                <Link to="/">Window cleaning</Link>
+                <Link to="/contracts">Window cleaning</Link>
               </NavDropdown.Item>
 
               <NavDropdown.Item>
-                <Link to="/">Eletrical services</Link>
-              </NavDropdown.Item>
-
-              <NavDropdown.Item>
-                <Link to="/">Plumbing services</Link>
+                <Link to="/eletical-services">Eletrical services</Link>
               </NavDropdown.Item>
             </NavDropdown>
 

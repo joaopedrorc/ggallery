@@ -4,7 +4,7 @@ import { Styles } from './styles';
 
 import BackgroundServices from './BackgroundServices';
 
-export default function BathRenovationPage() {
+export default function GardenStoragePage() {
   return (
     <Styles>
       <BackgroundServices />

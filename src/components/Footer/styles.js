@@ -8,13 +8,52 @@ export const Styles = styled.div`
   h2 {
     color: var(--primary);
   }
-  a {
+
+  p {
+    font-weight: 300;
+  }
+
+  .social-box {
+    margin-top: -2rem;
+
+    @media (max-width: 767.98px) {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .button-box {
+    margin-right: 1rem;
+
+    border: none;
+    background-color: var(--white);
+
+    @media (max-width: 767.98px) {
+      margin-bottom: 2rem;
+    }
+  }
+
+  .link-box {
     color: var(--white);
     font-weight: 300;
   }
 
-  p {
+  .dropdown-box button {
+    border: none;
+    background-color: transparent;
     font-weight: 300;
+
+    padding: 0;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &:active {
+      background: none;
+      background-color: transparent;
+      border: none;
+    }
   }
 
   .text-container {
