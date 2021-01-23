@@ -32,6 +32,6 @@ export const Styles = styled.div`
     width: 100%;
     padding: 1rem 0;
 
-    background-color: var(--primary);
+    background-color: var(--black);
   }
 `;
