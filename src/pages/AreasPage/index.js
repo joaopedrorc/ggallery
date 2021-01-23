@@ -126,11 +126,6 @@ function AreasPage() {
             <section>
               <div className="row mb-4">
                 <div className="col-md-12 container-col">
-                  {/* <div
-                    id="map-container-google-1"
-                    class="z-depth-1-half map-container mb-4"
-                    // style={{ height: '100%', width: '100%' }}
-                  > */}
                   <iframe
                     src="https://www.google.com/maps/d/embed?mid=1FgHCjjUf2QF6PZP6QaU6VL3BJV2WMziF"
                     width="100%"
@@ -142,7 +137,6 @@ function AreasPage() {
                     aria-hidden="false"
                     tabindex="0"
                   ></iframe>
-                  {/* </div> */}
                 </div>
               </div>
             </section>

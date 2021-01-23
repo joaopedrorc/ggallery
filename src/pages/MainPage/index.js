@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 import { Styles } from './styles';
 
@@ -42,7 +43,11 @@ function MainPage() {
             <div className="col-12 col-md-12 col-lg-3 mb-5">
               <div className="card shadow border-0">
                 <div className="position-relative">
-                  <img src={Service0} className="card-img-top" alt="..." />
+                  <img
+                    src={Service0}
+                    className="card-img-top"
+                    alt="Insulated garden room"
+                  />
                 </div>
                 <div className="card-body p-3">
                   <h5 className="card-title mb-3">
@@ -52,12 +57,8 @@ function MainPage() {
                     Our post construction cleaning service is a specialist
                     division that provides the full range of cleaning services.
                   </p>
-                  <Button
-                    className="card-button"
-                    variant="primary"
-                    type="submit"
-                  >
-                    Learn more
+                  <Button className="card-button">
+                    <Link to="/insulated-garden-room">Learn more</Link>
                   </Button>
                 </div>
               </div>
@@ -65,7 +66,11 @@ function MainPage() {
             <div className="col-12 col-md-12 col-lg-3 mb-5">
               <div className="card shadow border-0">
                 <div className="position-relative">
-                  <img src={Service01} className="card-img-top" alt="..." />
+                  <img
+                    src={Service01}
+                    className="card-img-top"
+                    alt="Erecting fence"
+                  />
                 </div>
                 <div className="card-body p-3">
                   <h5 className="card-title mb-3">Erecting fence</h5>
@@ -73,12 +78,8 @@ function MainPage() {
                     Our post construction cleaning service is a specialist
                     division that provides the full range of cleaning services.
                   </p>
-                  <Button
-                    className="card-button"
-                    variant="primary"
-                    type="submit"
-                  >
-                    Learn more
+                  <Button className="card-button">
+                    <Link to="/erecting-fence">Learn more</Link>
                   </Button>
                 </div>
               </div>
@@ -86,7 +87,11 @@ function MainPage() {
             <div className="col-12 col-md-12 col-lg-3 mb-5">
               <div className="card shadow border-0">
                 <div className="position-relative">
-                  <img src={Service02} className="card-img-top" alt="..." />
+                  <img
+                    src={Service02}
+                    className="card-img-top"
+                    alt="Garden storage shed"
+                  />
                 </div>
                 <div className="card-body p-3">
                   <h5 className="card-title mb-3">Garden storage shed</h5>
@@ -94,12 +99,8 @@ function MainPage() {
                     Our post construction cleaning service is a specialist
                     division that provides the full range of cleaning services.
                   </p>
-                  <Button
-                    className="card-button"
-                    variant="primary"
-                    type="submit"
-                  >
-                    Learn more
+                  <Button className="card-button">
+                    <Link to="/garden-storage-shed">Learn more</Link>
                   </Button>
                 </div>
               </div>
@@ -107,7 +108,11 @@ function MainPage() {
             <div className="col-12 col-md-12 col-lg-3 mb-5">
               <div className="card shadow border-0">
                 <div className="position-relative">
-                  <img src={Service03} className="card-img-top" alt="..." />
+                  <img
+                    src={Service03}
+                    className="card-img-top"
+                    alt="Bathroom renovation"
+                  />
                 </div>
                 <div className="card-body p-3">
                   <h5 className="card-title mb-3">Bathroom renovation</h5>
@@ -115,12 +120,8 @@ function MainPage() {
                     Our post construction cleaning service is a specialist
                     division that provides the full range of cleaning services.
                   </p>
-                  <Button
-                    className="card-button"
-                    variant="primary"
-                    type="submit"
-                  >
-                    Learn more
+                  <Button className="card-button">
+                    <Link to="/bathroom-renovation">Learn more</Link>
                   </Button>
                 </div>
               </div>

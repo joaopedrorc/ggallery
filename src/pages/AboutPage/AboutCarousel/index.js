@@ -26,7 +26,11 @@ function AboutCarousel() {
         <Carousel breakPoints={breakPoints}>
           <div class="card shadow border-0">
             <div class="position-relative">
-              <img src={Service0} class="card-img-top" alt="..." />
+              <img
+                src={Service0}
+                class="card-img-top"
+                alt="Insulated garden room"
+              />
             </div>
             <div class="card-body p-3">
               <h5 class="card-title mb-3">
@@ -44,7 +48,7 @@ function AboutCarousel() {
 
           <div class="card shadow border-0">
             <div class="position-relative">
-              <img src={Service01} class="card-img-top" alt="..." />
+              <img src={Service01} class="card-img-top" alt="Erecting fence" />
             </div>
             <div class="card-body p-3">
               <h5 class="card-title mb-3">Erecting fence</h5>
@@ -60,7 +64,11 @@ function AboutCarousel() {
 
           <div class="card shadow border-0">
             <div class="position-relative">
-              <img src={Service02} class="card-img-top" alt="..." />
+              <img
+                src={Service02}
+                class="card-img-top"
+                alt="Garden storage shed"
+              />
             </div>
             <div class="card-body p-3">
               <h5 class="card-title mb-3">Garden storage shed</h5>
@@ -76,7 +84,11 @@ function AboutCarousel() {
 
           <div class="card shadow border-0">
             <div class="position-relative">
-              <img src={Service03} class="card-img-top" alt="..." />
+              <img
+                src={Service03}
+                class="card-img-top"
+                alt="Bathroom renovation"
+              />
             </div>
             <div class="card-body p-3">
               <h5 class="card-title mb-3">Bathroom renovation</h5>

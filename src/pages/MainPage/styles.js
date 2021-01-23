@@ -11,6 +11,15 @@ export const Styles = styled.div`
     }
   }
 
+  .card-button a {
+    color: var(--white);
+
+    &:hover {
+      text-decoration: underline;
+      background-color: var(--primary-dark);
+    }
+  }
+
   .costumer-text {
     color: var(--gray-light);
   }

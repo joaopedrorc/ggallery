@@ -1,13 +1,16 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 
   .carousel-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 70%;
+    margin: auto;
+    @media (max-width: 767.98px) {
+      width: 100%;
+    }
   }
+
   .card-button {
     width: 100%;
     background-color: var(--primary);
