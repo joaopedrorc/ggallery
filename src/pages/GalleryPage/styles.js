@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Styles = styled.div`
   h2 {
-    color: var(--black);
+    color: var(--white);
     margin-bottom: 2rem;
   }
   .gallery-container {
@@ -32,6 +32,6 @@ export const Styles = styled.div`
     width: 100%;
     padding: 1rem 0;
 
-    background-color: var(--white);
+    background-color: var(--primary);
   }
 `;
