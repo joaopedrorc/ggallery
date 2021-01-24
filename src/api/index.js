@@ -33,4 +33,9 @@ app.get('/send', (req, res) => {
     .catch((error) => res.send(error));
 });
 
+module.exports = (req, res) => {
+  const { name = 'World' } = req.query;
+  res.send(`Hello ${name}!`);
+};
+
 app.listen(3000, () => console.log(`Running on port ${port}!`));
