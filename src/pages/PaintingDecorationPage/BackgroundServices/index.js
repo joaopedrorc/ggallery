@@ -11,11 +11,11 @@ export default function BackgroundServices() {
         <div className="container">
           <div className=" banner-content">
             <h1>
-              <strong>Contract Services</strong>
+              <strong>Painting and Decoration</strong>
             </h1>
             <p>
-              Some of our services are provided through annual <br /> or
-              half-yearly contracts
+              We offer excellent painting and decoration that vary from a <br />
+              simple painting to a room decoration.
             </p>
           </div>
         </div>

@@ -11,11 +11,11 @@ export default function BackgroundServices() {
         <div className="container">
           <div className=" banner-content">
             <h1>
-              <strong>Contract Services</strong>
+              <strong>Wood Flooring and Tiles Installation</strong>
             </h1>
             <p>
-              Some of our services are provided through annual <br /> or
-              half-yearly contracts
+              We offer the best there is when it comes to <br /> flooring and
+              tiles installation
             </p>
           </div>
         </div>
