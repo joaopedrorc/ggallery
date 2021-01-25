@@ -11,11 +11,11 @@ export default function BackgroundServices() {
         <div className="container">
           <div className=" banner-content">
             <h1>
-              <strong>Contract Services</strong>
+              <strong>Heating and Plumbing Services</strong>
             </h1>
             <p>
-              Some of our services are provided through annual <br /> or
-              half-yearly contracts
+              We offer a highly qualified and trained professional team to{' '}
+              <br /> support you with any type of problems
             </p>
           </div>
         </div>

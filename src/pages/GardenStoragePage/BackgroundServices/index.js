@@ -11,11 +11,12 @@ export default function BackgroundServices() {
         <div className="container">
           <div className=" banner-content">
             <h1>
-              <strong>Contract Services</strong>
+              <strong>Garden Storage Shed Installation Service</strong>
             </h1>
             <p>
-              Some of our services are provided through annual <br /> or
-              half-yearly contracts
+              If you're not a DIY expert then why not let our professional
+              installationc <br /> team build it for you leaving you with more
+              time to spare for other activities.
             </p>
           </div>
         </div>

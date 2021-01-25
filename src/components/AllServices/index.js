@@ -1,8 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import { Styles, Container } from './styles';
-
-import { Button } from 'react-bootstrap';
 
 import Service01 from '../../assets/generalServices/service01.png';
 import Service02 from '../../assets/generalServices/service02.png';
@@ -16,110 +15,162 @@ import Service10 from '../../assets/generalServices/service10.png';
 function AllServices() {
   return (
     <Styles>
-      <Container className="mb-4">
-        <h1 className="text-center">See more services options</h1>
+      <Container className="mb-5">
+        <div className="card-container">
+          <h1 className="text-center">See more services options</h1>
 
-        <div class="w-100 pb-5 pt-lg-2 pb-lg-5">
-          <div class="container pt-2 pb-2 pt-lg-2 pb-lg-0">
-            <div class="row mb-4">
-              <div class="col-12 col-md-12 col-lg-4 mb-5">
-                <div class="card shadow border-0">
-                  <div class="position-relative">
-                    <img src={Service01} class="card-img-top" alt="..." />
-                  </div>
-                  <div class="card-body p-0">
-                    <Button className="card-button" variant="primary">
-                      Roof cleaning{' '}
-                    </Button>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-md-12 col-lg-4 mb-5">
-                <div class="card shadow border-0">
-                  <div class="position-relative">
-                    <img src={Service02} class="card-img-top" alt="..." />
-                  </div>
-                  <div class="card-body p-0">
-                    <Button className="card-button" variant="primary">
-                      Garden maintenance{' '}
-                    </Button>
+          <div class="w-100 pb-5 pt-lg-2 pb-lg-5 card-container">
+            <div class="container pt-2 pb-2 pt-lg-2 pb-lg-0">
+              <div class="row mb-4">
+                <div class="col-12 col-md-12 col-lg-4 mb-5">
+                  <div class="card shadow border-0">
+                    <div class="position-relative">
+                      <Link to="/roof-cleaning">
+                        <img
+                          src={Service01}
+                          class="card-img-top"
+                          alt="Roof cleaning"
+                        />
+                      </Link>
+                    </div>
+                    <div class="card-body p-0">
+                      <Link to="/roof-cleaning" className="btn card-button">
+                        Roof cleaning{' '}
+                      </Link>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-12 col-md-12 col-lg-4 mb-5">
-                <div class="card shadow border-0">
-                  <div class="position-relative">
-                    <img src={Service03} class="card-img-top" alt="..." />
-                  </div>
-                  <div class="card-body p-0">
-                    <Button className="card-button" variant="primary">
-                      Painting and decoration{' '}
-                    </Button>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-md-12 col-lg-4 mb-5">
-                <div class="card shadow border-0">
-                  <div class="position-relative">
-                    <img src={Service04} class="card-img-top" alt="..." />
-                  </div>
-                  <div class="card-body p-0">
-                    <Button className="card-button" variant="primary">
-                      Commercial office cleaning{' '}
-                    </Button>
+                <div class="col-12 col-md-12 col-lg-4 mb-5">
+                  <div class="card shadow border-0">
+                    <div class="position-relative">
+                      <Link to="/contracts">
+                        <img
+                          src={Service02}
+                          class="card-img-top"
+                          alt="Garden maintenance"
+                        />
+                      </Link>
+                    </div>
+                    <div class="card-body p-0">
+                      <Link to="/contracts" className="btn card-button">
+                        Garden maintenance{' '}
+                      </Link>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-12 col-md-12 col-lg-4 mb-5">
-                <div class="card shadow border-0">
-                  <div class="position-relative">
-                    <img src={Service06} class="card-img-top" alt="..." />
-                  </div>
-                  <div class="card-body p-0">
-                    <Button className="card-button" variant="primary">
-                      Flooring/tiles Installation
-                    </Button>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-md-12 col-lg-4 mb-5">
-                <div class="card shadow border-0">
-                  <div class="position-relative">
-                    <img src={Service07} class="card-img-top" alt="..." />
-                  </div>
-                  <div class="card-body p-0">
-                    <Button className="card-button" variant="primary">
-                      Window cleaning{' '}
-                    </Button>
+                <div class="col-12 col-md-12 col-lg-4 mb-5">
+                  <div class="card shadow border-0">
+                    <div class="position-relative">
+                      <Link to="/painting-decoration">
+                        <img
+                          src={Service03}
+                          class="card-img-top"
+                          alt="Painting and decoration"
+                        />
+                      </Link>
+                    </div>
+                    <div class="card-body p-0">
+                      <Link
+                        to="/painting-decoration"
+                        className="btn card-button"
+                      >
+                        Painting and decoration{' '}
+                      </Link>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-12 col-md-12 col-lg-6 mb-5">
-                <div class="card shadow border-0">
-                  <div class="position-relative">
-                    <img src={Service08} class="card-img-top" alt="..." />
-                  </div>
-                  <div class="card-body p-0">
-                    <Button className="card-button" variant="primary">
-                      Eletrical services{' '}
-                    </Button>
+                <div class="col-12 col-md-12 col-lg-4 mb-5">
+                  <div class="card shadow border-0">
+                    <div class="position-relative">
+                      <Link to="/contracts">
+                        <img
+                          src={Service04}
+                          class="card-img-top"
+                          alt="Commercial office cleaning"
+                        />
+                      </Link>
+                    </div>
+                    <div class="card-body p-0">
+                      <Link to="/contracts" className="btn card-button">
+                        Commercial office cleaning{' '}
+                      </Link>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-12 col-md-12 col-lg-6 mb-5">
-                <div class="card shadow border-0">
-                  <div class="position-relative">
-                    <img
-                      src={Service10}
-                      height="303.58"
-                      class="card-img-top"
-                      alt="..."
-                    />
+                <div class="col-12 col-md-12 col-lg-4 mb-5">
+                  <div class="card shadow border-0">
+                    <div class="position-relative">
+                      <Link to="/flooring-tiles-instalation">
+                        <img
+                          src={Service06}
+                          class="card-img-top"
+                          alt="Flooring and tiles Installation"
+                        />
+                      </Link>
+                    </div>
+                    <div class="card-body p-0">
+                      <Link
+                        to="/flooring-tiles-instalation"
+                        className="btn card-button"
+                      >
+                        Flooring/tiles Installation
+                      </Link>
+                    </div>
                   </div>
-                  <div class="card-body p-0">
-                    <Button className="card-button" variant="primary">
-                      Heating and plumbing
-                    </Button>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4 mb-5">
+                  <div class="card shadow border-0">
+                    <div class="position-relative">
+                      <Link to="/contracts">
+                        <img
+                          src={Service07}
+                          class="card-img-top"
+                          alt="Window cleaning"
+                        />
+                      </Link>
+                    </div>
+                    <div class="card-body p-0">
+                      <Link to="/contracts" className="btn card-button">
+                        Window cleaning{' '}
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-6 mb-5">
+                  <div class="card shadow border-0">
+                    <div class="position-relative">
+                      <Link to="/eletical-services">
+                        <img
+                          src={Service08}
+                          class="card-img-top"
+                          alt="Eletrical services"
+                        />
+                      </Link>
+                    </div>
+                    <div class="card-body p-0">
+                      <Link to="/eletical-services" className="btn card-button">
+                        Eletrical services{' '}
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-6 mb-5">
+                  <div class="card shadow border-0">
+                    <div class="position-relative">
+                      <Link to="/heating-plumbing">
+                        <img
+                          src={Service10}
+                          height="303.58"
+                          class="card-img-top"
+                          alt="Heating and plumbing"
+                        />
+                      </Link>
+                    </div>
+                    <div class="card-body p-0">
+                      <Link to="/heating-plumbing" className="btn card-button">
+                        Heating and plumbing
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>

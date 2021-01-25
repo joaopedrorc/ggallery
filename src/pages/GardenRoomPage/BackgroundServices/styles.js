@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import ContractBg from '../../../assets/generalServicesBg/contractBg.jpg';
+import InsulatedGardenBanner from '../../../assets/banners/insulatedGardenBanner.jpg';
 
 export const Styles = styled.div`
   p {
@@ -9,7 +9,7 @@ export const Styles = styled.div`
   }
 
   .background-banner {
-    background-image: url(${ContractBg});
+    background-image: url(${InsulatedGardenBanner});
     height: 500px;
     background-size: cover;
     position: relative;

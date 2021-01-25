@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { Styles } from './styles';
 
-import { Button } from 'react-bootstrap';
+import { Button, Container } from 'react-bootstrap';
 import { StarFill } from 'react-bootstrap-icons';
 
 import Title from '../../components/Title';
@@ -11,6 +11,8 @@ import About from '../../components/About';
 import AllServices from '../../components/AllServices';
 import QuoteForm from '../../components/QuoteForm';
 import BackgroundBanner from './BackgroundBanner';
+import Player from '../../components/Player';
+import BgSong from '../../assets/song/bgSong.mp3';
 
 import Service0 from '../../assets/masterServices/service0.png';
 import Service01 from '../../assets/masterServices/service01.png';
@@ -36,6 +38,10 @@ function MainPage() {
       <BackgroundBanner />
 
       <Title title="Our services" />
+
+      <Container className="text-center">
+        <Player url={BgSong} />
+      </Container>
 
       <div className="w-100 pb-5 pt-lg-2 pb-lg-5">
         <div className="container pt-2 pb-2 pt-lg-2 pb-lg-0">

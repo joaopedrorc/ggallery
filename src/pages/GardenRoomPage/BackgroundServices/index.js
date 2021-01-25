@@ -11,11 +11,11 @@ export default function BackgroundServices() {
         <div className="container">
           <div className=" banner-content">
             <h1>
-              <strong>Contract Services</strong>
+              <strong>Insulated Garden Room/Office/Studio </strong>
             </h1>
             <p>
-              Some of our services are provided through annual <br /> or
-              half-yearly contracts
+              Increase your living space with one of our low maintenance, <br />{' '}
+              highly insulated composite garden buildings
             </p>
           </div>
         </div>

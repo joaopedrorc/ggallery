@@ -1,6 +1,16 @@
 import styled from 'styled-components';
 
 export const Styles = styled.div`
+  strong {
+    font-size: 18px;
+  }
+  h2 {
+    color: var(--balck);
+    font-weight: 600;
+    margin-bottom: 2rem;
+    margin-top: -2rem;
+  }
+
   .p-container {
     width: 59.333%;
     font-size: 1.75rem;

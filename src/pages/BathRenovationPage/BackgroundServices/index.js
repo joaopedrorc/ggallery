@@ -11,11 +11,11 @@ export default function BackgroundServices() {
         <div className="container">
           <div className=" banner-content">
             <h1>
-              <strong>Contract Services</strong>
+              <strong>Bathrooom Renovation</strong>
             </h1>
             <p>
-              Some of our services are provided through annual <br /> or
-              half-yearly contracts
+              At Danansan Property Services We'll make your dream modern
+              <br /> bathroom a reality
             </p>
           </div>
         </div>

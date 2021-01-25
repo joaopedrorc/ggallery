@@ -88,19 +88,6 @@ export default function ServiceDescription() {
           Providing a clean office environment is a key component of a modern,
           effective organisation.
         </p>
-
-        <p className="p-container">
-          Cleanliness is of paramount importance to a company's brand persona
-          and client perception. It also has a major role to play for employee
-          health and wellbeing and can directly influence productivity through
-          the prevention of absences from work.
-        </p>
-
-        <p className="p-container">
-          From reception area, offices, meeting rooms, washrooms to kitchens we
-          will tailor your office cleans to your exact requirements including
-          frequency, depth of clean, time of clean.
-        </p>
       </ContainerBox>
       <Title title="Our heating and plumbing can include:" />
       <ContainerBox>
