@@ -2,7 +2,7 @@
 const nodemailer = require('nodemailer');
 // const app = express();
 
-const SMTP_CONFIG = require('../config/smtp');
+const SMTP_CONFIG = require('../src/config/smtp');
 
 // const port = 3000;
 
@@ -49,7 +49,7 @@ module.exports = (req, res) => {
       from: 'to@test.com', // Sender address
       to: ' to@test.com', // List of recipients
       replyTo: 'jpc5626@gmail.com',
-      subject: 'Test from Vercel', // Subject line
+      subject: 'Test on vercel', // Subject line
       text: 'Hii the most fun you can in a car. Get your Tesla today!', // Plain text body
     })
     .then((info) => {
