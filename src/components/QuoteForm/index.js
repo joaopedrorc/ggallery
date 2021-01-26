@@ -19,7 +19,7 @@ function QuoteForm() {
   });
 
   const [result, setResult] = useState(null);
-  const url = 'https://danansan-website-fnr71jjs8.vercel.app/api';
+  const url = 'https://danansan-website-fnr71jjs8.vercel.app/get-a-quote/api';
 
   const handleSubmit = (event) => {
     event.preventDefault();
