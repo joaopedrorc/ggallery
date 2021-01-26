@@ -19,6 +19,7 @@ function QuoteForm() {
   });
 
   const [result, setResult] = useState(null);
+  const url = 'https://danansan-website-fnr71jjs8.vercel.app/api';
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -27,7 +28,7 @@ function QuoteForm() {
 
     event.preventDefault();
     axios
-      .post('https://danansan-website-fnr71jjs8.vercel.app/api', { ...state })
+      .post(url, { ...state })
       .then((response) => {
         setResult(response.data);
         setState({
