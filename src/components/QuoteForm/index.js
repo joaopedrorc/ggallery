@@ -6,7 +6,7 @@ import { Container, Form, Button } from 'react-bootstrap';
 import Title from '../Title';
 
 function QuoteForm() {
-  const [validated, setValidated] = useState(false);
+  // const [validated, setValidated] = useState(false);
   const [state, setState] = useState({
     name: '',
     phone: '',
@@ -25,28 +25,28 @@ function QuoteForm() {
 
     console.log('We will fill this up shortly.', state);
 
-    // event.preventDefault();
-    // axios
-    //   .post('/api', { ...state })
-    //   .then((response) => {
-    //     setResult(response.data);
-    //     setState({
-    //       name: '',
-    //       phone: '',
-    //       email: '',
-    //       check: '',
-    //       area: '',
-    //       service: '',
-    //       message: '',
-    //       file: '',
-    //     });
-    //   })
-    //   .catch(() => {
-    //     setResult({
-    //       success: false,
-    //       message: 'Something went wrong. Try again later',
-    //     });
-    //   });
+    event.preventDefault();
+    axios
+      .post('https://danansan-website-fnr71jjs8.vercel.app/api', { ...state })
+      .then((response) => {
+        setResult(response.data);
+        setState({
+          name: '',
+          phone: '',
+          email: '',
+          check: '',
+          area: '',
+          service: '',
+          message: '',
+          file: '',
+        });
+      })
+      .catch(() => {
+        setResult({
+          success: false,
+          message: 'Something went wrong. Try again later',
+        });
+      });
   };
 
   const onCheckChange = (myRadio) => {
@@ -82,7 +82,7 @@ function QuoteForm() {
               <Form
                 className="pb-lg-2"
                 noValidate
-                validated={validated}
+                // validated={validated}
                 onSubmit={handleSubmit}
               >
                 <div className="row">
