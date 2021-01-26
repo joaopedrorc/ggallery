@@ -13,16 +13,40 @@ module.exports = (req, res) => {
     },
   });
 
-  transport
-    .sendMail({
-      from: 'to@test.com', // Sender address
-      to: ' to@test.com', // List of recipients
-      replyTo: 'jpc5626@gmail.com',
-      subject: 'Test do meu bb', // Subject line
-      text: 'Finalment deu certo!!', // Plain text body
-    })
-    .then((info) => {
-      res.send(info);
-    })
-    .catch((error) => res.send(error));
+  try {
+    const mailOptions = {
+      from: req.body.email, // sender address
+      to: process.env.email, // list of receivers
+      subject: req.body.subject, // Subject line
+      html: `
+        <p>You have a new contact request.</p>
+        <h3>Contact Details</h3>
+        <ul>
+          <li>Name: ${req.body.name}</li>
+          <li>Email: ${req.body.email}</li>
+          <li>Subject: ${req.body.message}</li>
+          <li>Message: ${req.body.phone}</li>
+        </ul>
+        `,
+    };
+
+    transport.sendMail(mailOptions, function (err, info) {
+      if (err) {
+        res.status(500).send({
+          success: false,
+          message: 'Something went wrong. Try again later',
+        });
+      } else {
+        res.send({
+          success: true,
+          message: 'Thanks for contacting us. We will get back to you shortly',
+        });
+      }
+    });
+  } catch (error) {
+    res.status(500).send({
+      success: false,
+      message: 'Something went wrong. Try again later',
+    });
+  }
 };
