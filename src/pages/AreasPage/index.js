@@ -72,51 +72,59 @@ function AreasPage() {
                     <div className="rounded-bol"></div>
                     <p>Bentworth</p>
                   </div>
+                  <div className="cities-column">
+                    <div className="rounded-bol"></div>
+                    <p>Hook</p>
+                  </div>
                 </div>
                 <div class="col-6 col-md-6 col-lg-6 mb-3">
                   <div className="cities-column">
                     <div className="rounded-bol"></div>
-                    <p>Bramley</p>
+                    <p>Alton</p>
                   </div>
                   <div className="cities-column">
                     <div className="rounded-bol"></div>
-                    <p>Rotherwick</p>
+                    <p>Four Marks</p>
                   </div>
                   <div className="cities-column">
                     <div className="rounded-bol"></div>
-                    <p>Silchester</p>
+                    <p>Burghclere</p>
                   </div>
                   <div className="cities-column">
                     <div className="rounded-bol"></div>
-                    <p>Hannington</p>
+                    <p>Crondall</p>
                   </div>
                   <div className="cities-column">
                     <div className="rounded-bol"></div>
-                    <p>North Waltham</p>
+                    <p>Fleet</p>
                   </div>
                   <div className="cities-column">
                     <div className="rounded-bol"></div>
-                    <p>Odiham</p>
+                    <p>Bradfield</p>
                   </div>
                   <div className="cities-column">
                     <div className="rounded-bol"></div>
-                    <p>Steventon</p>
+                    <p>Reading</p>
                   </div>
                   <div className="cities-column">
                     <div className="rounded-bol"></div>
-                    <p>Preston Candover</p>
+                    <p>Farnham</p>
                   </div>
                   <div className="cities-column">
                     <div className="rounded-bol"></div>
-                    <p>Mortimer</p>
+                    <p>Bracknell</p>
                   </div>
                   <div className="cities-column">
                     <div className="rounded-bol"></div>
-                    <p>Kingsclere</p>
+                    <p>Aldershot</p>
                   </div>
                   <div className="cities-column">
                     <div className="rounded-bol"></div>
-                    <p>Bentworth</p>
+                    <p>Whitchurch</p>
+                  </div>
+                  <div className="cities-column">
+                    <div className="rounded-bol"></div>
+                    <p>Farnborough</p>
                   </div>
                 </div>
               </div>

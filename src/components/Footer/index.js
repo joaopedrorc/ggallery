@@ -262,13 +262,18 @@ function Footer() {
               <p className="mb-0 text-white">Basingstoke</p>
               <p className="mb-0 text-white mb-4">
                 5 Thames Ct, Basingstoke RG21 4DP, <br />
-                United Kingdom
+                United Kingdom.
               </p>
+              <p className="text-white mt-0">Hours: 9:00am as 17:00pm</p>
               <a href="tel:+44 7414 765278" className="mb-0 text-white">
                 +44 7414 765278 |
               </a>
-              <a href="tel:+44 0751 4505765" className="mb-0 text-white">
-                +44 0751 4505765
+              <a href="tel:+44 751 4505765" className="mb-0 text-white">
+                +44 7514 505765
+              </a>
+              <br />
+              <a href="tel:+44 1256 415034" className="mb-0 text-white">
+                +44 1256 415034
               </a>
               <br />
               <a

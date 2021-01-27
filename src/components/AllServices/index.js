@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { Styles, Container } from './styles';
 
-import Service01 from '../../assets/generalServices/service01.png';
+// import Service01 from '../../assets/generalServices/service01.png';
 import Service02 from '../../assets/generalServices/service02.png';
 import Service03 from '../../assets/generalServices/service03.png';
 import Service04 from '../../assets/generalServices/service04.png';
@@ -15,14 +15,14 @@ import Service10 from '../../assets/generalServices/service10.png';
 function AllServices() {
   return (
     <Styles>
-      <Container className="mb-5">
+      <Container>
         <div className="card-container">
           <h1 className="text-center">See more services options</h1>
 
-          <div class="w-100 pb-5 pt-lg-2 pb-lg-5 card-container">
+          <div class="w-100 pb-5 pt-lg-2 pb-lg-5 ">
             <div class="container pt-2 pb-2 pt-lg-2 pb-lg-0">
               <div class="row mb-4">
-                <div class="col-12 col-md-12 col-lg-4 mb-5">
+                {/* <div class="col-12 col-md-12 col-lg-4 mb-5">
                   <div class="card shadow border-0">
                     <div class="position-relative">
                       <Link to="/roof-cleaning">
@@ -39,7 +39,7 @@ function AllServices() {
                       </Link>
                     </div>
                   </div>
-                </div>
+                </div> */}
                 <div class="col-12 col-md-12 col-lg-4 mb-5">
                   <div class="card shadow border-0">
                     <div class="position-relative">

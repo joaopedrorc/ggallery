@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useLayoutEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import { Styles } from './styles';
@@ -11,41 +11,13 @@ import About from '../../components/About';
 import AllServices from '../../components/AllServices';
 import QuoteForm from '../../components/QuoteForm';
 import BackgroundBanner from './BackgroundBanner';
-// import Player from '../../components/Player';
+import Player from '../../components/Player';
 import BgSong from '../../assets/song/bgSong.mp3';
 
 import Service0 from '../../assets/masterServices/service0.png';
 import Service01 from '../../assets/masterServices/service01.png';
 import Service02 from '../../assets/masterServices/service02.png';
 import Service03 from '../../assets/masterServices/service03.png';
-
-const Player = ({ url }) => {
-  const [audio] = useState(new Audio(url));
-  const [playing, setPlaying] = useState(true);
-
-  const toggle = () => setPlaying(!playing);
-
-  useLayoutEffect(() => {
-    playing ? audio.play() : audio.pause();
-  }, [playing, audio]);
-
-  // useEffect(() => {
-  //   audio.addEventListener('ended', () => setPlaying(false));
-  //   return () => {
-  //     audio.removeEventListener('ended', () => setPlaying(false));
-  //   };
-  // }, [audio]);
-
-  // const [playing, toggle] = useAudio(url);
-
-  return (
-    <div>
-      <button className="btn btn-primary" onClick={toggle}>
-        {playing ? 'Pause' : 'Play'}
-      </button>
-    </div>
-  );
-};
 
 function MainPage() {
   const useMediaQuery = (query) => {
@@ -167,7 +139,9 @@ function MainPage() {
 
       <AllServices />
 
-      <Title title="Trusted by our customers" />
+      <div className="mt-5">
+        <Title title="Trusted by our customers" />
+      </div>
 
       <div className="w-100 pb-5 pt-lg-2 pb-lg-5">
         <div className="container pt-2 pb-2 pt-lg-2 pb-lg-0">

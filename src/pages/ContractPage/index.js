@@ -1,10 +1,9 @@
 import React from 'react';
 
-import { Styles, ContainerBox } from './styles';
-// import { Container } from 'react-bootstrap';
+import { Styles } from './styles';
+import { Container } from 'react-bootstrap';
 
 import BackgroundServices from './BackgroundServices';
-import ContractCarousel from './ContractCarousel';
 import OfficeCleaning from './OfficeCleaning';
 import WindowCleaning from './WindowCleaning';
 import GardenMaintenance from './GardenMaintenance';
@@ -12,12 +11,77 @@ import AllServices from '../../components/AllServices';
 import UpperFooter from '../../components/UpperFooter';
 import Title from '../../components/Title';
 
+import Service02 from '../../assets/generalServices/service02.png';
+import Service04 from '../../assets/generalServices/service04.png';
+import Service07 from '../../assets/generalServices/service07.png';
+
 function ContractPages() {
   return (
     <Styles>
       <BackgroundServices />
+
+      <Container>
+        <Title title="Contract needed services" />
+
+        <div className="w-100 pb-5 pt-lg-2 pb-lg-5">
+          <div className="container pt-2 pb-2 pt-lg-2 pb-lg-0">
+            <div className="row mb-1">
+              <div className="col-12 col-md-12 col-lg-4 mb-5">
+                <div className="card shadow border-0">
+                  <div className="position-relative">
+                    <img
+                      src={Service02}
+                      className="card-img-top"
+                      alt="Garden maintenance"
+                    />
+                  </div>
+                  <div className="card-body p-3">
+                    <h5 className="card-title text-center title-box">
+                      Garden maintenance
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-md-12 col-lg-4 mb-5">
+                <div className="card shadow border-0">
+                  <div className="position-relative">
+                    <img
+                      src={Service04}
+                      className="card-img-top"
+                      alt="Office cleaning"
+                    />
+                  </div>
+                  <div className="card-body p-3">
+                    <h5 className="card-title text-center title-box">
+                      Office cleaning
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-md-12 col-lg-4 mb-5">
+                <div className="card shadow border-0">
+                  <div className="position-relative">
+                    <img
+                      src={Service07}
+                      className="card-img-top"
+                      alt="Window cleaning"
+                    />
+                  </div>
+                  <div className="card-body p-3">
+                    <h5 className="card-title text-center title-box">
+                      Window cleaning
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Container>
+
       <Title title="The Importance of contracts" />
-      <ContainerBox className="mb-4">
+
+      <Container className="mb-4">
         <h2 className="text-center mb-5">
           Contracts provide a written document that outlines the full
           understanding of the business relationship and scope of the work so
@@ -128,9 +192,7 @@ function ContractPages() {
             </div>
           </li>
         </ul>
-      </ContainerBox>
-
-      <ContractCarousel />
+      </Container>
 
       <OfficeCleaning />
 

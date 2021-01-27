@@ -1,7 +1,6 @@
 import React from 'react';
 
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import ScrollToTop from './components/ScrollToTop';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import GlobalStyles from './styles/GlobalStyles';
 
@@ -24,11 +23,12 @@ import NotFound from './pages/NotFound';
 
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <>
-      <Router>
+      <BrowserRouter>
         <NavBar />
         <ScrollToTop />
 
@@ -76,7 +76,7 @@ function App() {
           <Route component={NotFound} />
         </Switch>
         <Footer />
-      </Router>
+      </BrowserRouter>
 
       <GlobalStyles />
     </>
