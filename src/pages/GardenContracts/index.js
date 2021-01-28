@@ -1,85 +1,87 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import ImageGallery from 'react-image-gallery';
-
+// import ImageGallery from 'react-image-gallery';
+import BackgroundServices from './BackgroundServices';
 import { Styles, ContainerBox } from './styles';
 
 import { Container } from 'react-bootstrap';
-import Title from '../../../components/Title';
+import Title from '../../components/Title';
+import AllServices from '../../components/AllServices';
 
-import Image0 from '../../../assets/contractPage/officeCleaning/img0.jpg';
-import Image1 from '../../../assets/contractPage/officeCleaning/img1.jpg';
-import Image2 from '../../../assets/contractPage/officeCleaning/img2.jpg';
-import Image4 from '../../../assets/contractPage/officeCleaning/img4.jpg';
-import Image5 from '../../../assets/contractPage/officeCleaning/img5.jpg';
-import Image6 from '../../../assets/contractPage/officeCleaning/img6.jpg';
-import Image7 from '../../../assets/contractPage/officeCleaning/img7.jpg';
-import Image8 from '../../../assets/contractPage/officeCleaning/img8.jpg';
-import Image9 from '../../../assets/contractPage/officeCleaning/img9.jpg';
-import Image11 from '../../../assets/contractPage/officeCleaning/img11.jpg';
-import Image14 from '../../../assets/contractPage/officeCleaning/img14.jpg';
-import Image15 from '../../../assets/contractPage/officeCleaning/img15.jpg';
-import Image16 from '../../../assets/contractPage/officeCleaning/img16.jpg';
+// import Image0 from '../../../assets/contractPage/officeCleaning/img0.jpg';
+// import Image1 from '../../../assets/contractPage/officeCleaning/img1.jpg';
+// import Image2 from '../../../assets/contractPage/officeCleaning/img2.jpg';
+// import Image4 from '../../../assets/contractPage/officeCleaning/img4.jpg';
+// import Image5 from '../../../assets/contractPage/officeCleaning/img5.jpg';
+// import Image6 from '../../../assets/contractPage/officeCleaning/img6.jpg';
+// import Image7 from '../../../assets/contractPage/officeCleaning/img7.jpg';
+// import Image8 from '../../../assets/contractPage/officeCleaning/img8.jpg';
+// import Image9 from '../../../assets/contractPage/officeCleaning/img9.jpg';
+// import Image11 from '../../../assets/contractPage/officeCleaning/img11.jpg';
+// import Image14 from '../../../assets/contractPage/officeCleaning/img14.jpg';
+// import Image15 from '../../../assets/contractPage/officeCleaning/img15.jpg';
+// import Image16 from '../../../assets/contractPage/officeCleaning/img16.jpg';
 
-const images = [
-  {
-    original: Image0,
-    thumbnail: Image0,
-  },
-  {
-    original: Image1,
-    thumbnail: Image1,
-  },
-  {
-    original: Image2,
-    thumbnail: Image2,
-  },
-  {
-    original: Image4,
-    thumbnail: Image4,
-  },
-  {
-    original: Image5,
-    thumbnail: Image5,
-  },
-  {
-    original: Image6,
-    thumbnail: Image6,
-  },
-  {
-    original: Image7,
-    thumbnail: Image7,
-  },
-  {
-    original: Image8,
-    thumbnail: Image8,
-  },
-  {
-    original: Image9,
-    thumbnail: Image9,
-  },
-  {
-    original: Image11,
-    thumbnail: Image11,
-  },
-  {
-    original: Image14,
-    thumbnail: Image14,
-  },
-  {
-    original: Image15,
-    thumbnail: Image15,
-  },
-  {
-    original: Image16,
-    thumbnail: Image16,
-  },
-];
+// const images = [
+//   {
+//     original: Image0,
+//     thumbnail: Image0,
+//   },
+//   {
+//     original: Image1,
+//     thumbnail: Image1,
+//   },
+//   {
+//     original: Image2,
+//     thumbnail: Image2,
+//   },
+//   {
+//     original: Image4,
+//     thumbnail: Image4,
+//   },
+//   {
+//     original: Image5,
+//     thumbnail: Image5,
+//   },
+//   {
+//     original: Image6,
+//     thumbnail: Image6,
+//   },
+//   {
+//     original: Image7,
+//     thumbnail: Image7,
+//   },
+//   {
+//     original: Image8,
+//     thumbnail: Image8,
+//   },
+//   {
+//     original: Image9,
+//     thumbnail: Image9,
+//   },
+//   {
+//     original: Image11,
+//     thumbnail: Image11,
+//   },
+//   {
+//     original: Image14,
+//     thumbnail: Image14,
+//   },
+//   {
+//     original: Image15,
+//     thumbnail: Image15,
+//   },
+//   {
+//     original: Image16,
+//     thumbnail: Image16,
+//   },
+// ];
 
 export default function GardenMaintenance() {
   return (
     <Styles>
+      <BackgroundServices />
       <Title title="Garden maintenance" />
       <ContainerBox>
         <p className="p-container">
@@ -227,13 +229,15 @@ export default function GardenMaintenance() {
       </Container>
       <div className="gallery-container">
         {/* <h2>Bathroom renovation</h2> */}
-        <ImageGallery items={images} />
+        {/* <ImageGallery items={images} /> */}
       </div>
       <ContainerBox>
         <Link className="link-button btn p-2 mb-5" to="/get-a-quote">
           Get a free quote
         </Link>
       </ContainerBox>
+
+      <AllServices />
     </Styles>
   );
 }

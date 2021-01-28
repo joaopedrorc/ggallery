@@ -54,12 +54,12 @@ function NavBar() {
                 <Link to="/heating-plumbing">Heating and plumbing</Link>
               </NavDropdown.Item>
 
-              <NavDropdown.Item>
+              {/* <NavDropdown.Item>
                 <Link to="/roof-cleaning">Roof cleaning</Link>
-              </NavDropdown.Item>
+              </NavDropdown.Item> */}
 
               <NavDropdown.Item>
-                <Link to="/contracts">Garden maintenance</Link>
+                <Link to="/garden-maintenance">Garden maintenance</Link>
               </NavDropdown.Item>
 
               <NavDropdown.Item>
@@ -67,7 +67,7 @@ function NavBar() {
               </NavDropdown.Item>
 
               <NavDropdown.Item>
-                <Link to="/contracts">Commercial office cleaning</Link>
+                <Link to="/office-cleaning">Commercial office cleaning</Link>
               </NavDropdown.Item>
 
               <NavDropdown.Item>
@@ -77,7 +77,7 @@ function NavBar() {
               </NavDropdown.Item>
 
               <NavDropdown.Item>
-                <Link to="/contracts">Window cleaning</Link>
+                <Link to="/window-cleaning">Window cleaning</Link>
               </NavDropdown.Item>
 
               <NavDropdown.Item>

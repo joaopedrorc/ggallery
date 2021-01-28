@@ -19,6 +19,9 @@ import PaintingDecorationPage from './pages/PaintingDecorationPage';
 import FlooringTilesPage from './pages/FlooringTilesPage';
 import EletricalPage from './pages/EletricalPage';
 import HeatingPlumbingPage from './pages/HeatingPlumbingPage';
+import WindowCleaning from './pages/WindowContrats';
+import OfficeCleaning from './pages/OfficeContracts';
+import GardenMaintenance from './pages/GardenContracts';
 import NotFound from './pages/NotFound';
 
 import NavBar from './components/NavBar';
@@ -71,6 +74,13 @@ function App() {
             exact
             path="/heating-plumbing"
             component={HeatingPlumbingPage}
+          />
+          <Route exact path="/window-cleaning" component={WindowCleaning} />
+          <Route exact path="/office-cleaning" component={OfficeCleaning} />
+          <Route
+            exact
+            path="/garden-maintenance"
+            component={GardenMaintenance}
           />
 
           <Route component={NotFound} />

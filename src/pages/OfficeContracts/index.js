@@ -4,23 +4,24 @@ import { Link } from 'react-router-dom';
 import ImageGallery from 'react-image-gallery';
 
 import { Styles, ContainerBox } from './styles';
-
+import BackgroundServices from './BackgroundServices';
+import AllServices from '../../components/AllServices';
 import { Container } from 'react-bootstrap';
-import Title from '../../../components/Title';
+import Title from '../../components/Title';
 
-import Image0 from '../../../assets/contractPage/officeCleaning/img0.jpg';
-import Image1 from '../../../assets/contractPage/officeCleaning/img1.jpg';
-import Image2 from '../../../assets/contractPage/officeCleaning/img2.jpg';
-import Image4 from '../../../assets/contractPage/officeCleaning/img4.jpg';
-import Image5 from '../../../assets/contractPage/officeCleaning/img5.jpg';
-import Image6 from '../../../assets/contractPage/officeCleaning/img6.jpg';
-import Image7 from '../../../assets/contractPage/officeCleaning/img7.jpg';
-import Image8 from '../../../assets/contractPage/officeCleaning/img8.jpg';
-import Image9 from '../../../assets/contractPage/officeCleaning/img9.jpg';
-import Image11 from '../../../assets/contractPage/officeCleaning/img11.jpg';
-import Image14 from '../../../assets/contractPage/officeCleaning/img14.jpg';
-import Image15 from '../../../assets/contractPage/officeCleaning/img15.jpg';
-import Image16 from '../../../assets/contractPage/officeCleaning/img16.jpg';
+import Image0 from '../../assets/contractPage/officeCleaning/img0.jpg';
+import Image1 from '../../assets/contractPage/officeCleaning/img1.jpg';
+import Image2 from '../../assets/contractPage/officeCleaning/img2.jpg';
+import Image4 from '../../assets/contractPage/officeCleaning/img4.jpg';
+import Image5 from '../../assets/contractPage/officeCleaning/img5.jpg';
+import Image6 from '../../assets/contractPage/officeCleaning/img6.jpg';
+import Image7 from '../../assets/contractPage/officeCleaning/img7.jpg';
+import Image8 from '../../assets/contractPage/officeCleaning/img8.jpg';
+import Image9 from '../../assets/contractPage/officeCleaning/img9.jpg';
+import Image11 from '../../assets/contractPage/officeCleaning/img11.jpg';
+import Image14 from '../../assets/contractPage/officeCleaning/img14.jpg';
+import Image15 from '../../assets/contractPage/officeCleaning/img15.jpg';
+import Image16 from '../../assets/contractPage/officeCleaning/img16.jpg';
 
 const images = [
   {
@@ -80,6 +81,7 @@ const images = [
 export default function OfficeCleaning() {
   return (
     <Styles>
+      <BackgroundServices />
       <Title title="Office cleaning" />
       <ContainerBox>
         <p className="p-container">
@@ -226,7 +228,6 @@ export default function OfficeCleaning() {
         </div>
       </Container>
       <div className="gallery-container">
-        {/* <h2>Bathroom renovation</h2> */}
         <ImageGallery items={images} />
       </div>
       <ContainerBox>
@@ -234,6 +235,8 @@ export default function OfficeCleaning() {
           Get a free quote
         </Link>
       </ContainerBox>
+
+      <AllServices />
     </Styles>
   );
 }

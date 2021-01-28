@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import ImageGallery from 'react-image-gallery';
-
 import { Styles, ContainerBox } from './styles';
 
 import { Container } from 'react-bootstrap';
@@ -10,149 +8,122 @@ import Title from '../../../components/Title';
 import AllServices from '../../../components/AllServices';
 import UpperFooter from '../../../components/UpperFooter';
 
-import Image0 from '../../../assets/contractPage/officeCleaning/img0.jpg';
-import Image1 from '../../../assets/contractPage/officeCleaning/img1.jpg';
-import Image2 from '../../../assets/contractPage/officeCleaning/img2.jpg';
-import Image4 from '../../../assets/contractPage/officeCleaning/img4.jpg';
-import Image5 from '../../../assets/contractPage/officeCleaning/img5.jpg';
-import Image6 from '../../../assets/contractPage/officeCleaning/img6.jpg';
-import Image7 from '../../../assets/contractPage/officeCleaning/img7.jpg';
-import Image8 from '../../../assets/contractPage/officeCleaning/img8.jpg';
-import Image9 from '../../../assets/contractPage/officeCleaning/img9.jpg';
-import Image11 from '../../../assets/contractPage/officeCleaning/img11.jpg';
-import Image14 from '../../../assets/contractPage/officeCleaning/img14.jpg';
-import Image15 from '../../../assets/contractPage/officeCleaning/img15.jpg';
-import Image16 from '../../../assets/contractPage/officeCleaning/img16.jpg';
-
-const images = [
-  {
-    original: Image0,
-    thumbnail: Image0,
-  },
-  {
-    original: Image1,
-    thumbnail: Image1,
-  },
-  {
-    original: Image2,
-    thumbnail: Image2,
-  },
-  {
-    original: Image4,
-    thumbnail: Image4,
-  },
-  {
-    original: Image5,
-    thumbnail: Image5,
-  },
-  {
-    original: Image6,
-    thumbnail: Image6,
-  },
-  {
-    original: Image7,
-    thumbnail: Image7,
-  },
-  {
-    original: Image8,
-    thumbnail: Image8,
-  },
-  {
-    original: Image9,
-    thumbnail: Image9,
-  },
-  {
-    original: Image11,
-    thumbnail: Image11,
-  },
-  {
-    original: Image14,
-    thumbnail: Image14,
-  },
-  {
-    original: Image15,
-    thumbnail: Image15,
-  },
-  {
-    original: Image16,
-    thumbnail: Image16,
-  },
-];
-
 export default function ServiceDescription() {
   return (
     <Styles>
       <Title title="Heating and plumbing" />
       <ContainerBox>
-        <p className="p-container">
-          Providing a clean office environment is a key component of a modern,
-          effective organisation.
+        <p className="p-container text-center">
+          We can handle anything from blocked pipes to new tub installations
+          with superior customer service
         </p>
       </ContainerBox>
-      <Title title="Our heating and plumbing can include:" />
-      <ContainerBox>
+      <Title title="Our plumbing services can include:" />
+      <Container>
         <div class="row mb-4">
           <div className="list-conteniner">
             <div className="row mb-4">
               <div className="col-12 col-md-4 col-lg-4 mb-3">
                 <div className="cities-column">
                   <div className="rounded-bol"></div>
-                  <p>Dusting/polishing surfaces</p>
+                  <p>
+                    <strong>Tubs and Showers:</strong> Whether you want a new
+                    tub or shower to freshen up the style of your space or you
+                    just need to fix a leak in the shower, a plumber from
+                    Danansan Property Services can help.
+                  </p>
                 </div>
                 <div className="cities-column">
                   <div className="rounded-bol"></div>
-                  <p>Sanitising handles, buttons and phones</p>
+                  <p>
+                    <strong>24/7 Repair</strong>Plumbing emergencies don’t
+                    always happen during business hours, but you can count on us
+                    24 hours a day. Our 24/7 repair services mean that we’ll be
+                    there anytime you need us.
+                  </p>
+                </div>
+                {/* <div className="cities-column">
+                  <div className="rounded-bol"></div>
+                  <p>Pipes and Sewers</p>
                 </div>
                 <div className="cities-column">
                   <div className="rounded-bol"></div>
-                  <p>Polishing floors</p>
-                </div>
+                  <p>24/7 Repair</p>
+                </div> */}
+              </div>
+              <div class="col-12 col-md-4 col-lg-4 mb-3">
+                {/* <div className="cities-column">
+                  <div className="rounded-bol"></div>
+                </div> */}
                 <div className="cities-column">
                   <div className="rounded-bol"></div>
-                  <p>Emptying bins and replace bin bags</p>
+                  <p>
+                    <strong>Sump Pumps:</strong> If your home doesn’t have a
+                    sump pump, adding one is a smart investment. Cleaning up the
+                    water damage that results from flooding can costs thousands,
+                    so protect your home now with a sump pump with
+                    commercial-grade power. We can also repair and maintain your
+                    current sump pump
+                  </p>
                 </div>
               </div>
               <div class="col-12 col-md-4 col-lg-4 mb-3">
                 <div className="cities-column">
                   <div className="rounded-bol"></div>
-                  <p>Staff washrooms and WCs</p>
-                </div>
-                <div className="cities-column">
-                  <div className="rounded-bol"></div>
-                  <p>Cleaning air conditioning vents</p>
-                </div>
-                <div className="cities-column">
-                  <div className="rounded-bol"></div>
-                  <p>Floors - swept, hoovered and/or mopped</p>
-                </div>
-                <div className="cities-column">
-                  <div className="rounded-bol"></div>
-                  <p>Cleaning cafeterias, staff rooms and kitchens</p>
-                </div>
-              </div>
-              <div class="col-12 col-md-4 col-lg-4 mb-3">
-                <div className="cities-column">
-                  <div className="rounded-bol"></div>
-                  <p className="">Dusting/polishing surfaces</p>
-                </div>
-                <div className="cities-column">
-                  <div className="rounded-bol"></div>
-                  <p>Vacuuming carpets</p>
-                </div>
-                <div className="cities-column">
-                  <div className="rounded-bol"></div>
-                  <p>High-quality Commercial Cleaning Services</p>
-                </div>
-                <div className="cities-column">
-                  <div className="rounded-bol"></div>
-                  <p>Daily office cleaning for many types of offices</p>
+                  <p>
+                    <strong>Pipes and Sewers: </strong> the pipes that channel
+                    clean water into your home and carry away waste to the sewer
+                    are often taken for granted by homeowners—until something
+                    goes wrong. When that happens, call on the proven services
+                    of Danansan Property Services.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </ContainerBox>
-      <Title title="Heating and plumbing benefits:" />
+      </Container>
+
+      <div className="title-box">
+        <Title title="Our plumbing contractors include repair, installation, and maintenance for:" />
+      </div>
+
+      <Container>
+        <div class="row mb-4 ">
+          <div className="list-conteniner">
+            <div className="row mb-4">
+              <div className="col-12 col-md-4 col-lg-4 mb-3">
+                <div className="cities-column justify-content-center">
+                  <div className="rounded-bol"></div>
+                  <p className="p-list">Hot water heaters</p>
+                </div>
+                <div className="cities-column justify-content-center">
+                  <div className="rounded-bol"></div>
+                  <p className="p-list">Drains</p>
+                </div>
+              </div>
+              <div className="col-12 col-md-4 col-lg-4 mb-3">
+                <div className="cities-column justify-content-center">
+                  <div className="rounded-bol"></div>
+                  <p className="p-list">Toilets</p>
+                </div>
+              </div>
+              <div className="col-12 col-md-4 col-lg-4 mb-3">
+                <div className="cities-column justify-content-center">
+                  <div className="rounded-bol"></div>
+                  <p className="p-list">Garbage disposals</p>
+                </div>
+                <div className="cities-column justify-content-center">
+                  <div className="rounded-bol"></div>
+                  <p className="p-list">Sinks</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Container>
+
+      <Title title="Heating Solutions" />
       <Container>
         <div class="row mb-4 container-box">
           <div className="list-conteniner">
@@ -161,17 +132,8 @@ export default function ServiceDescription() {
                 <div className="cities-column">
                   <div className="rounded-bol"></div>
                   <p>
-                    A typical office keyboard can carry up to 7,500 bacteria at
-                    any given time.
-                  </p>
-                </div>
-                <div className="cities-column">
-                  <div className="rounded-bol"></div>
-                  <p>
-                    Increased focus: In a clean working environment, you are
-                    less likely to be distracted by cluttered objects, and that
-                    a greater level of concentration leads to more and better
-                    work being done.
+                    <strong>Furnaces:</strong> repair installation and
+                    maintenance
                   </p>
                 </div>
               </div>
@@ -179,17 +141,15 @@ export default function ServiceDescription() {
                 <div className="cities-column">
                   <div className="rounded-bol"></div>
                   <p>
-                    Less stress: A cluttered desk can result in you trying to
-                    focus on too many things at once, which lowers your stress
-                    threshold.
+                    <strong>Boilers:</strong> repair installation and
+                    maintenance
                   </p>
                 </div>
                 <div className="cities-column">
                   <div className="rounded-bol"></div>
                   <p>
-                    The average employee loses nine working days a year to
-                    sickness, some of which may be attributed to a lack of
-                    workplace hygiene.
+                    <strong>Ductless Heating and Cooling: </strong>repair
+                    installation and maintenance
                   </p>
                 </div>
               </div>
@@ -197,16 +157,8 @@ export default function ServiceDescription() {
                 <div className="cities-column">
                   <div className="rounded-bol"></div>
                   <p>
-                    Viruses such as the flu can linger on unclean surfaces such
-                    as work desks or electronic equipment for 24 hours.{' '}
-                  </p>
-                </div>
-                <div className="cities-column">
-                  <div className="rounded-bol"></div>
-                  <p>
-                    60% of absences from work illnesses are contracted from
-                    dirty equipment in the office such as e-coli, staph and
-                    bacteria.
+                    <strong>Heat Pump: </strong>repair installation and
+                    maintenance
                   </p>
                 </div>
               </div>
@@ -214,10 +166,7 @@ export default function ServiceDescription() {
           </div>
         </div>
       </Container>
-      <div className="gallery-container">
-        {/* <h2>Bathroom renovation</h2> */}
-        <ImageGallery items={images} />
-      </div>
+
       <ContainerBox>
         <Link className="link-button btn p-2 mb-5" to="/get-a-quote">
           Get a free quote

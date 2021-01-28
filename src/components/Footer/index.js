@@ -194,12 +194,12 @@ function Footer() {
                   <Link to="/heating-plumbing">Heating and plumbing</Link>
                 </Dropdown.Item>
 
-                <Dropdown.Item>
+                {/* <Dropdown.Item>
                   <Link to="/roof-cleaning">Roof cleaning</Link>
-                </Dropdown.Item>
+                </Dropdown.Item> */}
 
                 <Dropdown.Item>
-                  <Link to="/contracts">Garden maintenance</Link>
+                  <Link to="/garden-maintenance">Garden maintenance</Link>
                 </Dropdown.Item>
 
                 <Dropdown.Item>
@@ -207,7 +207,7 @@ function Footer() {
                 </Dropdown.Item>
 
                 <Dropdown.Item>
-                  <Link to="/contracts">Commercial office cleaning</Link>
+                  <Link to="/office-cleaning">Commercial office cleaning</Link>
                 </Dropdown.Item>
 
                 <Dropdown.Item>
@@ -217,7 +217,7 @@ function Footer() {
                 </Dropdown.Item>
 
                 <Dropdown.Item>
-                  <Link to="/contracts">Window cleaning</Link>
+                  <Link to="/window-cleaning">Window cleaning</Link>
                 </Dropdown.Item>
 
                 <Dropdown.Item>

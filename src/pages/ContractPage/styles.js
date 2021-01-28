@@ -47,6 +47,21 @@ export const Styles = styled.div`
     }
   }
 
+  .link-button {
+    background-color: var(--primary);
+    width: 400px;
+    color: var(--white);
+
+    &:hover {
+      background-color: var(--primary-dark);
+      text-decoration: underline;
+    }
+
+    @media (max-width: 950px) {
+      margin-top: 2rem;
+    }
+  }
+
   .list-conteniner {
     width: 100%;
 
@@ -84,6 +99,22 @@ export const Styles = styled.div`
   .container-box {
     @media (max-width: 767.98px) {
       margin-left: 1rem;
+    }
+  }
+
+  .card-button {
+    width: 100%;
+    color: var(--primary);
+    background-color: var(--white);
+    border-radius: 0;
+    padding: 0.625rem;
+    border: none;
+    font-size: 1.2rem;
+
+    &:hover {
+      background-color: var(--primary-dark);
+      color: var(--white);
+      text-decoration: underline;
     }
   }
 `;

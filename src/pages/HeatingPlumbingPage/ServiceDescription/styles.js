@@ -27,6 +27,14 @@ export const Styles = styled.div`
     }
   }
 
+  .p-list {
+    font-size: 1.25rem;
+  }
+  .title-box {
+    width: 50%;
+    margin: auto;
+  }
+
   .cities-column {
     display: flex;
     align-items: center;
@@ -55,7 +63,7 @@ export const Styles = styled.div`
     flex-direction: column;
     justify-content: center;
     text-align: center;
-
+    margin-top: -2rem;
     /* margin-bottom: 1rem; */
 
     @media (min-width: 950px) {
@@ -65,8 +73,6 @@ export const Styles = styled.div`
       text-align: center;
 
       width: 60%;
-      height: 800px;
-
       margin-right: auto;
       margin-left: auto;
       /* margin-bottom: 1.5rem; */

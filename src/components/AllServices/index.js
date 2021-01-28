@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { Styles, Container } from './styles';
 
-// import Service01 from '../../assets/generalServices/service01.png';
+import Service01 from '../../assets/masterServices/service01.png';
 import Service02 from '../../assets/generalServices/service02.png';
 import Service03 from '../../assets/generalServices/service03.png';
 import Service04 from '../../assets/generalServices/service04.png';
@@ -22,28 +22,29 @@ function AllServices() {
           <div class="w-100 pb-5 pt-lg-2 pb-lg-5 ">
             <div class="container pt-2 pb-2 pt-lg-2 pb-lg-0">
               <div class="row mb-4">
-                {/* <div class="col-12 col-md-12 col-lg-4 mb-5">
+                <div class="col-12 col-md-12 col-lg-4 mb-5">
                   <div class="card shadow border-0">
                     <div class="position-relative">
-                      <Link to="/roof-cleaning">
+                      <Link to="/erecting-fence">
                         <img
                           src={Service01}
                           class="card-img-top"
-                          alt="Roof cleaning"
+                          alt="Erecting fence"
+                          height="430"
                         />
                       </Link>
                     </div>
                     <div class="card-body p-0">
-                      <Link to="/roof-cleaning" className="btn card-button">
-                        Roof cleaning{' '}
+                      <Link to="/erecting-fence" className="btn card-button">
+                        Erecting fence
                       </Link>
                     </div>
                   </div>
-                </div> */}
+                </div>
                 <div class="col-12 col-md-12 col-lg-4 mb-5">
                   <div class="card shadow border-0">
                     <div class="position-relative">
-                      <Link to="/contracts">
+                      <Link to="/garden-maintenance">
                         <img
                           src={Service02}
                           class="card-img-top"
@@ -52,7 +53,10 @@ function AllServices() {
                       </Link>
                     </div>
                     <div class="card-body p-0">
-                      <Link to="/contracts" className="btn card-button">
+                      <Link
+                        to="/garden-maintenance"
+                        className="btn card-button"
+                      >
                         Garden maintenance{' '}
                       </Link>
                     </div>
@@ -61,7 +65,7 @@ function AllServices() {
                 <div class="col-12 col-md-12 col-lg-4 mb-5">
                   <div class="card shadow border-0">
                     <div class="position-relative">
-                      <Link to="/painting-decoration">
+                      <Link to="/office-cleaning">
                         <img
                           src={Service03}
                           class="card-img-top"
@@ -91,7 +95,7 @@ function AllServices() {
                       </Link>
                     </div>
                     <div class="card-body p-0">
-                      <Link to="/contracts" className="btn card-button">
+                      <Link to="/office-cleaning" className="btn card-button">
                         Commercial office cleaning{' '}
                       </Link>
                     </div>
@@ -121,7 +125,7 @@ function AllServices() {
                 <div class="col-12 col-md-12 col-lg-4 mb-5">
                   <div class="card shadow border-0">
                     <div class="position-relative">
-                      <Link to="/contracts">
+                      <Link to="/window-cleaning">
                         <img
                           src={Service07}
                           class="card-img-top"
@@ -130,7 +134,7 @@ function AllServices() {
                       </Link>
                     </div>
                     <div class="card-body p-0">
-                      <Link to="/contracts" className="btn card-button">
+                      <Link to="/window-cleaning" className="btn card-button">
                         Window cleaning{' '}
                       </Link>
                     </div>

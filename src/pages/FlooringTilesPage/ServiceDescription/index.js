@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-// import ImageGallery from 'react-image-gallery';
-
 import { Styles, ContainerBox } from './styles';
 
 import { Container } from 'react-bootstrap';
@@ -10,203 +8,103 @@ import Title from '../../../components/Title';
 import AllServices from '../../../components/AllServices';
 import UpperFooter from '../../../components/UpperFooter';
 
-// import Image0 from '../../../assets/contractPage/officeCleaning/img0.jpg';
-// import Image1 from '../../../assets/contractPage/officeCleaning/img1.jpg';
-// import Image2 from '../../../assets/contractPage/officeCleaning/img2.jpg';
-// import Image4 from '../../../assets/contractPage/officeCleaning/img4.jpg';
-// import Image5 from '../../../assets/contractPage/officeCleaning/img5.jpg';
-// import Image6 from '../../../assets/contractPage/officeCleaning/img6.jpg';
-// import Image7 from '../../../assets/contractPage/officeCleaning/img7.jpg';
-// import Image8 from '../../../assets/contractPage/officeCleaning/img8.jpg';
-// import Image9 from '../../../assets/contractPage/officeCleaning/img9.jpg';
-// import Image11 from '../../../assets/contractPage/officeCleaning/img11.jpg';
-// import Image14 from '../../../assets/contractPage/officeCleaning/img14.jpg';
-// import Image15 from '../../../assets/contractPage/officeCleaning/img15.jpg';
-// import Image16 from '../../../assets/contractPage/officeCleaning/img16.jpg';
-
-// const images = [
-//   {
-//     original: Image0,
-//     thumbnail: Image0,
-//   },
-//   {
-//     original: Image1,
-//     thumbnail: Image1,
-//   },
-//   {
-//     original: Image2,
-//     thumbnail: Image2,
-//   },
-//   {
-//     original: Image4,
-//     thumbnail: Image4,
-//   },
-//   {
-//     original: Image5,
-//     thumbnail: Image5,
-//   },
-//   {
-//     original: Image6,
-//     thumbnail: Image6,
-//   },
-//   {
-//     original: Image7,
-//     thumbnail: Image7,
-//   },
-//   {
-//     original: Image8,
-//     thumbnail: Image8,
-//   },
-//   {
-//     original: Image9,
-//     thumbnail: Image9,
-//   },
-//   {
-//     original: Image11,
-//     thumbnail: Image11,
-//   },
-//   {
-//     original: Image14,
-//     thumbnail: Image14,
-//   },
-//   {
-//     original: Image15,
-//     thumbnail: Image15,
-//   },
-//   {
-//     original: Image16,
-//     thumbnail: Image16,
-//   },
-// ];
-
 export default function ServiceDescription() {
   return (
     <Styles>
       <Title title="Flooring/tiles instalation" />
       <ContainerBox>
-        <p className="p-container">
-          Providing a clean office environment is a key component of a modern,
-          effective organisation.
+        <p className="p-container text-center">
+          Make installing new flooring or tiles a stress-free process by using
+          our services
         </p>
       </ContainerBox>
       <Title title="Our flooring/tiles instalation can include:" />
-      <ContainerBox>
+      <Container>
         <div class="row mb-4">
           <div className="list-conteniner">
             <div className="row mb-4">
               <div className="col-12 col-md-4 col-lg-4 mb-3">
-                <div className="cities-column">
+                <div className="cities-column justify-content-center justify-content-center">
                   <div className="rounded-bol"></div>
-                  <p>Dusting/polishing surfaces</p>
+                  <p>Laminate Floor Installation</p>
                 </div>
-                <div className="cities-column">
+                <div className="cities-column justify-content-center">
                   <div className="rounded-bol"></div>
-                  <p>Sanitising handles, buttons and phones</p>
-                </div>
-                <div className="cities-column">
-                  <div className="rounded-bol"></div>
-                  <p>Polishing floors</p>
-                </div>
-                <div className="cities-column">
-                  <div className="rounded-bol"></div>
-                  <p>Emptying bins and replace bin bags</p>
+                  <p>Vinyl Floor Installation</p>
                 </div>
               </div>
               <div class="col-12 col-md-4 col-lg-4 mb-3">
-                <div className="cities-column">
+                <div className="cities-column justify-content-center">
                   <div className="rounded-bol"></div>
-                  <p>Staff washrooms and WCs</p>
+                  <p>Hardwood Floor Installation</p>
                 </div>
-                <div className="cities-column">
+                <div className="cities-column justify-content-center">
                   <div className="rounded-bol"></div>
-                  <p>Cleaning air conditioning vents</p>
-                </div>
-                <div className="cities-column">
-                  <div className="rounded-bol"></div>
-                  <p>Floors - swept, hoovered and/or mopped</p>
-                </div>
-                <div className="cities-column">
-                  <div className="rounded-bol"></div>
-                  <p>Cleaning cafeterias, staff rooms and kitchens</p>
+                  <p>Tile Floor/Wall Installation</p>
                 </div>
               </div>
               <div class="col-12 col-md-4 col-lg-4 mb-3">
-                <div className="cities-column">
+                <div className="cities-column justify-content-center">
                   <div className="rounded-bol"></div>
-                  <p className="">Dusting/polishing surfaces</p>
+                  <p className="">Carpet removal / installation</p>
                 </div>
-                <div className="cities-column">
+                <div className="cities-column justify-content-center">
                   <div className="rounded-bol"></div>
-                  <p>Vacuuming carpets</p>
+                  <p>Bathroom wall tiles</p>
                 </div>
-                <div className="cities-column">
+                <div className="cities-column justify-content-center">
                   <div className="rounded-bol"></div>
-                  <p>High-quality Commercial Cleaning Services</p>
-                </div>
-                <div className="cities-column">
-                  <div className="rounded-bol"></div>
-                  <p>Daily office cleaning for many types of offices</p>
+                  <p>kitchen wall tiles</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </ContainerBox>
-      <Title title="Flooring/tiles instalation types:" />
+      </Container>
+      <Title title="How it works:" />
       <Container>
         <div class="row mb-4 container-box">
           <div className="list-conteniner">
             <div className="row mb-4">
-              <div className="col-12 col-md-4 col-lg-4 mb-3">
+              <div className="col-12 col-md-4 col-lg-3 mb-3">
                 <div className="cities-column">
                   <div className="rounded-bol"></div>
                   <p>
-                    A typical office keyboard can carry up to 7,500 bacteria at
-                    any given time.
-                  </p>
-                </div>
-                <div className="cities-column">
-                  <div className="rounded-bol"></div>
-                  <p>
-                    Increased focus: In a clean working environment, you are
-                    less likely to be distracted by cluttered objects, and that
-                    a greater level of concentration leads to more and better
-                    work being done.
+                    <strong>Choose Your Carpet: </strong> Browse carpet samples
+                    available at your local Lowe’s. Find the perfect choice for
+                    your home ahead of your measurement appointment for install.
                   </p>
                 </div>
               </div>
-              <div className="col-12 col-md-4 col-lg-4 mb-3">
+              <div className="col-12 col-md-4 col-lg-3 mb-3">
                 <div className="cities-column">
                   <div className="rounded-bol"></div>
                   <p>
-                    Less stress: A cluttered desk can result in you trying to
-                    focus on too many things at once, which lowers your stress
-                    threshold.
-                  </p>
-                </div>
-                <div className="cities-column">
-                  <div className="rounded-bol"></div>
-                  <p>
-                    The average employee loses nine working days a year to
-                    sickness, some of which may be attributed to a lack of
-                    workplace hygiene.
+                    <strong>Schedule Your Measurement: </strong>Schedule an
+                    in-home appointment for a professional independent installer
+                    to measure your space and assess your flooring needs.
                   </p>
                 </div>
               </div>
-              <div className="col-12 col-md-4 col-lg-4 mb-3">
+              <div className="col-12 col-md-4 col-lg-3 mb-3">
                 <div className="cities-column">
                   <div className="rounded-bol"></div>
                   <p>
-                    Viruses such as the flu can linger on unclean surfaces such
-                    as work desks or electronic equipment for 24 hours.{' '}
+                    <strong>Get Your Quote: </strong> When your measurement is
+                    complete, we’ll follow up with a quote. It’ll include
+                    product and labor along with financing options to fit your
+                    budget. We’ll answer any questions you have.
                   </p>
                 </div>
+              </div>
+              <div className="col-12 col-md-4 col-lg-3 mb-3">
                 <div className="cities-column">
                   <div className="rounded-bol"></div>
                   <p>
-                    60% of absences from work illnesses are contracted from
-                    dirty equipment in the office such as e-coli, staph and
-                    bacteria.
+                    <strong>Have It Installed: </strong>Once the installation is
+                    complete, your installer will clean up, review manufacturer
+                    care and maintenance instructions with you and ensure you're
+                    100% satisfied.
                   </p>
                 </div>
               </div>
@@ -214,10 +112,7 @@ export default function ServiceDescription() {
           </div>
         </div>
       </Container>
-      {/* <div className="gallery-container"> */}
-      {/* <h2>Bathroom renovation</h2> */}
-      {/* <ImageGallery items={images} /> */}
-      {/* </div> */}
+
       <ContainerBox>
         <Link className="link-button btn p-2 mb-5" to="/get-a-quote">
           Get a free quote

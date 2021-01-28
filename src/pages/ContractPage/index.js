@@ -1,15 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-import { Styles } from './styles';
+import { Styles, ContainerBox } from './styles';
 import { Container } from 'react-bootstrap';
 
-import BackgroundServices from './BackgroundServices';
-import OfficeCleaning from './OfficeCleaning';
-import WindowCleaning from './WindowCleaning';
-import GardenMaintenance from './GardenMaintenance';
 import AllServices from '../../components/AllServices';
 import UpperFooter from '../../components/UpperFooter';
 import Title from '../../components/Title';
+import BackgroundServices from './BackgroundServices';
 
 import Service02 from '../../assets/generalServices/service02.png';
 import Service04 from '../../assets/generalServices/service04.png';
@@ -19,65 +17,6 @@ function ContractPages() {
   return (
     <Styles>
       <BackgroundServices />
-
-      <Container>
-        <Title title="Contract needed services" />
-
-        <div className="w-100 pb-5 pt-lg-2 pb-lg-5">
-          <div className="container pt-2 pb-2 pt-lg-2 pb-lg-0">
-            <div className="row mb-1">
-              <div className="col-12 col-md-12 col-lg-4 mb-5">
-                <div className="card shadow border-0">
-                  <div className="position-relative">
-                    <img
-                      src={Service02}
-                      className="card-img-top"
-                      alt="Garden maintenance"
-                    />
-                  </div>
-                  <div className="card-body p-3">
-                    <h5 className="card-title text-center title-box">
-                      Garden maintenance
-                    </h5>
-                  </div>
-                </div>
-              </div>
-              <div className="col-12 col-md-12 col-lg-4 mb-5">
-                <div className="card shadow border-0">
-                  <div className="position-relative">
-                    <img
-                      src={Service04}
-                      className="card-img-top"
-                      alt="Office cleaning"
-                    />
-                  </div>
-                  <div className="card-body p-3">
-                    <h5 className="card-title text-center title-box">
-                      Office cleaning
-                    </h5>
-                  </div>
-                </div>
-              </div>
-              <div className="col-12 col-md-12 col-lg-4 mb-5">
-                <div className="card shadow border-0">
-                  <div className="position-relative">
-                    <img
-                      src={Service07}
-                      className="card-img-top"
-                      alt="Window cleaning"
-                    />
-                  </div>
-                  <div className="card-body p-3">
-                    <h5 className="card-title text-center title-box">
-                      Window cleaning
-                    </h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </Container>
 
       <Title title="The Importance of contracts" />
 
@@ -193,12 +132,76 @@ function ContractPages() {
           </li>
         </ul>
       </Container>
+      <Container>
+        <Title title="Contract needed services" />
 
-      <OfficeCleaning />
+        <div className="w-100 pb-5 pt-lg-2 pb-lg-5">
+          <div className="container pt-2 pb-2 pt-lg-2 pb-lg-0">
+            <div className="row mb-1">
+              <div className="col-12 col-md-12 col-lg-4 mb-5">
+                <div className="card shadow border-0">
+                  <div className="position-relative">
+                    <Link to="/garden-maintenance">
+                      <img
+                        src={Service02}
+                        className="card-img-top"
+                        alt="Garden maintenance"
+                      />
+                    </Link>
+                  </div>
+                  <div className="card-body">
+                    <Link to="/garden-maintenance" className="btn card-button">
+                      Garden maintenance
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-md-12 col-lg-4 mb-5">
+                <div className="card shadow border-0">
+                  <div className="position-relative">
+                    <Link to="/office-cleaning">
+                      <img
+                        src={Service04}
+                        className="card-img-top"
+                        alt="Office cleaning"
+                      />
+                    </Link>
+                  </div>
+                  <div className="card-body">
+                    <Link to="/office-cleaning" className="btn card-button">
+                      Office cleaning
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-md-12 col-lg-4 mb-5">
+                <div className="card shadow border-0">
+                  <div className="position-relative">
+                    <Link to="/window-cleaning">
+                      <img
+                        src={Service07}
+                        className="card-img-top"
+                        alt="Window cleaning"
+                      />
+                    </Link>
+                  </div>
+                  <div className="card-body">
+                    <Link to="/window-cleaning" className="btn card-button">
+                      Window cleaning
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Container>
 
-      <WindowCleaning />
-
-      <GardenMaintenance />
+      <ContainerBox>
+        <Link className="link-button btn p-2 mb-5" to="/get-a-quote">
+          Get a free quote
+        </Link>
+      </ContainerBox>
 
       <AllServices />
 
