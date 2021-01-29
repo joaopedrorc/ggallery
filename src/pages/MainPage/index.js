@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { Styles } from './styles';
 
-import { Button, Container } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import { StarFill } from 'react-bootstrap-icons';
 
 import Title from '../../components/Title';
@@ -55,17 +55,20 @@ function MainPage() {
                     alt="Insulated garden room"
                   />
                 </div>
-                <div className="card-body p-3">
+                <div className="card-body p-3 card-height">
                   <h5 className="card-title mb-3">
                     Insulated garden room office/studio
                   </h5>
                   <p className="card-text">
-                    Our post construction cleaning service is a specialist
-                    division that provides the full range of cleaning services.
+                    Increase your living space with one of our low maintenance,
+                    highly insulated garden buildings.
                   </p>
-                  <Button className="card-button">
-                    <Link to="/insulated-garden-room">Learn more</Link>
-                  </Button>
+                  <Link
+                    className="link-button btn btn-01"
+                    to="/insulated-garden-room"
+                  >
+                    Learn more
+                  </Link>
                 </div>
               </div>
             </div>
@@ -78,15 +81,16 @@ function MainPage() {
                     alt="Erecting fence"
                   />
                 </div>
-                <div className="card-body p-3">
+                <div className="card-body p-3 card-height">
                   <h5 className="card-title mb-3">Erecting fence</h5>
                   <p className="card-text mb-4">
-                    Our post construction cleaning service is a specialist
-                    division that provides the full range of cleaning services.
+                    The type of fence you choose will not only play a key role
+                    in your home’s exterior design, but also provide one of the
+                    most important benefits of all homes, security.
                   </p>
-                  <Button className="card-button">
-                    <Link to="/erecting-fence">Learn more</Link>
-                  </Button>
+                  <Link className="link-button btn btn-02" to="/erecting-fence">
+                    Learn more
+                  </Link>
                 </div>
               </div>
             </div>
@@ -99,15 +103,19 @@ function MainPage() {
                     alt="Garden storage shed"
                   />
                 </div>
-                <div className="card-body p-3">
+                <div className="card-body p-3 card-height">
                   <h5 className="card-title mb-3">Garden storage shed</h5>
                   <p className="card-text mb-4">
-                    Our post construction cleaning service is a specialist
-                    division that provides the full range of cleaning services.
+                    Whether you want to build a shed to store tools and bikes or
+                    a summer house to extend your living space, installation is
+                    key to ensuring your building will stand the test of time.
                   </p>
-                  <Button className="card-button">
-                    <Link to="/garden-storage-shed">Learn more</Link>
-                  </Button>
+                  <Link
+                    className="link-button btn btn-03"
+                    to="/garden-storage-shed"
+                  >
+                    Learn more
+                  </Link>
                 </div>
               </div>
             </div>
@@ -120,15 +128,18 @@ function MainPage() {
                     alt="Bathroom renovation"
                   />
                 </div>
-                <div className="card-body p-3">
+                <div className="card-body p-3 card-height">
                   <h5 className="card-title mb-3">Bathroom renovation</h5>
                   <p className="card-text mb-4">
-                    Our post construction cleaning service is a specialist
-                    division that provides the full range of cleaning services.
+                    If you want a gorgeous and functonal bathroom, your bathroom
+                    renovation project will require a team of experts.
                   </p>
-                  <Button className="card-button">
-                    <Link to="/bathroom-renovation">Learn more</Link>
-                  </Button>
+                  <Link
+                    className="link-button btn btn-04"
+                    to="/bathroom-renovation"
+                  >
+                    Learn more
+                  </Link>
                 </div>
               </div>
             </div>

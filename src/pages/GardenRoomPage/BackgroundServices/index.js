@@ -14,7 +14,7 @@ export default function BackgroundServices() {
               <strong>Insulated Garden Room/Office/Studio </strong>
             </h1>
             <p>
-              Increase your living space with one of our low maintenance, <br />{' '}
+              Increase your living space with one of our low maintenance <br />{' '}
               highly insulated composite garden buildings
             </p>
           </div>

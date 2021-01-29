@@ -73,6 +73,18 @@ export const Styles = styled.div`
     }
   }
 
+  .credit {
+    font-size: 0.75rem;
+    padding: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+
+  .credit a {
+    color: #656666;
+  }
+
   .link-button {
     background-color: var(--primary);
     width: 400px;

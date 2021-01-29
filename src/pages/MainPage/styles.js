@@ -1,14 +1,32 @@
 import styled from 'styled-components';
 
 export const Styles = styled.div`
-  .card-button {
-    width: 100%;
+  .link-button {
     background-color: var(--primary);
-    border-radius: 2;
+    width: 100%;
+    color: var(--white);
 
     &:hover {
       background-color: var(--primary-dark);
+      text-decoration: underline;
     }
+  }
+
+  .card-height {
+    height: 19rem;
+  }
+
+  .btn-01 {
+    margin-bottom: -7.5rem;
+  }
+  .btn-02 {
+    margin-bottom: -3.5rem;
+  }
+  .btn-03 {
+    margin-bottom: -0.625rem;
+  }
+  .btn-04 {
+    margin-bottom: -9.5rem;
   }
 
   .card-button a {
