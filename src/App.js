@@ -26,7 +26,7 @@ import NotFound from './pages/NotFound';
 
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
-import ScrollToTop from './components/ScrollToTop';
+import ScrollToTop from './ScrollToTopPage';
 
 function App() {
   return (

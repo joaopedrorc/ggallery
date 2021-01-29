@@ -6,7 +6,7 @@ import { Styles, Container } from './styles';
 import Service01 from '../../assets/masterServices/service01.png';
 import Service02 from '../../assets/generalServices/service02.png';
 import Service03 from '../../assets/generalServices/service03.png';
-import Service04 from '../../assets/generalServices/service04.png';
+import Service04 from '../../assets/generalServices/cleaning0.png';
 import Service06 from '../../assets/generalServices/service06.png';
 import Service07 from '../../assets/generalServices/service07.png';
 import Service08 from '../../assets/generalServices/service08.png';
