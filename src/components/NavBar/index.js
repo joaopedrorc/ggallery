@@ -9,7 +9,7 @@ import Logo from '../../assets/logos/White.svg';
 function NavBar() {
   return (
     <Styles>
-      <Navbar expand="md" className="navbar-styles">
+      <Navbar expand="md">
         <Navbar.Brand>
           <Link to="/">
             <img className="logo" src={Logo} alt="Logo" />
@@ -29,12 +29,18 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <NavDropdown title="SERVICES" id="basic-nav-dropdown">
+            <NavDropdown
+              title="SERVICES"
+              id="basic-nav-dropdown"
+              className="navbar-items"
+            >
               <NavDropdown.Item>
-                <Link to="/bathroom-renovation">Bathroom renovation</Link>
+                <Link to="/bathroom-renovation" className="navbar-items">
+                  Bathroom renovation
+                </Link>
               </NavDropdown.Item>
 
-              <NavDropdown.Item>
+              <NavDropdown.Item className="navbar-items">
                 <Link to="/erecting-fence">Erecting fence</Link>
               </NavDropdown.Item>
 

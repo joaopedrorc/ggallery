@@ -5,13 +5,17 @@ export const Styles = styled.div`
     background: var(--black);
   }
 
-  .navbar-styles {
+  .navbar-items {
+    z-index: 9;
+  }
+
+  /* .navbar-styles {
     overflow: hidden;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
+    position: fixed; 
+    top: 0; 
     width: 100%;
     z-index: 4;
-  }
+  } */
 
   .button-style {
     border: 1px solid var(--white);
