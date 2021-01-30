@@ -9,8 +9,8 @@ import Logo from '../../assets/logos/White.svg';
 function NavBar() {
   return (
     <Styles>
-      <Navbar expand="md">
-        <Navbar.Brand className="">
+      <Navbar expand="md" className="navbar-styles">
+        <Navbar.Brand>
           <Link to="/">
             <img className="logo" src={Logo} alt="Logo" />
           </Link>
