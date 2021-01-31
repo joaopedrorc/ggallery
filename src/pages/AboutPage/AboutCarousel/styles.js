@@ -17,6 +17,16 @@ export const Container = styled.div`
       background-color: var(--primary-dark);
     }
   }
+  .link-button {
+    background-color: var(--primary);
+    width: 100%;
+    color: var(--white);
+
+    &:hover {
+      background-color: var(--primary-dark);
+      text-decoration: underline;
+    }
+  }
 `;
 
 export const Item = styled.div`

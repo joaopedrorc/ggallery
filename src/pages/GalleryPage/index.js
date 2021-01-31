@@ -16,7 +16,7 @@ import Bath10 from '../../assets/gallery/gallery-one/bath10.webp';
 import Bath11 from '../../assets/gallery/gallery-one/bath11.webp';
 import Bath12 from '../../assets/gallery/gallery-one/bath12.jpeg';
 import Bath13 from '../../assets/gallery/gallery-one/bath13.jpeg';
-import Bath14 from '../../assets/gallery/gallery-one/bath14.jpeg';
+// import Bath14 from '../../assets/gallery/gallery-one/bath14.jpeg';
 import Bath15 from '../../assets/gallery/gallery-one/bath15.jpeg';
 import Bath16 from '../../assets/gallery/gallery-one/bath16.jpeg';
 import Bath17 from '../../assets/gallery/gallery-one/bath17.jpeg';
@@ -46,14 +46,14 @@ import Floor11 from '../../assets/gallery/gallery-two/floor11.jpeg';
 import Floor12 from '../../assets/gallery/gallery-two/floor12.jpeg';
 import Floor13 from '../../assets/gallery/gallery-two/floor13.jpeg';
 
-import Fence0 from '../../assets/gallery/gallery-three/fence0.webp';
+// import Fence0 from '../../assets/gallery/gallery-three/fence0.webp';
 import Fence01 from '../../assets/gallery/gallery-three/fence01.webp';
 import Fence02 from '../../assets/gallery/gallery-three/fence02.webp';
-import Fence03 from '../../assets/gallery/gallery-three/fence02.webp';
+// import Fence03 from '../../assets/gallery/gallery-three/fence02.webp';
 import Fence04 from '../../assets/gallery/gallery-three/fence03.webp';
 import Fence05 from '../../assets/gallery/gallery-three/fence04.webp';
 import Fence06 from '../../assets/gallery/gallery-three/fence05.webp';
-import Fence07 from '../../assets/gallery/gallery-three/fence06.webp';
+// import Fence07 from '../../assets/gallery/gallery-three/fence06.webp';
 
 import Painting0 from '../../assets/gallery/gallery-four/painting0.jpeg';
 import Painting01 from '../../assets/gallery/gallery-four/painting01.jpeg';
@@ -144,7 +144,7 @@ const images0 = [
     thumbnail: Bath13,
   },
   {
-    original: Bath14,
+    original: Bath15,
     thumbnail: Bath15,
   },
   {
@@ -154,14 +154,6 @@ const images0 = [
   {
     original: Bath17,
     thumbnail: Bath17,
-  },
-  {
-    original: Bath17,
-    thumbnail: Bath17,
-  },
-  {
-    original: Bath01,
-    thumbnail: Bath01,
   },
   {
     original: Bath18,
@@ -254,16 +246,8 @@ const images02 = [
     thumbnail: Fence02,
   },
   {
-    original: Fence03,
-    thumbnail: Fence03,
-  },
-  {
     original: Fence04,
     thumbnail: Fence04,
-  },
-  {
-    original: Fence0,
-    thumbnail: Fence0,
   },
   {
     original: Fence01,
@@ -276,10 +260,6 @@ const images02 = [
   {
     original: Fence06,
     thumbnail: Fence06,
-  },
-  {
-    original: Fence07,
-    thumbnail: Fence07,
   },
 ];
 

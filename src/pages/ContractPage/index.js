@@ -10,7 +10,7 @@ import Title from '../../components/Title';
 import BackgroundServices from './BackgroundServices';
 
 import Service02 from '../../assets/generalServices/service02.png';
-import Service04 from '../../assets/generalServices/service04.png';
+import Service04 from '../../assets/generalServices/cleaning0.png';
 import Service07 from '../../assets/generalServices/service07.png';
 
 function ContractPages() {

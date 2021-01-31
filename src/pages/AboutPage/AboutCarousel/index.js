@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import Carousel from 'react-elastic-carousel';
 
-import { Button } from 'react-bootstrap';
 import Title from '../../../components/Title';
 
 import { Container } from './styles';
@@ -40,9 +41,9 @@ function AboutCarousel() {
                 Our post construction cleaning service is a specialist division
                 that provides the full range of cleaning services.
               </p>
-              <Button className="card-button" variant="primary" type="submit">
+              <Link className="link-button btn " to="/insulated-garden-room">
                 Learn more
-              </Button>
+              </Link>
             </div>
           </div>
 
@@ -56,9 +57,9 @@ function AboutCarousel() {
                 Our post construction cleaning service is a specialist division
                 that provides the full range of cleaning services.
               </p>
-              <Button className="card-button" variant="primary" type="submit">
+              <Link className="link-button btn " to="/erecting-fence">
                 Learn more
-              </Button>
+              </Link>
             </div>
           </div>
 
@@ -76,9 +77,9 @@ function AboutCarousel() {
                 Our post construction cleaning service is a specialist division
                 that provides the full range of cleaning services.
               </p>
-              <Button className="card-button" variant="primary" type="submit">
+              <Link className="link-button btn " to="/garden-storage-shed">
                 Learn more
-              </Button>
+              </Link>
             </div>
           </div>
 
@@ -96,9 +97,9 @@ function AboutCarousel() {
                 Our post construction cleaning service is a specialist division
                 that provides the full range of cleaning services.
               </p>
-              <Button className="card-button" variant="primary" type="submit">
+              <Link className="link-button btn" to="/bathroom-renovation">
                 Learn more
-              </Button>
+              </Link>
             </div>
           </div>
         </Carousel>
