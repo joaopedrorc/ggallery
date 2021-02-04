@@ -160,7 +160,7 @@ function QuoteForm() {
                           onChange={(e) =>
                             setState({
                               ...state,
-                              place: e.target.value,
+                              check: e.target.value,
                             })
                           }
                         />
@@ -174,7 +174,7 @@ function QuoteForm() {
                           onChange={(e) =>
                             setState({
                               ...state,
-                              place: e.target.value,
+                              check: e.target.value,
                             })
                           }
                         />
