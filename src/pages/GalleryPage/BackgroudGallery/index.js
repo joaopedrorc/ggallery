@@ -8,7 +8,7 @@ function BackgroudGallery() {
       <div className="background-banner mb-5">
         <div className="overlay"></div>
         <div className="banner-content">
-          <h1>Gallery</h1>
+          <h1>Danansan's Gallery</h1>
         </div>
       </div>
     </Styles>

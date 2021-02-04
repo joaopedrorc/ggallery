@@ -10,11 +10,9 @@ import Title from '../../components/Title';
 import AllServices from '../../components/AllServices';
 
 import Image0 from '../../assets/contractServices/garden/garden0.jpg';
-import Image01 from '../../assets/contractServices/garden/garden01.jpg';
 import Image02 from '../../assets/contractServices/garden/garden02.jpg';
 import Image03 from '../../assets/contractServices/garden/garden03.jpg';
 import Image04 from '../../assets/contractServices/garden/garden04.jpg';
-import Image05 from '../../assets/contractServices/garden/garden05.jpg';
 import Image06 from '../../assets/contractServices/garden/garden06.jpg';
 import Image07 from '../../assets/contractServices/garden/garden07.jpg';
 
@@ -22,10 +20,6 @@ const images = [
   {
     original: Image0,
     thumbnail: Image0,
-  },
-  {
-    original: Image01,
-    thumbnail: Image01,
   },
   {
     original: Image02,
@@ -38,10 +32,6 @@ const images = [
   {
     original: Image04,
     thumbnail: Image04,
-  },
-  {
-    original: Image05,
-    thumbnail: Image05,
   },
   {
     original: Image06,

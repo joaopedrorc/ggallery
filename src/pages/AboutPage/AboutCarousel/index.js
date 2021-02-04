@@ -15,15 +15,15 @@ import Service03 from '../../../assets/masterServices/service03.png';
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
   { width: 550, itemsToShow: 2 },
-  { width: 768, itemsToShow: 3 },
-  { width: 1200, itemsToShow: 4 },
+  { width: 768, itemsToShow: 2 },
+  { width: 1200, itemsToShow: 2 },
 ];
 
 function AboutCarousel() {
   return (
     <Container>
       <Title title="We are masters at" />
-      <div className="App">
+      <div className="app">
         <Carousel breakPoints={breakPoints}>
           <div class="card shadow border-0">
             <div class="position-relative">
@@ -38,10 +38,30 @@ function AboutCarousel() {
                 Insulated garden room office/studio
               </h5>
               <p class="card-text">
-                Our post construction cleaning service is a specialist division
-                that provides the full range of cleaning services.
+                Increase your living space with one of our low maintenance,
+                highly insulated garden buildings.
               </p>
               <Link className="link-button btn " to="/insulated-garden-room">
+                Learn more
+              </Link>
+            </div>
+          </div>
+
+          <div class="card shadow border-0">
+            <div class="position-relative">
+              <img
+                src={Service03}
+                class="card-img-top"
+                alt="Bathroom renovation"
+              />
+            </div>
+            <div class="card-body p-3">
+              <h5 class="card-title mb-3">Bathroom renovation</h5>
+              <p class="card-text mb-4">
+                If you want a gorgeous and functonal bathroom, your bathroom
+                renovation project will require a team of experts.
+              </p>
+              <Link className="link-button btn" to="/bathroom-renovation">
                 Learn more
               </Link>
             </div>
@@ -54,8 +74,9 @@ function AboutCarousel() {
             <div class="card-body p-3">
               <h5 class="card-title mb-3">Erecting fence</h5>
               <p class="card-text mb-4">
-                Our post construction cleaning service is a specialist division
-                that provides the full range of cleaning services.
+                The type of fence you choose will not only play a key role in
+                your home’s exterior design, but also provide one of the most
+                important benefits of all homes, security.
               </p>
               <Link className="link-button btn " to="/erecting-fence">
                 Learn more
@@ -74,30 +95,11 @@ function AboutCarousel() {
             <div class="card-body p-3">
               <h5 class="card-title mb-3">Garden storage shed</h5>
               <p class="card-text mb-4">
-                Our post construction cleaning service is a specialist division
-                that provides the full range of cleaning services.
+                Whether you want to build a shed to store tools and bikes or a
+                summer house to extend your living space, installation is key to
+                ensuring your building will stand the test of time.
               </p>
               <Link className="link-button btn " to="/garden-storage-shed">
-                Learn more
-              </Link>
-            </div>
-          </div>
-
-          <div class="card shadow border-0">
-            <div class="position-relative">
-              <img
-                src={Service03}
-                class="card-img-top"
-                alt="Bathroom renovation"
-              />
-            </div>
-            <div class="card-body p-3">
-              <h5 class="card-title mb-3">Bathroom renovation</h5>
-              <p class="card-text mb-4">
-                Our post construction cleaning service is a specialist division
-                that provides the full range of cleaning services.
-              </p>
-              <Link className="link-button btn" to="/bathroom-renovation">
                 Learn more
               </Link>
             </div>

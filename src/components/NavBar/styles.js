@@ -9,14 +9,6 @@ export const Styles = styled.div`
     z-index: 9;
   }
 
-  /* .navbar-styles {
-    overflow: hidden;
-    position: fixed; 
-    top: 0; 
-    width: 100%;
-    z-index: 4;
-  } */
-
   .button-style {
     border: 1px solid var(--white);
     color: var(--white);

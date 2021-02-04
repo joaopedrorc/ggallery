@@ -12,13 +12,22 @@ import AllServices from '../../components/AllServices';
 
 import Image0 from '../../assets/contractServices/window/window01.jpg';
 import Image01 from '../../assets/contractServices/window/window02.jpg';
-import Image02 from '../../assets/contractServices/window/window03.jpg';
 import Image03 from '../../assets/contractServices/window/window04.jpg';
+import Image1 from '../../assets/contractPage/officeCleaning/img1.jpg';
+import Image2 from '../../assets/contractPage/officeCleaning/img2.jpg';
 
 const images = [
   {
     original: Image03,
     thumbnail: Image03,
+  },
+  {
+    original: Image1,
+    thumbnail: Image1,
+  },
+  {
+    original: Image2,
+    thumbnail: Image2,
   },
   {
     original: Image0,
@@ -27,10 +36,6 @@ const images = [
   {
     original: Image01,
     thumbnail: Image01,
-  },
-  {
-    original: Image02,
-    thumbnail: Image02,
   },
 ];
 

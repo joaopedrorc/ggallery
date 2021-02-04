@@ -10,13 +10,7 @@ import About from '../../assets/footerIcons/About.png';
 import Upgrade from '../../assets/footerIcons/Upgrade.png';
 import FooterLogo from '../../assets/logos/Original.svg';
 
-import {
-  Instagram,
-  Facebook,
-  Linkedin,
-  Twitter,
-  Youtube,
-} from 'react-bootstrap-icons';
+import { Instagram, Facebook, Twitter, Youtube } from 'react-bootstrap-icons';
 
 function Footer() {
   return (
@@ -120,15 +114,6 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <Facebook color="#000" width="50" height="50" />
-              </a>
-
-              <a
-                className="button-box "
-                href="https://www.linkedin.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Linkedin color="#000" width="50" height="50" />
               </a>
 
               <a
@@ -271,16 +256,13 @@ function Footer() {
               <a href="tel:+44 751 4505765" className="mb-0 text-white">
                 +44 7514 505765
               </a>
-              <br />
-              <a href="tel:+44 1256 415034" className="mb-0 text-white">
-                +44 1256 415034
-              </a>
+
               <br />
               <a
                 href="mailto: contato@danansanps.com"
                 className="mb-0 text-white"
               >
-                contato@danansanps.com
+                andre@danansanps.com
               </a>
             </div>
           </div>

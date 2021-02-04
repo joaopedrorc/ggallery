@@ -10,8 +10,7 @@ import { Container } from 'react-bootstrap';
 import Title from '../../components/Title';
 
 import Image0 from '../../assets/contractPage/officeCleaning/img0.jpg';
-import Image1 from '../../assets/contractPage/officeCleaning/img1.jpg';
-import Image2 from '../../assets/contractPage/officeCleaning/img2.jpg';
+
 import Image4 from '../../assets/contractPage/officeCleaning/img4.jpg';
 import Image5 from '../../assets/contractPage/officeCleaning/img5.jpg';
 import Image6 from '../../assets/contractPage/officeCleaning/img6.jpg';
@@ -27,14 +26,6 @@ const images = [
   {
     original: Image0,
     thumbnail: Image0,
-  },
-  {
-    original: Image1,
-    thumbnail: Image1,
-  },
-  {
-    original: Image2,
-    thumbnail: Image2,
   },
   {
     original: Image4,

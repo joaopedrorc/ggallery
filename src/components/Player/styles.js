@@ -30,6 +30,6 @@ export const Styles = styled.div`
   }
 
   .icon {
-    margin-right: -10px;
+    padding-left: 7px;
   }
 `;

@@ -3,6 +3,13 @@ import styled from 'styled-components';
 export const Container = styled.div`
   margin-bottom: 3rem;
 
+  .app {
+    @media (min-width: 767.98px) {
+      width: 70%;
+      margin: auto;
+    }
+  }
+
   .carousel-container {
     display: flex;
     justify-content: center;

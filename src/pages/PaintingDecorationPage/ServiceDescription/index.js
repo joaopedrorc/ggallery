@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import ImageGallery from 'react-image-gallery';
+// import ImageGallery from 'react-image-gallery';
 
 import { Styles, ContainerBox } from './styles';
 
@@ -10,29 +10,29 @@ import Title from '../../../components/Title';
 import AllServices from '../../../components/AllServices';
 import UpperFooter from '../../../components/UpperFooter';
 
-import Painting0 from '../../../assets/gallery/gallery-four/painting0.jpeg';
-import Painting01 from '../../../assets/gallery/gallery-four/painting01.jpeg';
-import Painting02 from '../../../assets/gallery/gallery-four/painting02.jpeg';
-import Painting03 from '../../../assets/gallery/gallery-four/painting03.jpeg';
+// import Painting0 from '../../../assets/gallery/gallery-four/painting0.jpeg';
+// import Painting01 from '../../../assets/gallery/gallery-four/painting01.jpeg';
+// import Painting02 from '../../../assets/gallery/gallery-four/painting02.jpeg';
+// import Painting03 from '../../../assets/gallery/gallery-four/painting03.jpeg';
 
-const images = [
-  {
-    original: Painting0,
-    thumbnail: Painting0,
-  },
-  {
-    original: Painting01,
-    thumbnail: Painting01,
-  },
-  {
-    original: Painting02,
-    thumbnail: Painting02,
-  },
-  {
-    original: Painting03,
-    thumbnail: Painting03,
-  },
-];
+// const images = [
+//   {
+//     original: Painting0,
+//     thumbnail: Painting0,
+//   },
+//   {
+//     original: Painting01,
+//     thumbnail: Painting01,
+//   },
+//   {
+//     original: Painting02,
+//     thumbnail: Painting02,
+//   },
+//   {
+//     original: Painting03,
+//     thumbnail: Painting03,
+//   },
+// ];
 
 export default function ServiceDescription() {
   return (
@@ -108,11 +108,11 @@ export default function ServiceDescription() {
         </div>
       </Container>
 
-      <Title title="Gallery:" />
+      {/* <Title title="Gallery:" />
 
       <div className="gallery-container">
         <ImageGallery items={images} />
-      </div>
+      </div> */}
       <ContainerBox>
         <Link className="link-button btn p-2 mb-5" to="/get-a-quote">
           Get a free quote
