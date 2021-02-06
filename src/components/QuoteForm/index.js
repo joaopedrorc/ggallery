@@ -113,7 +113,7 @@ function QuoteForm() {
                     <Form.Group controlId="phone">
                       <Form.Label>Phone number:</Form.Label>
                       <Form.Control
-                        data-mask="+44 0000 000 000"
+                        // data-mask="+44 0000 000 000"
                         name="phone"
                         type="text"
                         value={state.phone}
