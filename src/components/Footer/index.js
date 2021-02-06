@@ -234,7 +234,7 @@ function Footer() {
               <h4 className="fs-4 fw-bold mb-2 mb-md-4 mb-lg-4 text-white">
                 Main cities
               </h4>
-              <p className="mb-0 text-white">basingstoke</p>
+              <p className="mb-0 text-white">Basingstoke</p>
               <p className="mb-0 text-white">Bramley</p>
               <p className="mb-0 text-white">Rotherwick</p>
               <p className="mb-0 text-white">Silchester</p>
@@ -259,7 +259,7 @@ function Footer() {
 
               <br />
               <a
-                href="mailto: contato@danansanps.com"
+                href="mailto: andre@danansanps.com"
                 className="mb-0 text-white"
               >
                 andre@danansanps.com

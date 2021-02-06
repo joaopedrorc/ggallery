@@ -94,13 +94,13 @@ function QuoteForm() {
                 <div className="row">
                   <div class="col-12 col-md-12 col-lg-12 mb-3">
                     <Form.Group controlId="name">
-                      <Form.Label>Name:</Form.Label>
+                      <Form.Label>Full Name:</Form.Label>
                       <Form.Control
                         required
                         type="text"
                         name="name"
                         value={state.name}
-                        placeholder="Enter your name"
+                        placeholder="Enter full your name"
                         onChange={onInputChange}
                       />
                       {/* <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
@@ -192,6 +192,7 @@ function QuoteForm() {
                         value={state.area}
                       >
                         <option label="Select an area"></option>
+                        <option value="Bramley">Basingstoke</option>
                         <option value="Bramley">Bramley</option>
                         <option value="Rotherwick">Rotherwick</option>
                         <option value="Silchester">Silchester</option>
