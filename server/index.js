@@ -21,19 +21,19 @@ app.post('/send', (req, res) => {
       from: req.body.email, // sender address
       to: process.env.EMAIL_ADDRESS, // list of receivers
       replyTo: req.body.email,
-      subject: req.body.subject, // Subject line
+      subject: 'Formulário de Cotação do Website', // Subject line
       html: `
       <p>You have a new contact request.</p>
       <h3>Contact Details</h3>
       <ul>
-        <li>Name: ${req.body.name}</li>
+        <li>Nome: ${req.body.name}</li>
+        <li>Telefone: ${req.body.phone}</li>
         <li>Email: ${req.body.email}</li>
-        <li>Subject: ${req.body.subject}</li>
-        <li>Message: ${req.body.message}</li>
-        <li>area: ${req.body.area}</li>
-        <li>service: ${req.body.service}</li>
-        <li>place: ${req.body.place}</li>
-        <li>files: ${req.body.files}</li>
+        <li>Área: ${req.body.area}</li>
+        <li>Serviço: ${req.body.service}</li>
+        <li>Tipo de serviço: ${req.body.check}</li>
+        <li>Mensagem: ${req.body.message}</li>
+        <li>Arquivos: ${req.body.files}</li>
       </ul>
       `,
     };

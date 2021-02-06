@@ -38,4 +38,18 @@ export const Styles = styled.div`
   .check-container {
     height: 25px;
   }
+
+  .success-message {
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+  }
+
+  .error-message {
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    color: white;
+  }
 `;

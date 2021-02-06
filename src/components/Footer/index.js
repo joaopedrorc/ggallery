@@ -35,7 +35,7 @@ function Footer() {
                   <div className="icon-box">
                     <img
                       src={Tools}
-                      alt="..."
+                      alt="Garden Storage Shed"
                       width="55"
                       height="54.52"
                       className="center"
@@ -50,7 +50,7 @@ function Footer() {
                     <div className="icon-box">
                       <img
                         src={Privacy}
-                        alt="..."
+                        alt="Erecting fence"
                         width="55"
                         height="54.52"
                         className="center"
@@ -65,7 +65,7 @@ function Footer() {
                       <div className="icon-box">
                         <img
                           src={About}
-                          alt="..."
+                          alt="Insulated Garden Room/Office/Studio"
                           width="55"
                           height="54.52"
                           className="center"
@@ -83,7 +83,7 @@ function Footer() {
                       <div className="icon-box">
                         <img
                           src={Upgrade}
-                          alt="..."
+                          alt="Bathroom renovation"
                           width="55"
                           height="54.52"
                           className="center"
@@ -100,7 +100,7 @@ function Footer() {
             <div className="mb-3 mb-md-3 text-center social-box">
               <a
                 className="button-box  "
-                href="https://www.instagram.com"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -109,7 +109,7 @@ function Footer() {
 
               <a
                 className="button-box "
-                href="https://www.facebook.com/"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -118,7 +118,7 @@ function Footer() {
 
               <a
                 className="button-box "
-                href="https://twitter.com"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -127,7 +127,7 @@ function Footer() {
 
               <a
                 className="button-box "
-                href="https://www.youtube.com"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
               >

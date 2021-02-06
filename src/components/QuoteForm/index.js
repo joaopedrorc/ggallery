@@ -17,7 +17,6 @@ function QuoteForm() {
     message: '',
     files: '',
   });
-
   const [result, setResult] = useState(null);
 
   const handleSubmit = (event) => {
@@ -40,7 +39,7 @@ function QuoteForm() {
       .catch((err) => {
         setResult({
           success: false,
-          message: 'Something went wrong. Try again later 0',
+          message: 'Something went wrong. Try again later',
         });
         console.warn('error during call 0', err);
       });
@@ -114,7 +113,7 @@ function QuoteForm() {
                     <Form.Group controlId="phone">
                       <Form.Label>Phone number:</Form.Label>
                       <Form.Control
-                        required
+                        data-mask="+44 0000 000 000"
                         name="phone"
                         type="text"
                         value={state.phone}
@@ -133,7 +132,8 @@ function QuoteForm() {
                       <Form.Label>Email address:</Form.Label>
                       <Form.Control
                         required
-                        type="text"
+                        aria-describedby="emailHelp"
+                        type="email"
                         name="email"
                         value={state.email}
                         placeholder="Enter your email"
@@ -187,7 +187,6 @@ function QuoteForm() {
                       <Form.Label>Area:</Form.Label>
                       <Form.Control
                         as="select"
-                        required
                         name="area"
                         onChange={onSelectChange}
                         value={state.area}
@@ -232,13 +231,13 @@ function QuoteForm() {
                     <Form.Group controlId="service">
                       <Form.Label>Service:</Form.Label>
                       <Form.Control
-                        as="select"
                         required
+                        as="select"
                         name="service"
                         onChange={onSelectChange}
                         value={state.service}
                       >
-                        <option label="Select a service" value="null"></option>
+                        <option label="Select a service"></option>
                         <option value="Bathroom renovation">
                           Bathroom renovation
                         </option>
@@ -314,17 +313,21 @@ function QuoteForm() {
                     {/* </Form.Group> */}
                   </div>
                 </div>
-
-                {/* </div> */}
                 <Button variant="primary" type="submit">
+                  {/* <span
+                    class="spinner-border spinner-border-sm"
+                    role="status"
+                    aria-hidden="true"
+                  ></span> */}
                   Submit
                 </Button>
               </form>
-              {result && (
-                <p className={`${result.success ? 'success' : 'error'}`}>
-                  {result.message}
-                </p>
-              )}
+              {result &&
+                (result.success ? (
+                  <div className="success-message">{result.message}</div>
+                ) : (
+                  <div className="error-message">{result.message}</div>
+                ))}
             </div>
           </div>
         </div>
