@@ -256,8 +256,13 @@ function Footer() {
               <a href="tel:+44 751 4505765" className="mb-0 text-white">
                 +44 7514 505765
               </a>
-
               <br />
+              <a href="tel:+44 751 4505765" className="mb-0 text-white">
+                +44 7472 371528
+              </a>
+              <br />
+              <br />
+
               <a
                 href="mailto: andre@danansanps.com"
                 className="mb-0 text-white"
