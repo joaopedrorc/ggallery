@@ -17,7 +17,7 @@ function AllServices() {
     <Styles>
       <Container>
         <div className="card-container">
-          <h1 className="text-center">See more services options</h1>
+          <h1 className="text-center">Contrac Services</h1>
 
           <div class="w-100 pb-5 pt-lg-2 pb-lg-5 ">
             <div class="container pt-2 pb-2 pt-lg-2 pb-lg-0">
@@ -25,18 +25,17 @@ function AllServices() {
                 <div class="col-12 col-md-12 col-lg-4 mb-5">
                   <div class="card shadow border-0">
                     <div class="position-relative">
-                      <Link to="/erecting-fence">
+                      <Link to="/contracts">
                         <img
-                          src={Service01}
+                          src={Service04}
                           class="card-img-top"
-                          alt="Erecting fence"
-                          height="430"
+                          alt="Commercial office cleaning"
                         />
                       </Link>
                     </div>
                     <div class="card-body p-0">
-                      <Link to="/erecting-fence" className="btn card-button">
-                        Erecting fence
+                      <Link to="/office-cleaning" className="btn card-button">
+                        Commercial office cleaning{' '}
                       </Link>
                     </div>
                   </div>
@@ -65,38 +64,40 @@ function AllServices() {
                 <div class="col-12 col-md-12 col-lg-4 mb-5">
                   <div class="card shadow border-0">
                     <div class="position-relative">
-                      <Link to="/office-cleaning">
+                      <Link to="/window-cleaning">
                         <img
-                          src={Service03}
+                          src={Service07}
                           class="card-img-top"
-                          alt="Painting and decoration"
+                          alt="Window cleaning"
                         />
                       </Link>
                     </div>
                     <div class="card-body p-0">
-                      <Link
-                        to="/painting-decoration"
-                        className="btn card-button"
-                      >
-                        Painting and decoration{' '}
+                      <Link to="/window-cleaning" className="btn card-button">
+                        Window cleaning{' '}
                       </Link>
                     </div>
                   </div>
                 </div>
+                <div class="col-12 col-md-12 col-lg-12 mb-5">
+                  <h1 className="text-center">See more services options</h1>
+                </div>
+
                 <div class="col-12 col-md-12 col-lg-4 mb-5">
                   <div class="card shadow border-0">
                     <div class="position-relative">
-                      <Link to="/contracts">
+                      <Link to="/erecting-fence">
                         <img
-                          src={Service04}
+                          src={Service01}
                           class="card-img-top"
-                          alt="Commercial office cleaning"
+                          alt="Erecting fence"
+                          height="430"
                         />
                       </Link>
                     </div>
                     <div class="card-body p-0">
-                      <Link to="/office-cleaning" className="btn card-button">
-                        Commercial office cleaning{' '}
+                      <Link to="/erecting-fence" className="btn card-button">
+                        Erecting fence
                       </Link>
                     </div>
                   </div>
@@ -125,17 +126,20 @@ function AllServices() {
                 <div class="col-12 col-md-12 col-lg-4 mb-5">
                   <div class="card shadow border-0">
                     <div class="position-relative">
-                      <Link to="/window-cleaning">
+                      <Link to="/office-cleaning">
                         <img
-                          src={Service07}
+                          src={Service03}
                           class="card-img-top"
-                          alt="Window cleaning"
+                          alt="Painting and decoration"
                         />
                       </Link>
                     </div>
                     <div class="card-body p-0">
-                      <Link to="/window-cleaning" className="btn card-button">
-                        Window cleaning{' '}
+                      <Link
+                        to="/painting-decoration"
+                        className="btn card-button"
+                      >
+                        Painting and decoration{' '}
                       </Link>
                     </div>
                   </div>

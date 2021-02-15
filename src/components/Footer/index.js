@@ -249,14 +249,10 @@ function Footer() {
                 5 Thames Ct, Basingstoke RG21 4DP, <br />
                 United Kingdom.
               </p>
-              <p className="text-white mt-0">Hours: 9:00am as 17:00pm</p>
+              <p className="text-white mt-0">Hours: 9:00am as 5:00pm</p>
               <a href="tel:+44 7414 765278" className="mb-0 text-white">
                 +44 7414 765278 |
               </a>
-              <a href="tel:+44 751 4505765" className="mb-0 text-white">
-                +44 7514 505765
-              </a>
-              <br />
               <a href="tel:+44 751 4505765" className="mb-0 text-white">
                 +44 7472 371528
               </a>
