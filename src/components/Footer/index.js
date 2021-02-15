@@ -260,10 +260,10 @@ function Footer() {
               <br />
 
               <a
-                href="mailto: andre@danansanps.com"
+                href="mailto: contact@danansanps.com"
                 className="mb-0 text-white"
               >
-                andre@danansanps.com
+                contact@danansanps.com
               </a>
             </div>
           </div>
