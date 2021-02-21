@@ -33,10 +33,11 @@ app.post('/send', (req, res) => {
         <li>Serviço: ${req.body.service}</li>
         <li>Tipo de serviço: ${req.body.check}</li>
         <li>Mensagem: ${req.body.message}</li>
-        <li>Arquivos: ${req.body.files}</li>
+        <li>Arquivos: ${req.body.files[0]}</li>
       </ul>
       `,
     };
+    // <li>Arquivos: ${req.body.files[0]}</li>
 
     transporter.sendMail(mailOptions, function (err, info) {
       if (err) {

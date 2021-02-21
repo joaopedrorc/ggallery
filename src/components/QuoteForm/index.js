@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 import { Styles } from './styles';
@@ -15,9 +15,10 @@ function QuoteForm() {
     area: '',
     service: '',
     message: '',
-    files: '',
+    files: [],
   });
   const [result, setResult] = useState(null);
+  const [selectedFiles, setSelectedFiles] = useState('');
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -33,7 +34,7 @@ function QuoteForm() {
           area: '',
           service: '',
           message: '',
-          files: '',
+          files: [],
         });
       })
       .catch((err) => {
@@ -63,20 +64,51 @@ function QuoteForm() {
     });
   };
 
-  // const onFileUpload = (event) => {
-  //   const files = event.target.files;
-  //   const reader = new FileReader();
+  useEffect(() => {
+    const onFileUpload = () => {
+      console.log(selectedFiles);
 
-  //   reader.readAsDataURL(files[0]);
-  //   reader.onload = (event) => {
-  //     const formData = { file: event.target.result };
+      var imageUrl = [];
 
-  //     setState({
-  //       ...state,
-  //       files: formData,
-  //     });
-  //   };
-  // };
+      for (var i = 0; i < selectedFiles.length; i++) {
+        const formData = new FormData();
+
+        console.log(selectedFiles[i]);
+
+        formData.append('file', selectedFiles[i]);
+        formData.append('upload_preset', 'l4ptbrhf');
+
+        axios
+          .post(
+            'https://api.cloudinary.com/v1_1/dtemoigqh/image/upload',
+            formData
+          )
+          .then((res) => {
+            // setSearches([query].concat(searches))
+            // console.log(res);
+            imageUrl.push(res.data.secure_url);
+            console.log('current img', res.data.secure_url);
+            console.log('current url', imageUrl);
+            // setState({
+            //   ...state,
+            //   files: res.data.secure_url,
+            // });
+            // console.log('state', state);
+          })
+          .catch((err) => {
+            console.error(err);
+          });
+      }
+
+      setState({
+        ...state,
+        files: [imageUrl].concat(state.files),
+      });
+      console.log('state', state);
+      console.log('final url', imageUrl);
+    };
+    onFileUpload();
+  }, [selectedFiles]);
 
   return (
     <Styles>
@@ -299,19 +331,22 @@ function QuoteForm() {
                   </div>
 
                   <div class="col-12 col-md-12 col-lg-12 mb-3">
-                    {/* <Form.Group controlId="file">
+                    <Form.Group controlId="file">
                       <Form.Label>Upload your photos!</Form.Label>
                       <Form.Control
+                        multiple
                         className="position-relative"
                         type="file"
                         name="file"
-                        onChange={onFileUpload}
-                      /> */}
-                    {/* <Form.Control.Feedback type="invalid">
+                        onChange={(event) => {
+                          setSelectedFiles(event.target.files);
+                        }}
+                      />
+                      <Form.Control.Feedback type="invalid">
                         Please choose your images.
                       </Form.Control.Feedback>
-                      <Form.Control.Feedback>Looks good!</Form.Control.Feedback> */}
-                    {/* </Form.Group> */}
+                      <Form.Control.Feedback>Looks good!</Form.Control.Feedback>{' '}
+                    </Form.Group>
                   </div>
                 </div>
                 <Button variant="primary" type="submit">
