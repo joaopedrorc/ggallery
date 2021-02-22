@@ -76,11 +76,11 @@ function QuoteForm() {
         console.log(selectedFiles[i]);
 
         formData.append('file', selectedFiles[i]);
-        formData.append('upload_preset', 'l4ptbrhf');
+        formData.append('upload_preset', 'jd5tux3k');
 
         axios
           .post(
-            'https://api.cloudinary.com/v1_1/dtemoigqh/image/upload',
+            'https://api.cloudinary.com/v1_1/danansan-property-services/image/upload',
             formData
           )
           .then((res) => {
