@@ -20,7 +20,7 @@ export default function ServiceDescription() {
       </ContainerBox>
       <Title title="Our eletrical services can include:" />
       <Container>
-        <div class="row mb-4">
+        <div className="row mb-4">
           <div className="list-conteniner">
             <div className="row mb-4">
               <div className="col-12 col-md-4 col-lg-3 mb-3">
@@ -45,7 +45,7 @@ export default function ServiceDescription() {
                   <p> Bathroom and Kitchen Lighting</p>
                 </div>
               </div>
-              <div class="col-12 col-md-4 col-lg-3 mb-3">
+              <div className="col-12 col-md-4 col-lg-3 mb-3">
                 <div className="cities-column">
                   <div className="rounded-bol"></div>
                   <p>Emergency Electrician</p>
@@ -67,7 +67,7 @@ export default function ServiceDescription() {
                   <p> Light Dimmers and Timers</p>
                 </div>
               </div>
-              <div class="col-12 col-md-4 col-lg-3 mb-3">
+              <div className="col-12 col-md-4 col-lg-3 mb-3">
                 <div className="cities-column">
                   <div className="rounded-bol"></div>
                   <p className="">
@@ -87,7 +87,7 @@ export default function ServiceDescription() {
                   <p>Commercial Generators iInstallation</p>
                 </div>
               </div>
-              <div class="col-12 col-md-4 col-lg-3 mb-3">
+              <div className="col-12 col-md-4 col-lg-3 mb-3">
                 <div className="cities-column">
                   <div className="rounded-bol"></div>
                   <p>Lighting Repair</p>

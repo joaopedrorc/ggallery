@@ -66,46 +66,38 @@ function QuoteForm() {
 
   useEffect(() => {
     const onFileUpload = () => {
-      console.log(selectedFiles);
-
       var imageUrl = [];
 
-      for (var i = 0; i < selectedFiles.length; i++) {
-        const formData = new FormData();
+      if (selectedFiles.length <= 5) {
+        for (var i = 0; i < selectedFiles.length; i++) {
+          const formData = new FormData();
 
-        console.log(selectedFiles[i]);
+          formData.append('file', selectedFiles[i]);
+          formData.append('upload_preset', 'jd5tux3k');
 
-        formData.append('file', selectedFiles[i]);
-        formData.append('upload_preset', 'jd5tux3k');
+          axios
+            .post(
+              'https://api.cloudinary.com/v1_1/danansan-property-services/image/upload',
+              formData
+            )
+            .then((res) => {
+              imageUrl.push(res.data.secure_url);
+              imageUrl.push(' - ');
+            })
+            .catch((err) => {
+              console.error(err);
+            });
+        }
 
-        axios
-          .post(
-            'https://api.cloudinary.com/v1_1/danansan-property-services/image/upload',
-            formData
-          )
-          .then((res) => {
-            // setSearches([query].concat(searches))
-            // console.log(res);
-            imageUrl.push(res.data.secure_url);
-            console.log('current img', res.data.secure_url);
-            console.log('current url', imageUrl);
-            // setState({
-            //   ...state,
-            //   files: res.data.secure_url,
-            // });
-            // console.log('state', state);
-          })
-          .catch((err) => {
-            console.error(err);
-          });
+        setState({
+          ...state,
+          files: [imageUrl].concat(state.files),
+        });
+        // console.log('state', state);
+        // console.log('final url', imageUrl);
+      } else {
+        alert('Only 5 images can be uploaded at a time');
       }
-
-      setState({
-        ...state,
-        files: [imageUrl].concat(state.files),
-      });
-      console.log('state', state);
-      console.log('final url', imageUrl);
     };
     onFileUpload();
   }, [selectedFiles]);
@@ -124,7 +116,7 @@ function QuoteForm() {
                 onSubmit={handleSubmit}
               >
                 <div className="row">
-                  <div class="col-12 col-md-12 col-lg-12 mb-3">
+                  <div className="col-12 col-md-12 col-lg-12 mb-3">
                     <Form.Group controlId="name">
                       <Form.Label>Full Name:</Form.Label>
                       <Form.Control
@@ -141,7 +133,7 @@ function QuoteForm() {
                       </Form.Control.Feedback> */}
                     </Form.Group>
                   </div>
-                  <div class="col-12 col-md-12 col-lg-6 mb-3">
+                  <div className="col-12 col-md-12 col-lg-6 mb-3">
                     <Form.Group controlId="phone">
                       <Form.Label>Phone number:</Form.Label>
                       <Form.Control
@@ -159,7 +151,7 @@ function QuoteForm() {
                     </Form.Group>
                   </div>
 
-                  <div class="col-12 col-md-12 col-lg-6 mb-3">
+                  <div className="col-12 col-md-12 col-lg-6 mb-3">
                     <Form.Group controlId="email">
                       <Form.Label>Email address:</Form.Label>
                       <Form.Control
@@ -178,7 +170,7 @@ function QuoteForm() {
                     </Form.Group>
                   </div>
 
-                  <div class="col-12 col-md-12 col-lg-6 mt-3 d-flex flex-column justify-content-end">
+                  <div className="col-12 col-md-12 col-lg-6 mt-3 d-flex flex-column justify-content-end">
                     <div className="d-flex flex-column">
                       <Form.Label>Where is the service?</Form.Label>
 
@@ -214,7 +206,7 @@ function QuoteForm() {
                     </div>
                   </div>
 
-                  <div class="col-12 col-md-12 col-lg-6 mb-3">
+                  <div className="col-12 col-md-12 col-lg-6 mb-3">
                     <Form.Group controlId="area">
                       <Form.Label>Area:</Form.Label>
                       <Form.Control
@@ -258,9 +250,9 @@ function QuoteForm() {
                     </Form.Group>
                   </div>
 
-                  <div class="col-12 col-md-12 col-lg-6 mb-3"></div>
+                  <div className="col-12 col-md-12 col-lg-6 mb-3"></div>
 
-                  <div class="col-12 col-md-12 col-lg-6 mb-3">
+                  <div className="col-12 col-md-12 col-lg-6 mb-3">
                     <Form.Group controlId="service">
                       <Form.Label>Service:</Form.Label>
                       <Form.Control
@@ -308,7 +300,7 @@ function QuoteForm() {
                     </Form.Group>
                   </div>
 
-                  <div class="form-floating col-12 col-md-12 col-lg-12 mb-3">
+                  <div className="form-floating col-12 col-md-12 col-lg-12 mb-3">
                     <Form.Group controlId="textarea">
                       <Form.Label>How can we help you?</Form.Label>
 
@@ -330,7 +322,7 @@ function QuoteForm() {
                     </Form.Group>
                   </div>
 
-                  <div class="col-12 col-md-12 col-lg-12 mb-3">
+                  <div className="col-12 col-md-12 col-lg-12 mb-3">
                     <Form.Group controlId="file">
                       <Form.Label>Upload your photos!</Form.Label>
                       <Form.Control
@@ -351,7 +343,7 @@ function QuoteForm() {
                 </div>
                 <Button variant="primary" type="submit">
                   {/* <span
-                    class="spinner-border spinner-border-sm"
+                    className="spinner-border spinner-border-sm"
                     role="status"
                     aria-hidden="true"
                   ></span> */}

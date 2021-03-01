@@ -56,7 +56,7 @@ export default function GardenMaintenance() {
       </ContainerBox>
       <Title title="Our maintenance can include:" />
       <Container>
-        <div class="row mb-4">
+        <div className="row mb-4">
           <div className="list-conteniner">
             <div className="row mb-4">
               <div className="col-12 col-md-4 col-lg-4 mb-3">
@@ -77,7 +77,7 @@ export default function GardenMaintenance() {
                   </p>
                 </div>
               </div>
-              <div class="col-12 col-md-4 col-lg-4 mb-3">
+              <div className="col-12 col-md-4 col-lg-4 mb-3">
                 <div className="cities-column">
                   <div className="rounded-bol"></div>
                   <p>
@@ -96,7 +96,7 @@ export default function GardenMaintenance() {
                   </p>
                 </div>
               </div>
-              <div class="col-12 col-md-4 col-lg-4 mb-3">
+              <div className="col-12 col-md-4 col-lg-4 mb-3">
                 <div className="cities-column">
                   <div className="rounded-bol"></div>
                   <p>

@@ -25,19 +25,19 @@ function AboutCarousel() {
       <Title title="We are masters at" />
       <div className="app">
         <Carousel breakPoints={breakPoints}>
-          <div class="card shadow border-0">
-            <div class="position-relative">
+          <div className="card shadow border-0">
+            <div className="position-relative">
               <img
                 src={Service0}
-                class="card-img-top"
+                className="card-img-top"
                 alt="Insulated garden room"
               />
             </div>
-            <div class="card-body p-3">
-              <h5 class="card-title mb-3">
+            <div className="card-body p-3">
+              <h5 className="card-title mb-3">
                 Insulated garden room office/studio
               </h5>
-              <p class="card-text">
+              <p className="card-text">
                 Increase your living space with one of our low maintenance,
                 highly insulated garden buildings.
               </p>
@@ -47,17 +47,17 @@ function AboutCarousel() {
             </div>
           </div>
 
-          <div class="card shadow border-0">
-            <div class="position-relative">
+          <div className="card shadow border-0">
+            <div className="position-relative">
               <img
                 src={Service03}
-                class="card-img-top"
+                className="card-img-top"
                 alt="Bathroom renovation"
               />
             </div>
-            <div class="card-body p-3">
-              <h5 class="card-title mb-3">Bathroom renovation</h5>
-              <p class="card-text mb-4">
+            <div className="card-body p-3">
+              <h5 className="card-title mb-3">Bathroom renovation</h5>
+              <p className="card-text mb-4">
                 If you want a gorgeous and functonal bathroom, your bathroom
                 renovation project will require a team of experts.
               </p>
@@ -67,13 +67,17 @@ function AboutCarousel() {
             </div>
           </div>
 
-          <div class="card shadow border-0">
-            <div class="position-relative">
-              <img src={Service01} class="card-img-top" alt="Erecting fence" />
+          <div className="card shadow border-0">
+            <div className="position-relative">
+              <img
+                src={Service01}
+                className="card-img-top"
+                alt="Erecting fence"
+              />
             </div>
-            <div class="card-body p-3">
-              <h5 class="card-title mb-3">Erecting fence</h5>
-              <p class="card-text mb-4">
+            <div className="card-body p-3">
+              <h5 className="card-title mb-3">Erecting fence</h5>
+              <p className="card-text mb-4">
                 The type of fence you choose will not only play a key role in
                 your home’s exterior design, but also provide one of the most
                 important benefits of all homes, security.
@@ -84,17 +88,17 @@ function AboutCarousel() {
             </div>
           </div>
 
-          <div class="card shadow border-0">
-            <div class="position-relative">
+          <div className="card shadow border-0">
+            <div className="position-relative">
               <img
                 src={Service02}
-                class="card-img-top"
+                className="card-img-top"
                 alt="Garden storage shed"
               />
             </div>
-            <div class="card-body p-3">
-              <h5 class="card-title mb-3">Garden storage shed</h5>
-              <p class="card-text mb-4">
+            <div className="card-body p-3">
+              <h5 className="card-title mb-3">Garden storage shed</h5>
+              <p className="card-text mb-4">
                 Whether you want to build a shed to store tools and bikes or a
                 summer house to extend your living space, installation is key to
                 ensuring your building will stand the test of time.

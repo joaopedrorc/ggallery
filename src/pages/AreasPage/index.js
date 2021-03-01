@@ -23,11 +23,11 @@ function AreasPage() {
           contact us to check availability in your area.
         </h2>
 
-        <div class="row mb-4">
-          <div class="col-12 col-md-12 col-lg-6 mb-5">
+        <div className="row mb-4">
+          <div className="col-12 col-md-12 col-lg-6 mb-5">
             <div className="list-conteniner">
-              <div class="row mb-4">
-                <div class="col-6 col-md-6 col-lg-6 mb-3">
+              <div className="row mb-4">
+                <div className="col-6 col-md-6 col-lg-6 mb-3">
                   <div className="cities-column">
                     <div className="rounded-bol"></div>
                     <p>Bramley</p>
@@ -77,7 +77,7 @@ function AreasPage() {
                     <p>Hook</p>
                   </div>
                 </div>
-                <div class="col-6 col-md-6 col-lg-6 mb-3">
+                <div className="col-6 col-md-6 col-lg-6 mb-3">
                   <div className="cities-column">
                     <div className="rounded-bol"></div>
                     <p>Alton</p>
@@ -130,7 +130,7 @@ function AreasPage() {
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-12 col-lg-6 mb-5">
+          <div className="col-12 col-md-12 col-lg-6 mb-5">
             <section>
               <div className="row mb-4">
                 <div className="col-md-12 container-col">

@@ -13,15 +13,15 @@ function About() {
           Quality service, integrity and transparency are <br /> just some of
           the virtues of Danansan.
         </h2>
-        <ul class="fa-ul">
+        <ul className="fa-ul">
           <li className="d-flex justify-content-center align-items-center">
-            <span class="fa-li">
+            <span className="fa-li">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="35"
                 height="35"
                 fill="#2156A2"
-                class="bi bi-check-circle"
+                className="bi bi-check-circle"
                 viewBox="0 0 16 16"
               >
                 <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
@@ -35,13 +35,13 @@ function About() {
           </li>
 
           <li className="d-flex justify-content-center align-items-center">
-            <span class="fa-li">
+            <span className="fa-li">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="35"
                 height="35"
                 fill="#2156A2"
-                class="bi bi-check-circle"
+                className="bi bi-check-circle"
                 viewBox="0 0 16 16"
               >
                 <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
@@ -53,13 +53,13 @@ function About() {
             </div>
           </li>
           <li className="d-flex justify-content-center align-items-center">
-            <span class="fa-li">
+            <span className="fa-li">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="35"
                 height="35"
                 fill="#2156A2"
-                class="bi bi-check-circle"
+                className="bi bi-check-circle"
                 viewBox="0 0 16 16"
               >
                 <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
@@ -71,13 +71,13 @@ function About() {
             </div>
           </li>
           <li className="d-flex justify-content-center align-items-center">
-            <span class="fa-li">
+            <span className="fa-li">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="35"
                 height="35"
                 fill="#2156A2"
-                class="bi bi-check-circle"
+                className="bi bi-check-circle"
                 viewBox="0 0 16 16"
               >
                 <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
@@ -89,13 +89,13 @@ function About() {
             </div>
           </li>
           <li className="d-flex justify-content-center align-items-center">
-            <span class="fa-li">
+            <span className="fa-li">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="35"
                 height="35"
                 fill="#2156A2"
-                class="bi bi-check-circle"
+                className="bi bi-check-circle"
                 viewBox="0 0 16 16"
               >
                 <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />

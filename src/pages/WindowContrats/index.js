@@ -52,7 +52,7 @@ export default function WindowCleaning() {
       </ContainerBox>
       <Title title="Our cleans can include:" />
       <Container>
-        <div class="row mb-4">
+        <div className="row mb-4">
           <div className="list-conteniner">
             <div className="row mb-4">
               <div className="col-12 col-md-4 col-lg-3 mb-3">
@@ -65,7 +65,7 @@ export default function WindowCleaning() {
                   </p>
                 </div>
               </div>
-              <div class="col-12 col-md-4 col-lg-3 mb-3">
+              <div className="col-12 col-md-4 col-lg-3 mb-3">
                 <div className="cities-column">
                   <div className="rounded-bol"></div>
                   <p>
@@ -75,7 +75,7 @@ export default function WindowCleaning() {
                   </p>
                 </div>
               </div>
-              <div class="col-12 col-md-4 col-lg-3 mb-3">
+              <div className="col-12 col-md-4 col-lg-3 mb-3">
                 <div className="cities-column">
                   <div className="rounded-bol"></div>
                   <p>
@@ -85,7 +85,7 @@ export default function WindowCleaning() {
                   </p>
                 </div>
               </div>
-              <div class="col-12 col-md-4 col-lg-3 mb-3">
+              <div className="col-12 col-md-4 col-lg-3 mb-3">
                 <div className="cities-column">
                   <div className="rounded-bol"></div>
                   <p>
@@ -101,7 +101,7 @@ export default function WindowCleaning() {
       </Container>
       <Title title="Window cleaning benefits" />
       <Container>
-        <div class="row mb-4 container-box">
+        <div className="row mb-4 container-box">
           <div className="list-conteniner">
             <div className="row mb-4">
               <div className="col-12 col-md-4 col-lg-4 mb-3">

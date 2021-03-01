@@ -186,7 +186,7 @@ export default function ServiceDescription() {
 
       <Title title="Erecting fence benefits:" />
       <Container>
-        <div class="row mb-4 container-box">
+        <div className="row mb-4 container-box">
           <div className="list-conteniner">
             <div className="row mb-4">
               <div className="col-12 col-md-4 col-lg-4 mb-3">

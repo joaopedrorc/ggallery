@@ -95,7 +95,7 @@ export default function OfficeCleaning() {
       </ContainerBox>
       <Title title="Our cleans can include:" />
       <ContainerBox>
-        <div class="row mb-4">
+        <div className="row mb-4">
           <div className="list-conteniner">
             <div className="row mb-4">
               <div className="col-12 col-md-4 col-lg-4 mb-3">
@@ -116,7 +116,7 @@ export default function OfficeCleaning() {
                   <p>Emptying bins and replace bin bags</p>
                 </div>
               </div>
-              <div class="col-12 col-md-4 col-lg-4 mb-3">
+              <div className="col-12 col-md-4 col-lg-4 mb-3">
                 <div className="cities-column">
                   <div className="rounded-bol"></div>
                   <p>Staff washrooms and WCs</p>
@@ -134,7 +134,7 @@ export default function OfficeCleaning() {
                   <p>Cleaning cafeterias, staff rooms and kitchens</p>
                 </div>
               </div>
-              <div class="col-12 col-md-4 col-lg-4 mb-3">
+              <div className="col-12 col-md-4 col-lg-4 mb-3">
                 <div className="cities-column">
                   <div className="rounded-bol"></div>
                   <p className="">Dusting/polishing surfaces</p>
@@ -158,7 +158,7 @@ export default function OfficeCleaning() {
       </ContainerBox>
       <Title title="Commercial office cleaning benefits" />
       <Container>
-        <div class="row mb-4 container-box">
+        <div className="row mb-4 container-box">
           <div className="list-conteniner">
             <div className="row mb-4">
               <div className="col-12 col-md-4 col-lg-4 mb-3">

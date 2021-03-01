@@ -10,10 +10,10 @@ function BackgroundBanner() {
       <div className="background-banner mb-5">
         <div className="overlay"></div>
         <div className="banner-content">
-          <h1 class="text-center">
+          <h1 className="text-center">
             <strong>Facilities and Property Services</strong>
           </h1>
-          <p class="text-center">
+          <p className="text-center">
             We offer highly qualified and trained professionals to solve any
             problem <br /> in several different sectors
           </p>

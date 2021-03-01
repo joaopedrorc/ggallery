@@ -26,15 +26,15 @@ function ContractPages() {
           understanding of the business relationship and scope of the work so
           that no one can claim any misunderstandings later down the road.
         </h2>
-        <ul class="fa-ul">
+        <ul className="fa-ul">
           <li className="d-flex justify-content-center align-items-center">
-            <span class="fa-li">
+            <span className="fa-li">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="55"
                 height="55"
                 fill="#2156A2"
-                class="bi bi-shield-fill-check"
+                className="bi bi-shield-fill-check"
                 viewBox="0 0 16 16"
               >
                 <path
@@ -50,13 +50,13 @@ function ContractPages() {
           </li>
 
           <li className="d-flex justify-content-center align-items-center">
-            <span class="fa-li">
+            <span className="fa-li">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="55"
                 height="55"
                 fill="#2156A2"
-                class="bi bi-shield-fill-check"
+                className="bi bi-shield-fill-check"
                 viewBox="0 0 16 16"
               >
                 <path
@@ -70,13 +70,13 @@ function ContractPages() {
             </div>
           </li>
           <li className="d-flex justify-content-center align-items-center">
-            <span class="fa-li">
+            <span className="fa-li">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="55"
                 height="55"
                 fill="#2156A2"
-                class="bi bi-shield-fill-check"
+                className="bi bi-shield-fill-check"
                 viewBox="0 0 16 16"
               >
                 <path
@@ -91,13 +91,13 @@ function ContractPages() {
             </div>
           </li>
           <li className="d-flex justify-content-center align-items-center">
-            <span class="fa-li">
+            <span className="fa-li">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="55"
                 height="55"
                 fill="#2156A2"
-                class="bi bi-shield-fill-check"
+                className="bi bi-shield-fill-check"
                 viewBox="0 0 16 16"
               >
                 <path
@@ -111,13 +111,13 @@ function ContractPages() {
             </div>
           </li>
           <li className="d-flex justify-content-center align-items-center">
-            <span class="fa-li">
+            <span className="fa-li">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="55"
                 height="55"
                 fill="#2156A2"
-                class="bi bi-shield-fill-check"
+                className="bi bi-shield-fill-check"
                 viewBox="0 0 16 16"
               >
                 <path

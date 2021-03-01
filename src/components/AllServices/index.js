@@ -19,39 +19,39 @@ function AllServices() {
         <div className="card-container">
           <h1 className="text-center">Contrac Services</h1>
 
-          <div class="w-100 pb-5 pt-lg-2 pb-lg-5 ">
-            <div class="container pt-2 pb-2 pt-lg-2 pb-lg-0">
-              <div class="row mb-4">
-                <div class="col-12 col-md-12 col-lg-4 mb-5">
-                  <div class="card shadow border-0">
-                    <div class="position-relative">
+          <div className="w-100 pb-5 pt-lg-2 pb-lg-5 ">
+            <div className="container pt-2 pb-2 pt-lg-2 pb-lg-0">
+              <div className="row mb-4">
+                <div className="col-12 col-md-12 col-lg-4 mb-5">
+                  <div className="card shadow border-0">
+                    <div className="position-relative">
                       <Link to="/contracts">
                         <img
                           src={Service04}
-                          class="card-img-top"
+                          className="card-img-top"
                           alt="Commercial office cleaning"
                         />
                       </Link>
                     </div>
-                    <div class="card-body p-0">
+                    <div className="card-body p-0">
                       <Link to="/office-cleaning" className="btn card-button">
                         Commercial office cleaning{' '}
                       </Link>
                     </div>
                   </div>
                 </div>
-                <div class="col-12 col-md-12 col-lg-4 mb-5">
-                  <div class="card shadow border-0">
-                    <div class="position-relative">
+                <div className="col-12 col-md-12 col-lg-4 mb-5">
+                  <div className="card shadow border-0">
+                    <div className="position-relative">
                       <Link to="/garden-maintenance">
                         <img
                           src={Service02}
-                          class="card-img-top"
+                          className="card-img-top"
                           alt="Garden maintenance"
                         />
                       </Link>
                     </div>
-                    <div class="card-body p-0">
+                    <div className="card-body p-0">
                       <Link
                         to="/garden-maintenance"
                         className="btn card-button"
@@ -61,59 +61,59 @@ function AllServices() {
                     </div>
                   </div>
                 </div>
-                <div class="col-12 col-md-12 col-lg-4 mb-5">
-                  <div class="card shadow border-0">
-                    <div class="position-relative">
+                <div className="col-12 col-md-12 col-lg-4 mb-5">
+                  <div className="card shadow border-0">
+                    <div className="position-relative">
                       <Link to="/window-cleaning">
                         <img
                           src={Service07}
-                          class="card-img-top"
+                          className="card-img-top"
                           alt="Window cleaning"
                         />
                       </Link>
                     </div>
-                    <div class="card-body p-0">
+                    <div className="card-body p-0">
                       <Link to="/window-cleaning" className="btn card-button">
                         Window cleaning{' '}
                       </Link>
                     </div>
                   </div>
                 </div>
-                <div class="col-12 col-md-12 col-lg-12 mb-5">
+                <div className="col-12 col-md-12 col-lg-12 mb-5">
                   <h1 className="text-center">See more services options</h1>
                 </div>
 
-                <div class="col-12 col-md-12 col-lg-4 mb-5">
-                  <div class="card shadow border-0">
-                    <div class="position-relative">
+                <div className="col-12 col-md-12 col-lg-4 mb-5">
+                  <div className="card shadow border-0">
+                    <div className="position-relative">
                       <Link to="/erecting-fence">
                         <img
                           src={Service01}
-                          class="card-img-top"
+                          className="card-img-top"
                           alt="Erecting fence"
                           height="430"
                         />
                       </Link>
                     </div>
-                    <div class="card-body p-0">
+                    <div className="card-body p-0">
                       <Link to="/erecting-fence" className="btn card-button">
                         Erecting fence
                       </Link>
                     </div>
                   </div>
                 </div>
-                <div class="col-12 col-md-12 col-lg-4 mb-5">
-                  <div class="card shadow border-0">
-                    <div class="position-relative">
+                <div className="col-12 col-md-12 col-lg-4 mb-5">
+                  <div className="card shadow border-0">
+                    <div className="position-relative">
                       <Link to="/flooring-tiles-instalation">
                         <img
                           src={Service06}
-                          class="card-img-top"
+                          className="card-img-top"
                           alt="Flooring and tiles Installation"
                         />
                       </Link>
                     </div>
-                    <div class="card-body p-0">
+                    <div className="card-body p-0">
                       <Link
                         to="/flooring-tiles-instalation"
                         className="btn card-button"
@@ -123,18 +123,18 @@ function AllServices() {
                     </div>
                   </div>
                 </div>
-                <div class="col-12 col-md-12 col-lg-4 mb-5">
-                  <div class="card shadow border-0">
-                    <div class="position-relative">
+                <div className="col-12 col-md-12 col-lg-4 mb-5">
+                  <div className="card shadow border-0">
+                    <div className="position-relative">
                       <Link to="/office-cleaning">
                         <img
                           src={Service03}
-                          class="card-img-top"
+                          className="card-img-top"
                           alt="Painting and decoration"
                         />
                       </Link>
                     </div>
-                    <div class="card-body p-0">
+                    <div className="card-body p-0">
                       <Link
                         to="/painting-decoration"
                         className="btn card-button"
@@ -144,37 +144,37 @@ function AllServices() {
                     </div>
                   </div>
                 </div>
-                <div class="col-12 col-md-12 col-lg-6 mb-5">
-                  <div class="card shadow border-0">
-                    <div class="position-relative">
+                <div className="col-12 col-md-12 col-lg-6 mb-5">
+                  <div className="card shadow border-0">
+                    <div className="position-relative">
                       <Link to="/eletical-services">
                         <img
                           src={Service08}
-                          class="card-img-top"
+                          className="card-img-top"
                           alt="Eletrical services"
                         />
                       </Link>
                     </div>
-                    <div class="card-body p-0">
+                    <div className="card-body p-0">
                       <Link to="/eletical-services" className="btn card-button">
                         Eletrical services{' '}
                       </Link>
                     </div>
                   </div>
                 </div>
-                <div class="col-12 col-md-12 col-lg-6 mb-5">
-                  <div class="card shadow border-0">
-                    <div class="position-relative">
+                <div className="col-12 col-md-12 col-lg-6 mb-5">
+                  <div className="card shadow border-0">
+                    <div className="position-relative">
                       <Link to="/heating-plumbing">
                         <img
                           src={Service10}
                           height="303.58"
-                          class="card-img-top"
+                          className="card-img-top"
                           alt="Heating and plumbing"
                         />
                       </Link>
                     </div>
-                    <div class="card-body p-0">
+                    <div className="card-body p-0">
                       <Link to="/heating-plumbing" className="btn card-button">
                         Heating and plumbing
                       </Link>

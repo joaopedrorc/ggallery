@@ -26,14 +26,14 @@ app.post('/send', (req, res) => {
       <p>You have a new contact request.</p>
       <h3>Contact Details</h3>
       <ul>
-        <li>Nome: ${req.body.name}</li>
-        <li>Telefone: ${req.body.phone}</li>
+        <li>Client name: ${req.body.name}</li>
+        <li>Phone number: ${req.body.phone}</li>
         <li>Email: ${req.body.email}</li>
-        <li>Área: ${req.body.area}</li>
-        <li>Serviço: ${req.body.service}</li>
-        <li>Tipo de serviço: ${req.body.check}</li>
-        <li>Mensagem: ${req.body.message}</li>
-        <li>Arquivos: ${req.body.files[0]}</li>
+        <li>Service area: ${req.body.area}</li>
+        <li>Service: ${req.body.service}</li>
+        <li>Service Type: ${req.body.check}</li>
+        <li>Details Message: ${req.body.message}</li>
+        <li>Client images: ${req.body.files[0]}</li>
       </ul>
       `,
     };

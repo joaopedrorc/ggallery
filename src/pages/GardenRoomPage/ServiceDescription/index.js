@@ -32,20 +32,22 @@ export default function ServiceDescription() {
       </ContainerBox>
       <Title title="How would you use yours?" />
       <Container>
-        <div class="w-100 pb-5 pt-lg-2 pb-lg-5 ">
-          <div class="container pt-2 pb-2 pt-lg-2 pb-lg-0">
-            <div class="row mb-4">
-              <div class="col-12 col-md-12 col-lg-4 mb-5">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title text-center p-0 pb-0">She Shed</h5>
+        <div className="w-100 pb-5 pt-lg-2 pb-lg-5 ">
+          <div className="container pt-2 pb-2 pt-lg-2 pb-lg-0">
+            <div className="row mb-4">
+              <div className="col-12 col-md-12 col-lg-4 mb-5">
+                <div className="card">
+                  <div className="card-body">
+                    <h5 className="card-title text-center p-0 pb-0">
+                      She Shed
+                    </h5>
                   </div>
                   <img
                     src={Image0}
-                    class="card-img-top"
+                    className="card-img-top"
                     alt="Garden maintenance"
                   />
-                  <div class="card-footer text-muted">
+                  <div className="card-footer text-muted">
                     A quiet place for mum enjoy a minutes of calm <br />
                     <p className="credit">
                       Photo credit:{' '}
@@ -57,19 +59,19 @@ export default function ServiceDescription() {
                 </div>
               </div>
 
-              <div class="col-12 col-md-4 col-lg-4 mb-3">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title text-center p-0 pb-0">
+              <div className="col-12 col-md-4 col-lg-4 mb-3">
+                <div className="card">
+                  <div className="card-body">
+                    <h5 className="card-title text-center p-0 pb-0">
                       Quiet Retreat
                     </h5>
                   </div>
                   <img
                     src={Image01}
-                    class="card-img-top"
+                    className="card-img-top"
                     alt="Garden maintenance"
                   />
-                  <div class="card-footer text-muted">
+                  <div className="card-footer text-muted">
                     A peaceful place to relax and enjoy a quiet moment
                     <p className="credit">
                       Photo credit:{' '}
@@ -80,49 +82,53 @@ export default function ServiceDescription() {
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-md-4 col-lg-4 mb-3">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title text-center p-0 pb-0">Home Office</h5>
+              <div className="col-12 col-md-4 col-lg-4 mb-3">
+                <div className="card">
+                  <div className="card-body">
+                    <h5 className="card-title text-center p-0 pb-0">
+                      Home Office
+                    </h5>
                   </div>
                   <img
                     src={Image02}
-                    class="card-img-top"
+                    className="card-img-top"
                     alt="Garden maintenance"
                   />
-                  <div class="card-footer text-muted">
+                  <div className="card-footer text-muted">
                     Be close to home, family and productive. Be safe{' '}
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-md-4 col-lg-4 mb-3">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title text-center p-0 pb-0">Gymnasium</h5>
+              <div className="col-12 col-md-4 col-lg-4 mb-3">
+                <div className="card">
+                  <div className="card-body">
+                    <h5 className="card-title text-center p-0 pb-0">
+                      Gymnasium
+                    </h5>
                   </div>
                   <img
                     src={Image03}
-                    class="card-img-top"
+                    className="card-img-top"
                     alt="Garden maintenance"
                   />
-                  <div class="card-footer text-muted">
+                  <div className="card-footer text-muted">
                     Bring your workout to the privacy of your home
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-md-4 col-lg-4 mb-3">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title text-center p-0 pb-0">
+              <div className="col-12 col-md-4 col-lg-4 mb-3">
+                <div className="card">
+                  <div className="card-body">
+                    <h5 className="card-title text-center p-0 pb-0">
                       Garden Studio
                     </h5>
                   </div>
                   <img
                     src={Image04}
-                    class="card-img-top"
+                    className="card-img-top"
                     alt="Garden maintenance"
                   />
-                  <div class="card-footer text-muted">
+                  <div className="card-footer text-muted">
                     A garden room to be used as a studio, bussines meetings or a
                     beauty parlour
                     <p className="credit">
@@ -134,50 +140,54 @@ export default function ServiceDescription() {
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-md-4 col-lg-4 mb-3">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title text-center p-0 pb-0">Man Cave</h5>
+              <div className="col-12 col-md-4 col-lg-4 mb-3">
+                <div className="card">
+                  <div className="card-body">
+                    <h5 className="card-title text-center p-0 pb-0">
+                      Man Cave
+                    </h5>
                   </div>
                   <img
                     src={Image05}
-                    class="card-img-top"
+                    className="card-img-top"
                     alt="Garden maintenance"
                   />
-                  <div class="card-footer text-muted">
+                  <div className="card-footer text-muted">
                     A tool shed with an internal partition for store everything
                     you need
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-md-4 col-lg-4 mb-3">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title text-center p-0 pb-0">Party Room</h5>
+              <div className="col-12 col-md-4 col-lg-4 mb-3">
+                <div className="card">
+                  <div className="card-body">
+                    <h5 className="card-title text-center p-0 pb-0">
+                      Party Room
+                    </h5>
                   </div>
                   <img
                     src={Image06}
-                    class="card-img-top"
+                    className="card-img-top"
                     alt="Garden maintenance"
                   />
-                  <div class="card-footer text-muted">
+                  <div className="card-footer text-muted">
                     A outdoor place to chill
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-md-4 col-lg-4 mb-3">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title text-center p-0 pb-0">
+              <div className="col-12 col-md-4 col-lg-4 mb-3">
+                <div className="card">
+                  <div className="card-body">
+                    <h5 className="card-title text-center p-0 pb-0">
                       Extra Single or Double Room
                     </h5>
                   </div>
                   <img
                     src={Image09}
-                    class="card-img-top"
+                    className="card-img-top"
                     alt="Extra Single or Double Room"
                   />
-                  <div class="card-footer text-muted">
+                  <div className="card-footer text-muted">
                     Did you ever wanted that extra room but without renovation
                     headaches ?
                     <p className="credit">
@@ -189,19 +199,19 @@ export default function ServiceDescription() {
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-md-4 col-lg-4 mb-3">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title text-center p-0 pb-0">
+              <div className="col-12 col-md-4 col-lg-4 mb-3">
+                <div className="card">
+                  <div className="card-body">
+                    <h5 className="card-title text-center p-0 pb-0">
                       Hot Tub Zone
                     </h5>
                   </div>
                   <img
                     src={Image08}
-                    class="card-img-top"
+                    className="card-img-top"
                     alt="Garden maintenance"
                   />
-                  <div class="card-footer text-muted">
+                  <div className="card-footer text-muted">
                     Is there a better way to relax ?
                   </div>
                 </div>

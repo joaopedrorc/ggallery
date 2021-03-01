@@ -20,7 +20,7 @@ export default function ServiceDescription() {
       </ContainerBox>
       <Title title="Our plumbing services can include:" />
       <Container>
-        <div class="row mb-4">
+        <div className="row mb-4">
           <div className="list-conteniner">
             <div className="row mb-4">
               <div className="col-12 col-md-4 col-lg-4 mb-3">
@@ -51,7 +51,7 @@ export default function ServiceDescription() {
                   <p>24/7 Repair</p>
                 </div> */}
               </div>
-              <div class="col-12 col-md-4 col-lg-4 mb-3">
+              <div className="col-12 col-md-4 col-lg-4 mb-3">
                 {/* <div className="cities-column">
                   <div className="rounded-bol"></div>
                 </div> */}
@@ -67,7 +67,7 @@ export default function ServiceDescription() {
                   </p>
                 </div>
               </div>
-              <div class="col-12 col-md-4 col-lg-4 mb-3">
+              <div className="col-12 col-md-4 col-lg-4 mb-3">
                 <div className="cities-column">
                   <div className="rounded-bol"></div>
                   <p>
@@ -89,7 +89,7 @@ export default function ServiceDescription() {
       </div>
 
       <Container>
-        <div class="row mb-4 ">
+        <div className="row mb-4 ">
           <div className="list-conteniner">
             <div className="row mb-4">
               <div className="col-12 col-md-4 col-lg-4 mb-3">
@@ -125,7 +125,7 @@ export default function ServiceDescription() {
 
       <Title title="Heating Solutions" />
       <Container>
-        <div class="row mb-4 container-box">
+        <div className="row mb-4 container-box">
           <div className="list-conteniner">
             <div className="row mb-4">
               <div className="col-12 col-md-4 col-lg-4 mb-3">

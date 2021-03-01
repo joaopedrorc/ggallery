@@ -23,16 +23,16 @@ function AboutCarousel() {
       <Title title="Contract needed services" />
       <div className="carousel-container">
         <Carousel width="700" breakPoints={breakPoints}>
-          <div class="card shadow border-0 mb-4">
-            <div class="position-relative">
+          <div className="card shadow border-0 mb-4">
+            <div className="position-relative">
               <img
                 src={Service02}
-                class="card-img-top"
+                className="card-img-top"
                 alt="Garden maintenance"
               />
             </div>
-            <div class="card-body p-3">
-              <h5 class="card-title mb-3">Garden maintenance</h5>
+            <div className="card-body p-3">
+              <h5 className="card-title mb-3">Garden maintenance</h5>
 
               <Button className="card-button" variant="primary" type="submit">
                 Learn more
@@ -40,28 +40,32 @@ function AboutCarousel() {
             </div>
           </div>
 
-          <div class="card shadow border-0 mb-4">
-            <div class="position-relative">
+          <div className="card shadow border-0 mb-4">
+            <div className="position-relative">
               <img
                 src={Service04}
-                class="card-img-top"
+                className="card-img-top"
                 alt="Commercial office cleaning"
               />
             </div>
-            <div class="card-body p-3">
-              <h5 class="card-title mb-3">Commercial office cleaning</h5>
+            <div className="card-body p-3">
+              <h5 className="card-title mb-3">Commercial office cleaning</h5>
               <Button className="card-button" variant="primary" type="submit">
                 Learn more
               </Button>
             </div>
           </div>
 
-          <div class="card shadow border-0 mb-4">
-            <div class="position-relative">
-              <img src={Service07} class="card-img-top" alt="Window cleaning" />
+          <div className="card shadow border-0 mb-4">
+            <div className="position-relative">
+              <img
+                src={Service07}
+                className="card-img-top"
+                alt="Window cleaning"
+              />
             </div>
-            <div class="card-body p-3">
-              <h5 class="card-title mb-3">Window cleaning</h5>
+            <div className="card-body p-3">
+              <h5 className="card-title mb-3">Window cleaning</h5>
               <Button className="card-button" variant="primary" type="submit">
                 Learn more
               </Button>

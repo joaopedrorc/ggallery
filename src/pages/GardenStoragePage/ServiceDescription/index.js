@@ -92,7 +92,7 @@ export default function ServiceDescription() {
       </ContainerBox>
       <Title title="Our garden storage shed installation can service include:" />
       <Container>
-        <div class="row mb-4">
+        <div className="row mb-4">
           <div className="list-conteniner">
             <div className="row mb-4">
               <div className="col-12 col-md-4 col-lg-4 mb-3">
@@ -109,7 +109,7 @@ export default function ServiceDescription() {
                   <p>Aftercare support information</p>
                 </div>
               </div>
-              <div class="col-12 col-md-4 col-lg-4 mb-3">
+              <div className="col-12 col-md-4 col-lg-4 mb-3">
                 <div className="cities-column">
                   <div className="rounded-bol"></div>
 
@@ -126,7 +126,7 @@ export default function ServiceDescription() {
                   </p>
                 </div>
               </div>
-              <div class="col-12 col-md-4 col-lg-4 mb-3">
+              <div className="col-12 col-md-4 col-lg-4 mb-3">
                 <div className="cities-column">
                   <div className="rounded-bol"></div>
                   <p>What to expect on the day of installation</p>
@@ -145,7 +145,7 @@ export default function ServiceDescription() {
       </Container>
       <Title title="Garden storage shed benefits:" />
       <Container>
-        <div class="row mb-4 container-box">
+        <div className="row mb-4 container-box">
           <div className="list-conteniner">
             <div className="row mb-4">
               <div className="col-12 col-md-4 col-lg-4 mb-3">

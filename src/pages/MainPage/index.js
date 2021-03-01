@@ -254,7 +254,7 @@ function MainPage() {
           <div className="col-md-12 container-col">
             <div
               id="map-container-google-1"
-              class="z-depth-1-half map-container mb-4"
+              className="z-depth-1-half map-container mb-4"
               style={{ height: '500px', width: isMobile ? '80%' : '100%' }}
             >
               <iframe
