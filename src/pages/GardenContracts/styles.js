@@ -56,6 +56,8 @@ export const Styles = styled.div`
     justify-content: center;
     text-align: center;
 
+    width: 70%;
+    height: 600px;
     /* margin-bottom: 1rem; */
 
     @media (min-width: 950px) {

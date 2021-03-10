@@ -10,151 +10,42 @@ import Title from '../../../components/Title';
 import AllServices from '../../../components/AllServices';
 import UpperFooter from '../../../components/UpperFooter';
 
-import Bath0 from '../../../assets/gallery/gallery-one/bath01.webp';
-import Bath01 from '../../../assets/gallery/gallery-one/bath01.webp';
-import Bath02 from '../../../assets/gallery/gallery-one/bath02.webp';
-import Bath03 from '../../../assets/gallery/gallery-one/bath03.webp';
-import Bath04 from '../../../assets/gallery/gallery-one/bath04.webp';
-import Bath05 from '../../../assets/gallery/gallery-one/bath05.webp';
-import Bath06 from '../../../assets/gallery/gallery-one/bath06.webp';
-import Bath07 from '../../../assets/gallery/gallery-one/bath07.webp';
-import Bath08 from '../../../assets/gallery/gallery-one/bath08.webp';
-import Bath09 from '../../../assets/gallery/gallery-one/bath09.webp';
-import Bath10 from '../../../assets/gallery/gallery-one/bath10.webp';
-import Bath11 from '../../../assets/gallery/gallery-one/bath11.webp';
-import Bath12 from '../../../assets/gallery/gallery-one/bath12.jpeg';
-import Bath13 from '../../../assets/gallery/gallery-one/bath13.jpeg';
-import Bath14 from '../../../assets/gallery/gallery-one/bath14.jpeg';
-import Bath15 from '../../../assets/gallery/gallery-one/bath15.jpeg';
-import Bath16 from '../../../assets/gallery/gallery-one/bath16.jpeg';
-import Bath17 from '../../../assets/gallery/gallery-one/bath17.jpeg';
-import Bath18 from '../../../assets/gallery/gallery-one/bath18.jpeg';
-import Bath19 from '../../../assets/gallery/gallery-one/bath19.jpeg';
-import Bath20 from '../../../assets/gallery/gallery-one/bath20.jpeg';
-import Bath21 from '../../../assets/gallery/gallery-one/bath21.jpeg';
-import Bath22 from '../../../assets/gallery/gallery-one/bath22.jpeg';
-import Bath23 from '../../../assets/gallery/gallery-one/bath23.webp';
-import Bath24 from '../../../assets/gallery/gallery-one/bath24.webp';
-import Bath25 from '../../../assets/gallery/gallery-one/bath25.webp';
-import Bath26 from '../../../assets/gallery/gallery-one/bath26.webp';
-import Bath27 from '../../../assets/gallery/gallery-one/bath27.webp';
-
 const images = [
   {
-    original: Bath24,
-    thumbnail: Bath24,
+    original:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345690/Website%20Images/servicesGallery/bathroomServices/bathroomService0_zd8r8u.jpg',
+    thumbnail:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345690/Website%20Images/servicesGallery/bathroomServices/bathroomService0_zd8r8u.jpg',
   },
   {
-    original: Bath23,
-    thumbnail: Bath23,
+    original:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345685/Website%20Images/servicesGallery/bathroomServices/bathroomService03_sfjucu.jpg',
+    thumbnail:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345685/Website%20Images/servicesGallery/bathroomServices/bathroomService03_sfjucu.jpg',
   },
   {
-    original: Bath25,
-    thumbnail: Bath25,
+    original:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345689/Website%20Images/servicesGallery/bathroomServices/bathroomService05_pkbsdx.jpg',
+    thumbnail:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345689/Website%20Images/servicesGallery/bathroomServices/bathroomService05_pkbsdx.jpg',
   },
   {
-    original: Bath26,
-    thumbnail: Bath26,
+    original:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345682/Website%20Images/servicesGallery/bathroomServices/bathroomService01_cfx94j.jpg',
+    thumbnail:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345682/Website%20Images/servicesGallery/bathroomServices/bathroomService01_cfx94j.jpg',
   },
   {
-    original: Bath27,
-    thumbnail: Bath27,
+    original:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345684/Website%20Images/servicesGallery/bathroomServices/bathroomService02_muyzj7.jpg',
+    thumbnail:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345684/Website%20Images/servicesGallery/bathroomServices/bathroomService02_muyzj7.jpg',
   },
   {
-    original: Bath01,
-    thumbnail: Bath01,
-  },
-  {
-    original: Bath02,
-    thumbnail: Bath02,
-  },
-  {
-    original: Bath03,
-    thumbnail: Bath03,
-  },
-  {
-    original: Bath04,
-    thumbnail: Bath04,
-  },
-  {
-    original: Bath05,
-    thumbnail: Bath05,
-  },
-  {
-    original: Bath0,
-    thumbnail: Bath0,
-  },
-  {
-    original: Bath06,
-    thumbnail: Bath06,
-  },
-  {
-    original: Bath07,
-    thumbnail: Bath07,
-  },
-  {
-    original: Bath08,
-    thumbnail: Bath08,
-  },
-  {
-    original: Bath09,
-    thumbnail: Bath09,
-  },
-  {
-    original: Bath10,
-    thumbnail: Bath10,
-  },
-  {
-    original: Bath11,
-    thumbnail: Bath11,
-  },
-  {
-    original: Bath12,
-    thumbnail: Bath12,
-  },
-  {
-    original: Bath13,
-    thumbnail: Bath13,
-  },
-  {
-    original: Bath14,
-    thumbnail: Bath15,
-  },
-  {
-    original: Bath16,
-    thumbnail: Bath16,
-  },
-  {
-    original: Bath17,
-    thumbnail: Bath17,
-  },
-  {
-    original: Bath17,
-    thumbnail: Bath17,
-  },
-  {
-    original: Bath01,
-    thumbnail: Bath01,
-  },
-  {
-    original: Bath18,
-    thumbnail: Bath18,
-  },
-  {
-    original: Bath19,
-    thumbnail: Bath19,
-  },
-  {
-    original: Bath20,
-    thumbnail: Bath20,
-  },
-  {
-    original: Bath21,
-    thumbnail: Bath21,
-  },
-  {
-    original: Bath22,
-    thumbnail: Bath22,
+    original:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345689/Website%20Images/servicesGallery/bathroomServices/bathroomService04_zy3akt.jpg',
+    thumbnail:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345689/Website%20Images/servicesGallery/bathroomServices/bathroomService04_zy3akt.jpg',
   },
 ];
 
@@ -307,7 +198,7 @@ export default function ServiceDescription() {
         </div>
       </Container>
       <div className="gallery-container">
-        <Title title="Our gallery:" />
+        <Title title="Gallery:" />
         <ImageGallery items={images} />
       </div>
       <ContainerBox>

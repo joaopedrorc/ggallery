@@ -10,26 +10,17 @@ import { Container } from 'react-bootstrap';
 import Title from '../../components/Title';
 
 import Image0 from '../../assets/contractPage/officeCleaning/img0.jpg';
-
-import Image4 from '../../assets/contractPage/officeCleaning/img4.jpg';
 import Image5 from '../../assets/contractPage/officeCleaning/img5.jpg';
 import Image6 from '../../assets/contractPage/officeCleaning/img6.jpg';
 import Image7 from '../../assets/contractPage/officeCleaning/img7.jpg';
 import Image8 from '../../assets/contractPage/officeCleaning/img8.jpg';
-import Image9 from '../../assets/contractPage/officeCleaning/img9.jpg';
-import Image11 from '../../assets/contractPage/officeCleaning/img11.jpg';
 import Image14 from '../../assets/contractPage/officeCleaning/img14.jpg';
 import Image15 from '../../assets/contractPage/officeCleaning/img15.jpg';
-import Image16 from '../../assets/contractPage/officeCleaning/img16.jpg';
 
 const images = [
   {
     original: Image0,
     thumbnail: Image0,
-  },
-  {
-    original: Image4,
-    thumbnail: Image4,
   },
   {
     original: Image5,
@@ -48,24 +39,12 @@ const images = [
     thumbnail: Image8,
   },
   {
-    original: Image9,
-    thumbnail: Image9,
-  },
-  {
-    original: Image11,
-    thumbnail: Image11,
-  },
-  {
     original: Image14,
     thumbnail: Image14,
   },
   {
     original: Image15,
     thumbnail: Image15,
-  },
-  {
-    original: Image16,
-    thumbnail: Image16,
   },
 ];
 

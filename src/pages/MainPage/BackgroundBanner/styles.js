@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import mainPageBanner from '../../../assets/banners/mainPageBanner.jpg';
+// import mainPageBanner from '../../../assets/banners/mainPageBanner.jpg';
 
 export const Styles = styled.div`
   p {
@@ -9,7 +9,7 @@ export const Styles = styled.div`
   }
 
   .background-banner {
-    background-image: url(${mainPageBanner});
+    background-image: url('https://res.cloudinary.com/danansan-property-services/image/upload/v1615345147/Website%20Images/pexels-aleksey-3680959_onpt0r.jpg');
     height: 500px;
     background-size: cover;
     position: relative;

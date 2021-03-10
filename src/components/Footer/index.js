@@ -98,41 +98,41 @@ function Footer() {
           </div>
           <div className="col col-md-12 col-lg-6 align-self-center">
             <div className="mb-3 mb-md-3 text-center social-box">
-              <a
+              {/* <a
                 className="button-box  "
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
-              >
-                <Instagram color="#000" width="50" height="50" />
-              </a>
+              > */}
+              <Instagram color="#000" width="50" height="50" />
+              {/* </a> */}
 
-              <a
+              {/* <a
                 className="button-box "
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
-              >
-                <Facebook color="#000" width="50" height="50" />
-              </a>
+              > */}
+              <Facebook color="#000" width="50" height="50" />
+              {/* </a> */}
 
-              <a
+              {/* <a
                 className="button-box "
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
-              >
-                <Twitter color="#000" width="50" height="50" />
-              </a>
+              > */}
+              <Twitter color="#000" width="50" height="50" />
+              {/* </a> */}
 
-              <a
+              {/* <a
                 className="button-box "
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
-              >
-                <Youtube color="#000" width="50" height="50" />
-              </a>
+              > */}
+              <Youtube color="#000" width="50" height="50" />
+              {/* </a> */}
             </div>
           </div>
         </div>

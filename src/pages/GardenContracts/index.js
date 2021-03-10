@@ -9,37 +9,24 @@ import { Container } from 'react-bootstrap';
 import Title from '../../components/Title';
 import AllServices from '../../components/AllServices';
 
-import Image0 from '../../assets/contractServices/garden/garden0.jpg';
-import Image02 from '../../assets/contractServices/garden/garden02.jpg';
-import Image03 from '../../assets/contractServices/garden/garden03.jpg';
-import Image04 from '../../assets/contractServices/garden/garden04.jpg';
-import Image06 from '../../assets/contractServices/garden/garden06.jpg';
-import Image07 from '../../assets/contractServices/garden/garden07.jpg';
-
 const images = [
   {
-    original: Image0,
-    thumbnail: Image0,
+    original:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345677/Website%20Images/servicesGallery/gardenServices/gardenService05_yidakr.jpg',
+    thumbnail:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345677/Website%20Images/servicesGallery/gardenServices/gardenService05_yidakr.jpg',
   },
   {
-    original: Image02,
-    thumbnail: Image02,
+    original:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345673/Website%20Images/servicesGallery/gardenServices/gardenService01_xisurq.jpg',
+    thumbnail:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345673/Website%20Images/servicesGallery/gardenServices/gardenService01_xisurq.jpg',
   },
   {
-    original: Image03,
-    thumbnail: Image03,
-  },
-  {
-    original: Image04,
-    thumbnail: Image04,
-  },
-  {
-    original: Image06,
-    thumbnail: Image06,
-  },
-  {
-    original: Image07,
-    thumbnail: Image07,
+    original:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345677/Website%20Images/servicesGallery/gardenServices/gardenService0_kdingc.jpg',
+    thumbnail:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345677/Website%20Images/servicesGallery/gardenServices/gardenService0_kdingc.jpg',
   },
 ];
 

@@ -123,6 +123,7 @@ const images0 = [
     original: Bath08,
     thumbnail: Bath08,
   },
+
   {
     original: Bath09,
     thumbnail: Bath09,

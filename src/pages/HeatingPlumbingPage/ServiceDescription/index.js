@@ -3,10 +3,44 @@ import { Link } from 'react-router-dom';
 
 import { Styles, ContainerBox } from './styles';
 
+import ImageGallery from 'react-image-gallery';
 import { Container } from 'react-bootstrap';
 import Title from '../../../components/Title';
 import AllServices from '../../../components/AllServices';
 import UpperFooter from '../../../components/UpperFooter';
+
+const images = [
+  {
+    original:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345690/Website%20Images/servicesGallery/plumbingServices/plumbingService02_ksa5zk.jpg',
+    thumbnail:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345690/Website%20Images/servicesGallery/plumbingServices/plumbingService02_ksa5zk.jpg',
+  },
+  {
+    original:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345692/Website%20Images/servicesGallery/plumbingServices/plumbingService0_u0zwep.jpg',
+    thumbnail:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345692/Website%20Images/servicesGallery/plumbingServices/plumbingService0_u0zwep.jpg',
+  },
+  {
+    original:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345691/Website%20Images/servicesGallery/plumbingServices/plumbingService05_tl85um.jpg',
+    thumbnail:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345691/Website%20Images/servicesGallery/plumbingServices/plumbingService05_tl85um.jpg',
+  },
+  {
+    original:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345690/Website%20Images/servicesGallery/plumbingServices/plumbingService03_schaub.jpg',
+    thumbnail:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345690/Website%20Images/servicesGallery/plumbingServices/plumbingService03_schaub.jpg',
+  },
+  {
+    original:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345691/Website%20Images/servicesGallery/plumbingServices/plumbingService04_rmvltu.png',
+    thumbnail:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345691/Website%20Images/servicesGallery/plumbingServices/plumbingService04_rmvltu.png',
+  },
+];
 
 export default function ServiceDescription() {
   return (
@@ -166,6 +200,12 @@ export default function ServiceDescription() {
           </div>
         </div>
       </Container>
+
+      <Title title="Gallery:" />
+
+      <div className="gallery-container">
+        <ImageGallery items={images} />
+      </div>
 
       <ContainerBox>
         <Link className="link-button btn p-2 mb-5" to="/get-a-quote">

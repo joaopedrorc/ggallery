@@ -25,7 +25,7 @@ function AllServices() {
                 <div className="col-12 col-md-12 col-lg-4 mb-5">
                   <div className="card shadow border-0">
                     <div className="position-relative">
-                      <Link to="/contracts">
+                      <Link to="/office-cleaning">
                         <img
                           src={Service04}
                           className="card-img-top"
@@ -126,7 +126,7 @@ function AllServices() {
                 <div className="col-12 col-md-12 col-lg-4 mb-5">
                   <div className="card shadow border-0">
                     <div className="position-relative">
-                      <Link to="/office-cleaning">
+                      <Link to="/painting-decoration">
                         <img
                           src={Service03}
                           className="card-img-top"
