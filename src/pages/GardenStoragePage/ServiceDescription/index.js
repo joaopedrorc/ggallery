@@ -25,15 +25,15 @@ const images = [
   },
   {
     original:
-      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615426799/Website%20Images/servicesGallery/gardenShed/gardenShed0_wgugkr.jpg',
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615479274/Website%20Images/servicesGallery/gardenShed/7170128607_91a485b86f_w_pr1ike.jpg',
     thumbnail:
-      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615426799/Website%20Images/servicesGallery/gardenShed/gardenShed0_wgugkr.jpg',
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615479274/Website%20Images/servicesGallery/gardenShed/7170128607_91a485b86f_w_pr1ike.jpg',
   },
   {
     original:
-      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615426799/Website%20Images/servicesGallery/gardenShed/gardenShes02_dchxp5.jpg',
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615426799/Website%20Images/servicesGallery/gardenShed/gardenShes01_gf4btt.jpg',
     thumbnail:
-      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615426799/Website%20Images/servicesGallery/gardenShed/gardenShes02_dchxp5.jpg',
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615426799/Website%20Images/servicesGallery/gardenShed/gardenShes01_gf4btt.jpg',
   },
 ];
 
