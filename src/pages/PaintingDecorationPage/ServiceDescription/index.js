@@ -17,7 +17,12 @@ const images = [
     thumbnail:
       'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345691/Website%20Images/servicesGallery/paintingServices/paintingService04_jptrfk.jpg',
   },
-
+  {
+    original:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615424592/Website%20Images/servicesGallery/paintingServices/paintingService_ohkcej.jpg',
+    thumbnail:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615424592/Website%20Images/servicesGallery/paintingServices/paintingService_ohkcej.jpg',
+  },
   {
     original:
       'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345693/Website%20Images/servicesGallery/paintingServices/paintingServices05_zz0upq.jpg',
@@ -29,6 +34,12 @@ const images = [
       'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345692/Website%20Images/servicesGallery/paintingServices/paintingService03_bqgzbe.jpg',
     thumbnail:
       'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345692/Website%20Images/servicesGallery/paintingServices/paintingService03_bqgzbe.jpg',
+  },
+  {
+    original:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615424592/Website%20Images/servicesGallery/paintingServices/paintingService05_rpl8k2.jpg',
+    thumbnail:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615424592/Website%20Images/servicesGallery/paintingServices/paintingService05_rpl8k2.jpg',
   },
   {
     original:

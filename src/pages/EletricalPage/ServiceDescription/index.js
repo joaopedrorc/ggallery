@@ -3,10 +3,44 @@ import { Link } from 'react-router-dom';
 
 import { Styles, ContainerBox } from './styles';
 
+import ImageGallery from 'react-image-gallery';
 import { Container } from 'react-bootstrap';
 import Title from '../../../components/Title';
 import AllServices from '../../../components/AllServices';
 import UpperFooter from '../../../components/UpperFooter';
+
+const images = [
+  {
+    original:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615424803/Website%20Images/servicesGallery/electricalService/electricalService03_wmycru.jpg',
+    thumbnail:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615424803/Website%20Images/servicesGallery/electricalService/electricalService03_wmycru.jpg',
+  },
+  {
+    original:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615424803/Website%20Images/servicesGallery/electricalService/eletricalService02_rns1ed.jpg',
+    thumbnail:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615424803/Website%20Images/servicesGallery/electricalService/eletricalService02_rns1ed.jpg',
+  },
+  {
+    original:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615424802/Website%20Images/servicesGallery/electricalService/electricalService0_e8lavy.jpg',
+    thumbnail:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615424802/Website%20Images/servicesGallery/electricalService/electricalService0_e8lavy.jpg',
+  },
+  {
+    original:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615424803/Website%20Images/servicesGallery/electricalService/electricalService01_pmogpf.jpg',
+    thumbnail:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615424803/Website%20Images/servicesGallery/electricalService/electricalService01_pmogpf.jpg',
+  },
+  {
+    original:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615424802/Website%20Images/servicesGallery/electricalService/electricalService_mvtsna.jpg',
+    thumbnail:
+      'https://res.cloudinary.com/danansan-property-services/image/upload/v1615424802/Website%20Images/servicesGallery/electricalService/electricalService_mvtsna.jpg',
+  },
+];
 
 export default function ServiceDescription() {
   return (
@@ -113,6 +147,11 @@ export default function ServiceDescription() {
           </div>
         </div>
       </Container>
+
+      <Title title="Gallery" />
+      <div className="gallery-container">
+        <ImageGallery items={images} />
+      </div>
 
       <ContainerBox>
         <Link className="link-button btn p-2 mb-5" to="/get-a-quote">

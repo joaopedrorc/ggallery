@@ -136,8 +136,8 @@ function QuoteForm() {
                   <div className="col-12 col-md-12 col-lg-6 mb-3">
                     <Form.Group controlId="phone">
                       <Form.Label>Phone number:</Form.Label>
+
                       <Form.Control
-                        // data-mask="+44 0000 000 000"
                         name="phone"
                         type="text"
                         value={state.phone}

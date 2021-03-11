@@ -9,6 +9,10 @@ import { Container } from 'react-bootstrap';
 import Title from '../../components/Title';
 import AllServices from '../../components/AllServices';
 
+import Garden from '../../assets/contractServices/garden/garden02.jpg';
+import Garden1 from '../../assets/contractServices/garden/garden03.jpg';
+import Garden2 from '../../assets/contractServices/garden/garden07.jpg';
+
 const images = [
   {
     original:
@@ -17,10 +21,23 @@ const images = [
       'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345677/Website%20Images/servicesGallery/gardenServices/gardenService05_yidakr.jpg',
   },
   {
+    original: Garden,
+    thumbnail: Garden,
+  },
+  {
     original:
       'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345673/Website%20Images/servicesGallery/gardenServices/gardenService01_xisurq.jpg',
     thumbnail:
       'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345673/Website%20Images/servicesGallery/gardenServices/gardenService01_xisurq.jpg',
+  },
+
+  {
+    original: Garden1,
+    thumbnail: Garden1,
+  },
+  {
+    original: Garden2,
+    thumbnail: Garden2,
   },
   {
     original:
