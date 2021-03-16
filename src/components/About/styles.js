@@ -32,6 +32,18 @@ export const Styles = styled.div`
   .li-container {
     width: 79.333%;
   }
+
+  /* .sentence-right {
+    margin-right: 300px;
+  } */
+
+  .call-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 250px;
+    height: 45px;
+  }
 `;
 
 export const Container = styled.div`
@@ -39,4 +51,6 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 0;
+  padding: 0;
 `;
