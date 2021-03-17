@@ -124,7 +124,7 @@ function QuoteForm() {
                         type="text"
                         name="name"
                         value={state.name}
-                        placeholder="Enter full your name"
+                        placeholder="Enter your company/full name"
                         onChange={onInputChange}
                       />
                       {/* <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
