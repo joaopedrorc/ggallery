@@ -254,7 +254,7 @@ function Footer() {
                 +44 7414 765278 |
               </a>
               <a href="tel:+44 751 4505765" className="mb-0 text-white">
-                +44 7472 371528
+                +44 7305 082737
               </a>
               <br />
               <br />
