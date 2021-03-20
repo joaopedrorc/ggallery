@@ -40,7 +40,7 @@ const images = [
 export default function ServiceDescription() {
   return (
     <Styles>
-      <Title title="Garden storage shed installation service" />
+      <Title title="Garden storage shed installation" />
       <ContainerBox>
         <p className="p-container text-center">
           Whether you want to build a shed to store tools and bikes or a summer

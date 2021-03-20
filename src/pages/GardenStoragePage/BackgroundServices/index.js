@@ -15,7 +15,7 @@ export default function BackgroundServices() {
             </h1>
             <p>
               If you're not a DIY expert then why not let our professional
-              installationc <br /> team build it for you leaving you with more
+              installation <br /> team build it for you leaving you with more
               time to spare for other activities.
             </p>
           </div>
