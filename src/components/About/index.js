@@ -123,7 +123,7 @@ function About() {
         </span>
         {/* <div className="li-container">24/7 emergency repairs</div> */}
         <div className="col-3 d-flex justify-content-start sentence-right">
-          24/7 emergency repairs
+          24/7 Emergency Repairs
         </div>
         <a
           href="tel:+44 7305 082737"
