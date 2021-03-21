@@ -77,7 +77,7 @@ function NavBar() {
               </NavDropdown.Item>
 
               <NavDropdown.Item>
-                <Link to="/flooring-tiles-instalation">
+                <Link to="/flooring-tiles-installation">
                   Flooring/tiles Installation
                 </Link>
               </NavDropdown.Item>

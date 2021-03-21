@@ -45,14 +45,14 @@ const images = [
 export default function ServiceDescription() {
   return (
     <Styles>
-      <Title title="Flooring/tiles instalation" />
+      <Title title="Flooring/tiles installation" />
       <ContainerBox>
         <p className="p-container text-center">
           Make installing new flooring or tiles a stress-free process by using
           our services
         </p>
       </ContainerBox>
-      <Title title="Our flooring/tiles instalation can include:" />
+      <Title title="Our flooring/tiles installation can include:" />
       <Container>
         <div className="row mb-4">
           <div className="list-conteniner">

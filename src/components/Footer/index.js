@@ -196,7 +196,7 @@ function Footer() {
                 </Dropdown.Item>
 
                 <Dropdown.Item>
-                  <Link to="/flooring-tiles-instalation">
+                  <Link to="/flooring-tiles-installation">
                     Flooring/tiles Installation
                   </Link>
                 </Dropdown.Item>

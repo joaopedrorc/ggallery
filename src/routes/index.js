@@ -99,7 +99,7 @@ export default function Routes() {
         <Route
           layout={LayoutDefault}
           exact
-          path="/flooring-tiles-instalation"
+          path="/flooring-tiles-installation"
           component={FlooringTilesPage}
         />
         <Route
