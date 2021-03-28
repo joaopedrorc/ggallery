@@ -43,7 +43,7 @@ export const Styles = styled.div`
     color: var(--white);
     font-size: 21px;
     width: 300px;
-    margin-bottom: -18.75rem;
+    /* margin-bottom: -18.75rem; */
 
     z-index: 2;
 

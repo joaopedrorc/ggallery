@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import { Styles } from './styles';
 
@@ -18,6 +19,10 @@ export default function BackgroundServices() {
               fence panels <br />
               at yours exact requirements.
             </p>
+
+            <Link className="button-style btn p-2 mt-5" to="/get-a-quote">
+              Get a free quote
+            </Link>
           </div>
         </div>
       </div>

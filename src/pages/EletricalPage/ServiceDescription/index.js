@@ -51,6 +51,10 @@ export default function ServiceDescription() {
           Danasan Property Services delivers comprehensive electrical services
           for homes and businesses
         </p>
+
+        <Link className="link-button btn p-2 mb-5" to="/get-a-quote">
+          Get a free quote
+        </Link>
       </ContainerBox>
       <Title title="Our eletrical services can include:" />
       <Container>

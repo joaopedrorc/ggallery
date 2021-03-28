@@ -28,6 +28,10 @@ export default function ServiceDescription() {
           benefits of all homes, security. A professionally installed fence
           gives every homeowner that true sense of home we all desire
         </p>
+
+        <Link className="link-button btn p-2 mb-5" to="/get-a-quote">
+          Get a free quote
+        </Link>
       </ContainerBox>
       <Title title="Types of Fences:" />
       <div className="w-100 pb-5 pt-lg-2 pb-lg-5">
