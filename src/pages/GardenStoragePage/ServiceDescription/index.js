@@ -47,6 +47,9 @@ export default function ServiceDescription() {
           house to extend your living space, installation is key to ensuring
           your building will stand the test of time.
         </p>
+        <Link className="link-button btn p-2 mb-5" to="/get-a-quote">
+          Get a free quote
+        </Link>
       </ContainerBox>
       <Title title="Our garden storage shed installation can service include:" />
       <Container>

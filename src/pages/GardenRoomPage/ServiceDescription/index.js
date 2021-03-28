@@ -29,6 +29,9 @@ export default function ServiceDescription() {
           Increase your living space with one of our low maintenance, highly
           insulated garden buildings.
         </p>
+        <Link className="link-button btn p-2 mb-5" to="/get-a-quote">
+          Get a free quote
+        </Link>
       </ContainerBox>
       <Title title="How would you use yours?" />
       <Container>
