@@ -21,8 +21,31 @@ export const Styles = styled.div`
   textarea {
     border-color: var(--black);
   }
+  .whatsapp-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 200px;
+    height: 59px;
+    padding: 10px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    background-color: #00E676;
+    color: var(--white);
+
+    h3 {
+      margin-right: 10px;
+    }
+  }
+
   .container {
     margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .container-col {
     width: 600px;

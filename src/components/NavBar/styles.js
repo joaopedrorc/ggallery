@@ -12,12 +12,16 @@ export const Styles = styled.div`
   .button-style {
     border: 1px solid var(--white);
     color: var(--white);
-    font-size: 14px;
+    font-size: 18px;
 
     &:hover {
       background: var(--white);
       color: var(--black);
       text-decoration: underline;
+    }
+
+    svg:hover {
+      fill: var(--black);
     }
   }
 

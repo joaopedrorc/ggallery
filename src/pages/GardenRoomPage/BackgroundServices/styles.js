@@ -47,10 +47,12 @@ export const Styles = styled.div`
 
     z-index: 2;
 
-    &:hover {
-      background: var(--white);
-      color: var(--black);
-      text-decoration: underline;
+    background: var(--white);
+    color: var(--black);
+    text-decoration: underline;
+
+    :hover {
+      background-color: #DCDCDC ;
     }
   }
 `;

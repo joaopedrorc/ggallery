@@ -9,6 +9,8 @@ import { Container } from 'react-bootstrap';
 import Title from '../../../components/Title';
 import AllServices from '../../../components/AllServices';
 import UpperFooter from '../../../components/UpperFooter';
+import ImageGallery from 'react-image-gallery';
+
 
 import Image0 from '../../../assets/masterServices/gardenRoom/shed0.jpg';
 import Image01 from '../../../assets/masterServices/gardenRoom/shed01.jpg';
@@ -20,15 +22,52 @@ import Image06 from '../../../assets/masterServices/gardenRoom/shed06.jpg';
 import Image08 from '../../../assets/masterServices/gardenRoom/shed08.jpg';
 import Image09 from '../../../assets/masterServices/gardenRoom/shed09.jpg';
 
+import SummerHouse01 from '../../../assets/masterServices/gardenRoom/summerHouse01.jpeg';
+import SummerHouse02 from '../../../assets/masterServices/gardenRoom/summerHouse02.jpeg';
+import SummerHouse03 from '../../../assets/masterServices/gardenRoom/summerHouse03.jpeg';
+import SummerHouse04 from '../../../assets/masterServices/gardenRoom/summerHouse04.jpeg';
+import SummerHouse05 from '../../../assets/masterServices/gardenRoom/summerHouse05.jpeg';
+import SummerHouse06 from '../../../assets/masterServices/gardenRoom/summerHouse05.jpeg';
+
+const images = [
+  {
+    original: SummerHouse01,
+    thumbnail: SummerHouse01,
+  },
+  {
+    original: SummerHouse02,
+    thumbnail: SummerHouse02,
+  },
+  {
+    original: SummerHouse03,
+    thumbnail: SummerHouse03,
+  },
+  {
+    original: SummerHouse04,
+    thumbnail: SummerHouse04,
+  },
+  {
+    original: SummerHouse05,
+    thumbnail: SummerHouse05,
+  },
+  {
+    original: SummerHouse06,
+    thumbnail: SummerHouse06,
+  },
+];
+
 export default function ServiceDescription() {
   return (
     <Styles>
       <Title title="Insulated garden room office/studio" />
       <ContainerBox>
         <p className="p-container text-center">
-          Increase your living space with one of our low maintenance, highly
-          insulated garden buildings.
+          Increase your living space with one of our low maintenance summer
+          houses.
         </p>
+        <div className="gallery-container">
+          <ImageGallery items={images} />
+        </div>
         <Link className="link-button btn p-2 mb-5" to="/get-a-quote">
           Get a free quote
         </Link>

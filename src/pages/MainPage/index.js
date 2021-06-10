@@ -12,7 +12,7 @@ import AllServices from '../../components/AllServices';
 import QuoteForm from '../../components/QuoteForm';
 import BackgroundBanner from './BackgroundBanner';
 import Player from '../../components/Player';
-import BgSong from '../../assets/song/ravelSong.mp3';
+import BgSong from '../../assets/song/song.mp3';
 
 import Service0 from '../../assets/masterServices/service0.png';
 import Service01 from '../../assets/masterServices/service01.png';
@@ -65,7 +65,7 @@ function MainPage() {
                   </p>
                   <Link
                     className="link-button btn btn-01"
-                    to="/insulated-garden-room"
+                    to="/summer-house"
                   >
                     Learn more
                   </Link>

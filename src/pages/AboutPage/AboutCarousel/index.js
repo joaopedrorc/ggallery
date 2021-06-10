@@ -41,7 +41,7 @@ function AboutCarousel() {
                 Increase your living space with one of our low maintenance,
                 highly insulated garden buildings.
               </p>
-              <Link className="link-button btn " to="/insulated-garden-room">
+              <Link className="link-button btn " to="/summer-house">
                 Learn more
               </Link>
             </div>

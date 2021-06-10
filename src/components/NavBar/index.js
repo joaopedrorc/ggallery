@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { Styles } from './styles';
 
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { TelephoneInboundFill } from 'react-bootstrap-icons';
 import Logo from '../../assets/logos/White.svg';
 
 function NavBar() {
@@ -49,8 +50,8 @@ function NavBar() {
               </NavDropdown.Item>
 
               <NavDropdown.Item>
-                <Link to="/insulated-garden-room">
-                  Insulated garden room/office/studio
+                <Link to="/summer-house">
+                  Summer houses
                 </Link>
               </NavDropdown.Item>
 
@@ -109,10 +110,12 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
           </Nav>
-
-          <Link className="button-style btn p-2 mr-3" to="/get-a-quote">
-            GET A QUOTE
-          </Link>
+          
+          {/* <div className="call-bo"> */}
+            <a href="tel:+44 7472 371528"  className="button-style btn p-2 mr-3">
+              <TelephoneInboundFill color='#FFF' size={22}/> +44 7472 371528
+            </a>
+          {/* </div> */}
         </Navbar.Collapse>
       </Navbar>
     </Styles>

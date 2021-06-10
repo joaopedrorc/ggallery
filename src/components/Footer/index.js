@@ -168,7 +168,7 @@ function Footer() {
                 </Dropdown.Item>
 
                 <Dropdown.Item>
-                  <Link to="/insulated-garden-room">
+                  <Link to="/summer-house">
                     Insulated garden room/office/studio
                   </Link>
                 </Dropdown.Item>

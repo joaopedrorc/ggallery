@@ -12,11 +12,11 @@ export default function BackgroundServices() {
         <div className="container">
           <div className="banner-content">
             <h1>
-              <strong>Insulated Garden Room/Office/Studio </strong>
+              <strong>Summer House</strong>
             </h1>
             <p>
               Increase your living space with one of our low maintenance <br />{' '}
-              highly insulated composite garden buildings
+              highly insulated summer houses
             </p>
             <Link className="button-style btn p-2 mt-5" to="/get-a-quote">
               Get a free quote
