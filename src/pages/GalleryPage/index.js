@@ -60,11 +60,47 @@ import Painting01 from '../../assets/gallery/gallery-four/painting01.jpeg';
 import Painting02 from '../../assets/gallery/gallery-four/painting02.jpeg';
 import Painting03 from '../../assets/gallery/gallery-four/painting03.jpeg';
 
+
+import SummerHouse01 from '../../assets/masterServices/gardenRoom/summerHouse01.jpeg';
+import SummerHouse02 from '../../assets/masterServices/gardenRoom/summerHouse02.jpeg';
+import SummerHouse03 from '../../assets/masterServices/gardenRoom/summerHouse03.jpeg';
+import SummerHouse04 from '../../assets/masterServices/gardenRoom/summerHouse04.jpeg';
+import SummerHouse05 from '../../assets/masterServices/gardenRoom/summerHouse05.jpeg';
+import SummerHouse06 from '../../assets/masterServices/gardenRoom/summerHouse06.jpeg';
+
+
 import { Styles } from './styles';
 
 import BackgroundGallery from './BackgroudGallery';
 import Title from '../../components/Title';
 import UpperFooter from '../../components/UpperFooter';
+
+const summerHouseImages = [
+  {
+    original: SummerHouse01,
+    thumbnail: SummerHouse01,
+  },
+  {
+    original: SummerHouse02,
+    thumbnail: SummerHouse02,
+  },
+  {
+    original: SummerHouse03,
+    thumbnail: SummerHouse03,
+  },
+  {
+    original: SummerHouse04,
+    thumbnail: SummerHouse04,
+  },
+  {
+    original: SummerHouse05,
+    thumbnail: SummerHouse05,
+  },
+  {
+    original: SummerHouse06,
+    thumbnail: SummerHouse06,
+  },
+];
 
 const images0 = [
   {
@@ -288,6 +324,13 @@ function GalleryPage() {
     <Styles>
       <BackgroundGallery />
       <Title title="A collection of images from our services" />
+
+      <div className="gallery-box">
+        <div className="gallery-container">
+          <h2>Summer houses</h2>
+          <ImageGallery items={summerHouseImages} />
+        </div>
+      </div>
 
       <div className="gallery-box">
         <div className="gallery-container">

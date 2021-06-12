@@ -27,7 +27,7 @@ import SummerHouse02 from '../../../assets/masterServices/gardenRoom/summerHouse
 import SummerHouse03 from '../../../assets/masterServices/gardenRoom/summerHouse03.jpeg';
 import SummerHouse04 from '../../../assets/masterServices/gardenRoom/summerHouse04.jpeg';
 import SummerHouse05 from '../../../assets/masterServices/gardenRoom/summerHouse05.jpeg';
-import SummerHouse06 from '../../../assets/masterServices/gardenRoom/summerHouse05.jpeg';
+import SummerHouse06 from '../../../assets/masterServices/gardenRoom/summerHouse06.jpeg';
 
 const images = [
   {

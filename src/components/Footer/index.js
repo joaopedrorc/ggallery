@@ -10,7 +10,7 @@ import About from '../../assets/footerIcons/About.png';
 import Upgrade from '../../assets/footerIcons/Upgrade.png';
 import FooterLogo from '../../assets/logos/Original.svg';
 
-import { Instagram, Facebook, Twitter, Youtube } from 'react-bootstrap-icons';
+import { Instagram, Facebook } from 'react-bootstrap-icons';
 
 function Footer() {
   return (
@@ -98,22 +98,31 @@ function Footer() {
           </div>
           <div className="col col-md-12 col-lg-6 align-self-center">
             <div className="mb-3 mb-md-3 text-center social-box">
-              {/* <a
+              <a
                 className="button-box  "
-                href="#"
+                href="https://www.instagram.com/danansan_property_services/"
                 target="_blank"
                 rel="noopener noreferrer"
-              > */}
+              >
               <Instagram color="#000" width="50" height="50" />
-              {/* </a> */}
+              </a>
 
-              {/* <a
+              <a
                 className="button-box "
-                href="#"
+                href="https://www.facebook.com/danansanps/"
                 target="_blank"
                 rel="noopener noreferrer"
-              > */}
+              >
               <Facebook color="#000" width="50" height="50" />
+              </a>
+
+              {/* <a
+                className="button-box "
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+              > */}
+              {/* <Twitter color="#000" width="50" height="50" /> */}
               {/* </a> */}
 
               {/* <a
@@ -122,16 +131,7 @@ function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               > */}
-              <Twitter color="#000" width="50" height="50" />
-              {/* </a> */}
-
-              {/* <a
-                className="button-box "
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-              > */}
-              <Youtube color="#000" width="50" height="50" />
+              {/* <Youtube color="#000" width="50" height="50" /> */}
               {/* </a> */}
             </div>
           </div>
