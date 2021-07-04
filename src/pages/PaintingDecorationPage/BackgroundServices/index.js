@@ -11,7 +11,7 @@ export default function BackgroundServices() {
         <div className="container">
           <div className=" banner-content">
             <h1>
-              <strong>Painting and Decoration</strong>
+              <strong>Painting and Decorating</strong>
             </h1>
             <p>
               We offer excellent painting and decoration that vary from a <br />

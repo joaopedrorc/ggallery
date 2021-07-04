@@ -17,12 +17,12 @@ function AllServices() {
     <Styles>
       <Container>
         <div className="card-container">
-          <h1 className="text-center">Contrac Services</h1>
+          {/* <h1 className="text-center">Contrac Services</h1> */}
 
           <div className="w-100 pb-5 pt-lg-2 pb-lg-5 ">
             <div className="container pt-2 pb-2 pt-lg-2 pb-lg-0">
               <div className="row mb-4">
-                <div className="col-12 col-md-12 col-lg-4 mb-5">
+                {/* <div className="col-12 col-md-12 col-lg-4 mb-5">
                   <div className="card shadow border-0">
                     <div className="position-relative">
                       <Link to="/office-cleaning">
@@ -39,8 +39,8 @@ function AllServices() {
                       </Link>
                     </div>
                   </div>
-                </div>
-                <div className="col-12 col-md-12 col-lg-4 mb-5">
+                </div> */}
+                {/* <div className="col-12 col-md-12 col-lg-4 mb-5">
                   <div className="card shadow border-0">
                     <div className="position-relative">
                       <Link to="/garden-maintenance">
@@ -60,8 +60,8 @@ function AllServices() {
                       </Link>
                     </div>
                   </div>
-                </div>
-                <div className="col-12 col-md-12 col-lg-4 mb-5">
+                </div> */}
+                {/* <div className="col-12 col-md-12 col-lg-4 mb-5">
                   <div className="card shadow border-0">
                     <div className="position-relative">
                       <Link to="/window-cleaning">
@@ -78,7 +78,7 @@ function AllServices() {
                       </Link>
                     </div>
                   </div>
-                </div>
+                </div> */}
                 <div className="col-12 col-md-12 col-lg-12 mb-5">
                   <h1 className="text-center">See more services options</h1>
                 </div>
@@ -126,7 +126,7 @@ function AllServices() {
                 <div className="col-12 col-md-12 col-lg-4 mb-5">
                   <div className="card shadow border-0">
                     <div className="position-relative">
-                      <Link to="/painting-decoration">
+                      <Link to="/painting-decorating">
                         <img
                           src={Service03}
                           className="card-img-top"
@@ -136,7 +136,7 @@ function AllServices() {
                     </div>
                     <div className="card-body p-0">
                       <Link
-                        to="/painting-decoration"
+                        to="/painting-decorating"
                         className="btn card-button"
                       >
                         Painting and decoration{' '}
@@ -144,7 +144,7 @@ function AllServices() {
                     </div>
                   </div>
                 </div>
-                <div className="col-12 col-md-12 col-lg-6 mb-5">
+                {/* <div className="col-12 col-md-12 col-lg-6 mb-5">
                   <div className="card shadow border-0">
                     <div className="position-relative">
                       <Link to="/eletical-services">
@@ -161,8 +161,8 @@ function AllServices() {
                       </Link>
                     </div>
                   </div>
-                </div>
-                <div className="col-12 col-md-12 col-lg-6 mb-5">
+                </div> */}
+                {/* <div className="col-12 col-md-12 col-lg-6 mb-5">
                   <div className="card shadow border-0">
                     <div className="position-relative">
                       <Link to="/heating-plumbing">
@@ -180,7 +180,7 @@ function AllServices() {
                       </Link>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

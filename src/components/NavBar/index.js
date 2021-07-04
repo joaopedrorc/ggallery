@@ -24,21 +24,19 @@ function NavBar() {
 
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto mr-3">
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link>
                 <Link to="/contracts">CONTRACTS</Link>
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <NavDropdown
               title="SERVICES"
               id="basic-nav-dropdown"
               className="navbar-items"
             >
-              <NavDropdown.Item>
-                <Link to="/bathroom-renovation" className="navbar-items">
-                  Bathroom renovation
-                </Link>
+              <NavDropdown.Item className="navbar-items">
+                <Link to="/painting-decorating">Painting and decoration</Link>
               </NavDropdown.Item>
 
               <NavDropdown.Item className="navbar-items">
@@ -57,9 +55,9 @@ function NavBar() {
 
               <NavDropdown.Divider />
 
-              <NavDropdown.Item>
+              {/* <NavDropdown.Item>
                 <Link to="/heating-plumbing">Heating and plumbing</Link>
-              </NavDropdown.Item>
+              </NavDropdown.Item> */}
 
               {/* <NavDropdown.Item>
                 <Link to="/roof-cleaning">Roof cleaning</Link>
@@ -70,7 +68,9 @@ function NavBar() {
               </NavDropdown.Item>
 
               <NavDropdown.Item>
-                <Link to="/painting-decoration">Painting and decoration</Link>
+              <Link to="/bathroom-renovation">
+                Bathroom renovation
+              </Link>
               </NavDropdown.Item>
 
               <NavDropdown.Item>
@@ -87,9 +87,9 @@ function NavBar() {
                 <Link to="/window-cleaning">Window cleaning</Link>
               </NavDropdown.Item>
 
-              <NavDropdown.Item>
+              {/* <NavDropdown.Item>
                 <Link to="/eletical-services">Eletrical services</Link>
-              </NavDropdown.Item>
+              </NavDropdown.Item> */}
             </NavDropdown>
 
             <Nav.Item>
@@ -110,11 +110,11 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
           </Nav>
-          
+
           {/* <div className="call-bo"> */}
-            <a href="tel:+44 7472 371528"  className="button-style btn p-2 mr-3">
-              <TelephoneInboundFill color='#FFF' size={22}/> +44 7472 371528
-            </a>
+          <a href="tel:+44 7472 371528" className="button-style btn p-2 mr-3">
+            <TelephoneInboundFill color='#FFF' size={22} /> +44 7472 371528
+          </a>
           {/* </div> */}
         </Navbar.Collapse>
       </Navbar>

@@ -57,7 +57,7 @@ function MainPage() {
                 </div>
                 <div className="card-body p-3 card-height">
                   <h5 className="card-title mb-3">
-                    Insulated garden room office/studio
+                    Summer house
                   </h5>
                   <p className="card-text">
                     Increase your living space with one of our low maintenance,
@@ -125,18 +125,17 @@ function MainPage() {
                   <img
                     src={Service03}
                     className="card-img-top"
-                    alt="Bathroom renovation"
+                    alt="Painting and decorating"
                   />
                 </div>
-                <div className="card-body p-3 card-height">
-                  <h5 className="card-title mb-3">Bathroom renovation</h5>
-                  <p className="card-text mb-4">
-                    If you want a gorgeous and functonal bathroom, your bathroom
-                    renovation project will require a team of experts.
+                <div className="card-body p-3 card-height-img">
+                  <h5 className="card-title mb-3">Painting and decorating</h5>
+                  <p className="card-text">
+                  Our team of fully-qualified painters and decorators understand the importance of high-quality paintwork.
                   </p>
                   <Link
                     className="link-button btn btn-04"
-                    to="/bathroom-renovation"
+                    to="/painting-decorating"
                   >
                     Learn more
                   </Link>

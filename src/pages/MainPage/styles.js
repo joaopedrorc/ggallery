@@ -16,8 +16,12 @@ export const Styles = styled.div`
     height: 19rem;
   }
 
+  .card-height-img {
+    height: 14rem;
+  }
+
   .btn-01 {
-    margin-bottom: -7.5rem;
+    margin-bottom: -10.7rem;
   }
   .btn-02 {
     margin-bottom: -3.5rem;
@@ -25,9 +29,9 @@ export const Styles = styled.div`
   .btn-03 {
     margin-bottom: -0.625rem;
   }
-  .btn-04 {
+  /* .btn-04 {
     margin-bottom: -9.5rem;
-  }
+  } */
 
   .card-button a {
     color: var(--white);
