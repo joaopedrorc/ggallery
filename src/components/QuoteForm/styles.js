@@ -21,24 +21,7 @@ export const Styles = styled.div`
   textarea {
     border-color: var(--black);
   }
-  .whatsapp-button {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-    width: 200px;
-    height: 59px;
-    padding: 10px;
-    margin-bottom: 50px;
-    border-radius: 25px;
-    background-color: #00E676;
-    color: var(--white);
-
-    h3 {
-      margin-right: 10px;
-    }
-  }
+  
 
   .container {
     margin-bottom: 48px;
@@ -74,5 +57,30 @@ export const Styles = styled.div`
     padding: 10px;
     background-color: red;
     color: white;
+  }
+`;
+
+
+export const WhappButton = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+  width: 220px;
+  height: 60px;
+  padding: 10px;
+
+  margin-bottom: 50px;
+  border-radius: 25px;
+  background-color: #00E676;
+  color: var(--white);
+
+  box-shadow: 4px 4px 2px 0px rgba(0,0,0,0.77);
+  cursor: pointer;
+  font-size: 27px;
+
+  :hover {
+    background-color: #00ab58;
   }
 `;

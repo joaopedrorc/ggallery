@@ -16,6 +16,8 @@ import GardenStoragePage from '../pages/GardenStoragePage';
 import BathRenovationPage from '../pages/BathRenovationPage';
 import RoofCleaningPage from '../pages/RoofCleaningPage';
 import PaintingDecorationPage from '../pages/PaintingDecorationPage';
+import PaintingGeneralAds from '../pages/PaintingGeneralAds';
+import PaintingCommercialAds from '../pages/PaintingCommercialAds';
 import FlooringTilesPage from '../pages/FlooringTilesPage';
 import EletricalPage from '../pages/EletricalPage';
 import HeatingPlumbingPage from '../pages/HeatingPlumbingPage';
@@ -95,6 +97,18 @@ export default function Routes() {
           exact
           path="/painting-decorating"
           component={PaintingDecorationPage}
+        />
+        <Route
+          layout={LayoutDefault}
+          exact
+          path="/painting-decorating-general"
+          component={PaintingGeneralAds}
+        />
+        <Route 
+          layout={LayoutDefault}
+          exact
+          path="/painting-decoration-commercial"
+          component={PaintingCommercialAds}
         />
         <Route
           layout={LayoutDefault}

@@ -9,6 +9,7 @@ import { Container } from 'react-bootstrap';
 import Title from '../../../components/Title';
 import AllServices from '../../../components/AllServices';
 import UpperFooter from '../../../components/UpperFooter';
+import Form from '../../../components/QuoteForm';
 
 const images = [
   {
@@ -122,6 +123,8 @@ export default function ServiceDescription() {
           </div>
         </div>
       </Container>
+      
+      <Form />
 
       <Title title="Gallery:" />
 
