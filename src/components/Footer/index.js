@@ -253,10 +253,6 @@ function Footer() {
               <a href="tel:+44 7305 082737" className="mb-0 text-white">
                 +44 7305 082737 |
               </a>
-              <a href="tel:+44 7472 371528" className="mb-0 text-white">
-                +44 7472 371528
-              </a>
-              <br />
               <br />
 
               <a

@@ -112,8 +112,8 @@ function NavBar() {
           </Nav>
 
           {/* <div className="call-bo"> */}
-          <a href="tel:+44 7472 371528" className="button-style btn p-2 mr-3">
-            <TelephoneInboundFill color='#FFF' size={22} /> +44 7472 371528
+          <a href="tel:+44 7305 082737" className="button-style btn p-2 mr-3">
+            <TelephoneInboundFill color='#FFF' size={22} /> +44 7305 082737
           </a>
           {/* </div> */}
         </Navbar.Collapse>
