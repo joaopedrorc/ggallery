@@ -126,7 +126,7 @@ function AllServices() {
                 <div className="col-12 col-md-12 col-lg-4 mb-5">
                   <div className="card shadow border-0">
                     <div className="position-relative">
-                      <Link to="/painting-decorating">
+                      <Link to="/painting-decorating-general">
                         <img
                           src={Service03}
                           className="card-img-top"
@@ -136,7 +136,7 @@ function AllServices() {
                     </div>
                     <div className="card-body p-0">
                       <Link
-                        to="/painting-decorating"
+                        to="/painting-decorating-general"
                         className="btn card-button"
                       >
                         Painting and decoration{' '}

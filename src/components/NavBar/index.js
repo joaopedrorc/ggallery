@@ -36,7 +36,7 @@ function NavBar() {
               className="navbar-items"
             >
               <NavDropdown.Item className="navbar-items">
-                <Link to="/painting-decorating">Painting and decorating</Link>
+                <Link to="/painting-decorating-general">Painting and decorating</Link>
               </NavDropdown.Item>
 
               <NavDropdown.Item className="navbar-items">

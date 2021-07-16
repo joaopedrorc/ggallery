@@ -135,7 +135,7 @@ function MainPage() {
                   </p>
                   <Link
                     className="link-button btn btn-04"
-                    to="/painting-decorating"
+                    to="/painting-decorating-general"
                   >
                     Learn more
                   </Link>

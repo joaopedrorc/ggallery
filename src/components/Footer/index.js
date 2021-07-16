@@ -188,7 +188,7 @@ function Footer() {
                 </Dropdown.Item>
 
                 <Dropdown.Item>
-                  <Link to="/painting-decorating">Painting and decoration</Link>
+                  <Link to="/painting-decorating-general">Painting and decoration</Link>
                 </Dropdown.Item>
 
                 <Dropdown.Item>
