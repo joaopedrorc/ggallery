@@ -101,7 +101,7 @@ export default function Routes() {
         <Route
           layout={LayoutDefault}
           exact
-          path="/painting-decorating-general-general"
+          path="/painting-decorating-general"
           component={PaintingGeneralAds}
         />
         <Route 
