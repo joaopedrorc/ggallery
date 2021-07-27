@@ -59,7 +59,13 @@ import Painting0 from '../../assets/gallery/gallery-four/painting0.jpeg';
 import Painting01 from '../../assets/gallery/gallery-four/painting01.jpeg';
 import Painting02 from '../../assets/gallery/gallery-four/painting02.jpeg';
 import Painting03 from '../../assets/gallery/gallery-four/painting03.jpeg';
-
+import Painting04 from '../../assets/gallery/gallery-four/paintingImage4.jpeg';
+import Painting05 from '../../assets/gallery/gallery-four/paintingImage5.jpeg';
+import Painting06 from '../../assets/gallery/gallery-four/paintingImage6.jpeg';
+import Painting07 from '../../assets/gallery/gallery-four/paintingImage7.jpeg';
+import Painting08 from '../../assets/gallery/gallery-four/paintingImage8.jpeg';
+import Painting09 from '../../assets/gallery/gallery-four/paintingImage9.jpeg';
+import Painting10 from '../../assets/gallery/gallery-four/paintingImage10.jpeg';
 
 import SummerHouse01 from '../../assets/masterServices/gardenRoom/summerHouse01.jpeg';
 import SummerHouse02 from '../../assets/masterServices/gardenRoom/summerHouse02.jpeg';
@@ -67,7 +73,6 @@ import SummerHouse03 from '../../assets/masterServices/gardenRoom/summerHouse03.
 import SummerHouse04 from '../../assets/masterServices/gardenRoom/summerHouse04.jpeg';
 import SummerHouse05 from '../../assets/masterServices/gardenRoom/summerHouse05.jpeg';
 import SummerHouse06 from '../../assets/masterServices/gardenRoom/summerHouse06.jpeg';
-
 
 import { Styles } from './styles';
 
@@ -302,6 +307,34 @@ const images02 = [
 
 const images03 = [
   {
+    original: Painting04,
+    thumbnail: Painting04,
+  },
+  {
+    original: Painting05,
+    thumbnail: Painting05,
+  },
+  {
+    original: Painting06,
+    thumbnail: Painting06,
+  },
+  {
+    original: Painting07,
+    thumbnail: Painting07,
+  },
+  {
+    original: Painting08,
+    thumbnail: Painting08,
+  },
+  {
+    original: Painting09,
+    thumbnail: Painting09,
+  },
+  {
+    original: Painting10,
+    thumbnail: Painting10,
+  },
+  {
     original: Painting0,
     thumbnail: Painting0,
   },
@@ -327,6 +360,11 @@ function GalleryPage() {
 
       <div className="gallery-box">
         <div className="gallery-container">
+          <h2>Painting and decoration</h2>
+          <ImageGallery items={images03} />
+        </div>
+
+        <div className="gallery-container">
           <h2>Summer houses</h2>
           <ImageGallery items={summerHouseImages} />
         </div>
@@ -346,11 +384,6 @@ function GalleryPage() {
         <div className="gallery-container">
           <h2>Fence erecting</h2>
           <ImageGallery items={images02} />
-        </div>
-
-        <div className="gallery-container">
-          <h2>Painting and decoration</h2>
-          <ImageGallery items={images03} />
         </div>
       </div>
 

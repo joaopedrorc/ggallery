@@ -25,10 +25,10 @@ export const Styles = styled.div`
 
   .container {
     margin-bottom: 48px;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
   }
   .container-col {
     width: 600px;

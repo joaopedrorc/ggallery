@@ -11,7 +11,44 @@ import AllServices from '../../../components/AllServices';
 import UpperFooter from '../../../components/UpperFooter';
 import Form from '../../../components/QuoteForm';
 
+// import Painting04 from '../../../assets/gallery/gallery-four/paintingImage4.jpeg';
+// import Painting05 from '../../../assets/gallery/gallery-four/paintingImage5.jpeg';
+// import Painting06 from '../../../assets/gallery/gallery-four/paintingImage6.jpeg';
+// import Painting07 from '../../../assets/gallery/gallery-four/paintingImage7.jpeg';
+// import Painting08 from '../../../assets/gallery/gallery-four/paintingImage8.jpeg';
+// import Painting09 from '../../../assets/gallery/gallery-four/paintingImage9.jpeg';
+// import Painting10 from '../../../assets/gallery/gallery-four/paintingImage10.jpeg';
+
+
 const images = [
+  // {
+  //   original: 'Painting04',
+  //   thumbnail: 'Painting04',
+  // },
+  // {
+  //   original: 'Painting05',
+  //   thumbnail: 'Painting05',
+  // },
+  // {
+  //   original: 'Painting06',
+  //   thumbnail: 'Painting06',
+  // },
+  // {
+  //   original: 'Painting07',
+  //   thumbnail: 'Painting07',
+  // },
+  // {
+  //   original: 'Painting08',
+  //   thumbnail: 'Painting08',
+  // },
+  // {
+  //   original: 'Painting09',
+  //   thumbnail: 'Painting09',
+  // },
+  // {
+  //   original: 'Painting10',
+  //   thumbnail: 'Painting10',
+  // },
   {
     original:
       'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345691/Website%20Images/servicesGallery/paintingServices/paintingService04_jptrfk.jpg',
@@ -123,7 +160,7 @@ export default function ServiceDescription() {
           </div>
         </div>
       </Container>
-      
+
       <Form />
 
       <Title title="Gallery:" />

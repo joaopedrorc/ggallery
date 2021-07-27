@@ -83,9 +83,9 @@ function NavBar() {
                 </Link>
               </NavDropdown.Item>
 
-              <NavDropdown.Item>
+              {/* <NavDropdown.Item>
                 <Link to="/window-cleaning">Window cleaning</Link>
-              </NavDropdown.Item>
+              </NavDropdown.Item> */}
 
               {/* <NavDropdown.Item>
                 <Link to="/eletical-services">Eletrical services</Link>

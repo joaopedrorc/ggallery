@@ -42,7 +42,7 @@ function MainPage() {
       <Container className="text-center">
         <Player url={BgSong} />
       </Container>
-
+    
       <div className="w-100 pb-5 pt-lg-2 pb-lg-5">
         <div className="container pt-2 pb-2 pt-lg-2 pb-lg-0">
           <div className="row mb-1">
@@ -257,7 +257,7 @@ function MainPage() {
               style={{ height: '500px', width: isMobile ? '80%' : '100%' }}
             >
               <iframe
-                src="https://www.google.com/maps/d/embed?mid=19md64tYtjm5rpR-gJ61wv1O2up78n8iv"
+                src="https://www.google.com/maps/d/embed?mid=1ErNRXkgqL6LhZKUNjpBqvVmuN3pocESB"
                 title="Danansan Property Services"
                 frameborder="0"
                 style={{ border: 0 }}
@@ -269,7 +269,7 @@ function MainPage() {
           </div>
         </div>
       </section>
-
+    
       <QuoteForm />
     </Styles>
   );
