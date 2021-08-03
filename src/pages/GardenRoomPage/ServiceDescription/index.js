@@ -28,6 +28,18 @@ import SummerHouse03 from '../../../assets/masterServices/gardenRoom/summerHouse
 import SummerHouse04 from '../../../assets/masterServices/gardenRoom/summerHouse04.jpeg';
 import SummerHouse05 from '../../../assets/masterServices/gardenRoom/summerHouse05.jpeg';
 import SummerHouse06 from '../../../assets/masterServices/gardenRoom/summerHouse06.jpeg';
+import SummerHouse07 from '../../../assets/masterServices/gardenRoom/summerHouse07.jpeg';
+import SummerHouse08 from '../../../assets/masterServices/gardenRoom/summerHouse08.jpeg';
+import SummerHouse09 from '../../../assets/masterServices/gardenRoom/summerHouse09.jpeg';
+import SummerHouse10 from '../../../assets/masterServices/gardenRoom/summerHouse10.jpeg';
+import SummerHouse11 from '../../../assets/masterServices/gardenRoom/summerHouse11.jpeg';
+import SummerHouse12 from '../../../assets/masterServices/gardenRoom/summerHouse12.jpeg';
+import SummerHouse13 from '../../../assets/masterServices/gardenRoom/summerHouse13.jpeg';
+import SummerHouse14 from '../../../assets/masterServices/gardenRoom/summerHouse14.jpeg';
+import SummerHouse15 from '../../../assets/masterServices/gardenRoom/summerHouse15.jpeg';
+import SummerHouse16 from '../../../assets/masterServices/gardenRoom/summerHouse16.jpeg';
+import SummerHouse17 from '../../../assets/masterServices/gardenRoom/summerHouse16.jpeg';
+
 
 const images = [
   {
@@ -53,6 +65,50 @@ const images = [
   {
     original: SummerHouse06,
     thumbnail: SummerHouse06,
+  },
+  {
+    original: SummerHouse07,
+    thumbnail: SummerHouse07,
+  },
+  {
+    original: SummerHouse08,
+    thumbnail: SummerHouse08,
+  },
+  {
+    original: SummerHouse09,
+    thumbnail: SummerHouse09,
+  },
+  {
+    original: SummerHouse10,
+    thumbnail: SummerHouse10,
+  },
+  {
+    original: SummerHouse11,
+    thumbnail: SummerHouse11,
+  },
+  {
+    original: SummerHouse12,
+    thumbnail: SummerHouse12,
+  },
+  {
+    original: SummerHouse13,
+    thumbnail: SummerHouse13,
+  },
+  {
+    original: SummerHouse14,
+    thumbnail: SummerHouse14,
+  },
+  {
+    original: SummerHouse15,
+    thumbnail: SummerHouse15,
+  },
+  {
+    original: SummerHouse16,
+    thumbnail: SummerHouse16,
+  },
+  {
+    original: SummerHouse17,
+    thumbnail: SummerHouse17,
   },
 ];
 
