@@ -60,6 +60,11 @@ export const Styles = styled.div`
   }
 `;
 
+export const WhappButtonContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
 
 export const WhappButton = styled.div`
   display: flex;
@@ -67,18 +72,18 @@ export const WhappButton = styled.div`
   justify-content: space-evenly;
   align-items: center;
 
-  width: 220px;
+  width: 250px;
   height: 60px;
   padding: 10px;
 
   margin-bottom: 50px;
-  border-radius: 25px;
-  background-color: #00E676;
+  border-radius: 8px;
+  background-color: #00db71;
   color: var(--white);
 
-  box-shadow: 4px 4px 2px 0px rgba(0,0,0,0.77);
+  /* box-shadow: 4px 4px 2px 0px rgba(0,0,0,0.77); */
   cursor: pointer;
-  font-size: 27px;
+  font-size: 22px;
 
   :hover {
     background-color: #00ab58;
