@@ -55,6 +55,12 @@ export const Styles = styled.div`
   }
 `;
 
+export const WhappButtonContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
 export const WhappButton = styled.a`
   display: flex;
   flex-direction: row;
