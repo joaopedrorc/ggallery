@@ -23,14 +23,14 @@ function QuoteForm() {
   const handleSubmit = (event) => {
     event.preventDefault();
     axios
-      .post('/send', { ...state })
+      .post('/send', { ...state, files: state.files })
       .then((response) => {
         setResult(response.data);
         setState({
           name: '',
           phone: '',
           email: '',
-          check: '',
+          check: 'Residence',
           area: '',
           service: '',
           message: '',
@@ -89,9 +89,12 @@ function QuoteForm() {
             });
         }
 
+        console.log('before', state);
         setState({
-          ...(state) => ({ files: [imageUrl].concat(state.files) }),
+          ...state,
+          files: [imageUrl].concat(state.files),
         });
+        console.log('after', state);
       } else {
         alert('Only 5 images can be uploaded at a time');
       }

@@ -5,21 +5,18 @@ const { google } = require('googleapis');
 const OAuth2 = google.auth.OAuth2;
 const OAUTH_PLAYGROUND = 'https://developers.google.com/oauthplayground';
 
-const {
-  EMAIL_ADDRESS,
-  CLIENT_ID,
-  CLIENT_SECRET,
-  REFRESH_TOKEN,
-  // ACCESS_TOKEN,
-} = process.env;
+const { EMAIL_ADDRESS, CLIENT_ID, CLIENT_SECRET, REFRESH_TOKEN } = process.env;
+
 const oauth2Client = new OAuth2(
   CLIENT_ID,
   CLIENT_SECRET, // Client Secret
   OAUTH_PLAYGROUND // Redirect URL
 );
+
 oauth2Client.setCredentials({
   refresh_token: REFRESH_TOKEN,
 });
+
 const accessToken = oauth2Client.getAccessToken();
 
 let transporter = nodemailer.createTransport({
@@ -35,4 +32,5 @@ let transporter = nodemailer.createTransport({
     accessToken,
   },
 });
+
 module.exports = transporter;
