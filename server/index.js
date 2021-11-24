@@ -14,8 +14,6 @@ app.get('*', (req, res) => {
 });
 
 app.post('/send', (req, res) => {
-  // console.log('Resposta: ', req.body);
-  // res.send(req.body);
   try {
     const mailOptions = {
       from: req.body.email, // sender address
@@ -37,7 +35,6 @@ app.post('/send', (req, res) => {
       </ul>
       `,
     };
-    // <li>Arquivos: ${req.body.files[0]}</li>
 
     transporter.sendMail(mailOptions, function (err, info) {
       if (err) {
@@ -56,9 +53,9 @@ app.post('/send', (req, res) => {
   } catch (error) {
     res.status(500).send({
       success: false,
-      message: 'Something went wrong. Try again later 2',
+      message: `Something went wrong. Try again later 2 + ${error}`,
     });
-    console.warn('error during call 2', error);
+    console.warn('error during call 2 =>', error);
   }
 });
 
