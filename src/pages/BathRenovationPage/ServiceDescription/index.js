@@ -10,7 +10,43 @@ import Title from '../../../components/Title';
 import AllServices from '../../../components/AllServices';
 import UpperFooter from '../../../components/UpperFooter';
 
+import Bath29 from '../../../assets/gallery/gallery-one/bath29.jpeg';
+import Bath30 from '../../../assets/gallery/gallery-one/bath30.jpeg';
+import Bath31 from '../../../assets/gallery/gallery-one/bath31.jpeg';
+import Bath32 from '../../../assets/gallery/gallery-one/bath32.jpeg';
+import Bath33 from '../../../assets/gallery/gallery-one/bath33.jpeg';
+import Bath34 from '../../../assets/gallery/gallery-one/bath34.jpeg';
+import Bath35 from '../../../assets/gallery/gallery-one/bath35.jpeg';
+
 const images = [
+  {
+    original: Bath29,
+    thumbnail: Bath29,
+  },
+  {
+    original: Bath30,
+    thumbnail: Bath30,
+  },
+  {
+    original: Bath31,
+    thumbnail: Bath31,
+  },
+  {
+    original: Bath32,
+    thumbnail: Bath32,
+  },
+  {
+    original: Bath35,
+    thumbnail: Bath35,
+  },
+  {
+    original: Bath33,
+    thumbnail: Bath33,
+  },
+  {
+    original: Bath34,
+    thumbnail: Bath34,
+  },
   {
     original:
       'https://res.cloudinary.com/danansan-property-services/image/upload/v1615345690/Website%20Images/servicesGallery/bathroomServices/bathroomService0_zd8r8u.jpg',
