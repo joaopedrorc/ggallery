@@ -30,6 +30,14 @@ import Bath24 from '../../assets/gallery/gallery-one/bath24.webp';
 import Bath25 from '../../assets/gallery/gallery-one/bath25.webp';
 import Bath26 from '../../assets/gallery/gallery-one/bath26.webp';
 import Bath27 from '../../assets/gallery/gallery-one/bath27.webp';
+import Bath28 from '../../assets/gallery/gallery-one/bath28.jpeg';
+import Bath29 from '../../assets/gallery/gallery-one/bath29.jpeg';
+import Bath30 from '../../assets/gallery/gallery-one/bath30.jpeg';
+import Bath31 from '../../assets/gallery/gallery-one/bath31.jpeg';
+import Bath32 from '../../assets/gallery/gallery-one/bath32.jpeg';
+import Bath33 from '../../assets/gallery/gallery-one/bath33.jpeg';
+import Bath34 from '../../assets/gallery/gallery-one/bath34.jpeg';
+import Bath35 from '../../assets/gallery/gallery-one/bath35.jpeg';
 
 import Floor0 from '../../assets/gallery/gallery-two/floor0.webp';
 import Floor01 from '../../assets/gallery/gallery-two/floor01.webp';
@@ -164,6 +172,34 @@ const summerHouseImages = [
 
 const images0 = [
   {
+    original: Bath29,
+    thumbnail: Bath29,
+  },
+  {
+    original: Bath30,
+    thumbnail: Bath30,
+  },
+  {
+    original: Bath31,
+    thumbnail: Bath31,
+  },
+  {
+    original: Bath32,
+    thumbnail: Bath32,
+  },
+  {
+    original: Bath35,
+    thumbnail: Bath35,
+  },
+  {
+    original: Bath33,
+    thumbnail: Bath33,
+  },
+  {
+    original: Bath34,
+    thumbnail: Bath34,
+  },
+  {
     original: Bath24,
     thumbnail: Bath24,
   },
@@ -271,6 +307,10 @@ const images0 = [
   {
     original: Bath22,
     thumbnail: Bath22,
+  },
+  {
+    original: Bath28,
+    thumbnail: Bath28,
   },
 ];
 
