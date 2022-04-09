@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 
+import ReactPlayer from 'react-player';
+import { Button } from 'react-bootstrap';
 import ImageGallery from 'react-image-gallery';
 
 import Bath0 from '../../assets/gallery/gallery-one/bath0.webp';
@@ -113,7 +115,12 @@ import gardenHouse40 from '../../assets/gallery/gallery-five/gardenHouse40.jpeg'
 import gardenHouse41 from '../../assets/gallery/gallery-five/gardenHouse41.jpeg';
 import gardenHouse42 from '../../assets/gallery/gallery-five/gardenHouse42.jpeg';
 
-import { Wrapper, GalleryContainer } from './styles';
+import {
+  Wrapper,
+  GalleryContainer,
+  ButtonsWrapper,
+  VideoWrapper,
+} from './styles';
 
 import BackgroundGallery from './BackgroudGallery';
 import Title from '../../components/Title';
@@ -547,6 +554,8 @@ const images04 = [
 ];
 
 function GalleryPage() {
+  const [showVideo, setShowVideo] = useState(false);
+
   return (
     <>
       <BackgroundGallery />
@@ -554,8 +563,40 @@ function GalleryPage() {
 
       <Wrapper>
         <GalleryContainer>
+          <ButtonsWrapper>
+            <Button
+              variant="primary"
+              size="sm"
+              onClick={() => {
+                setShowVideo(false);
+              }}
+            >
+              Images
+            </Button>
+            <Button
+              variant="outline-primary"
+              size="sm"
+              onClick={() => {
+                setShowVideo(true);
+              }}
+            >
+              Videos
+            </Button>
+          </ButtonsWrapper>
+
           <h2>Garden office and gym house</h2>
-          <ImageGallery items={images04} />
+
+          {showVideo ? (
+            <VideoWrapper>
+              <ReactPlayer
+                url="https://res.cloudinary.com/danansan-property-services/video/upload/v1649455775/Website%20videos/mobile-movie-transparent_nocxr4.mp4"
+                controls={true}
+                playing={true}
+              />
+            </VideoWrapper>
+          ) : (
+            <ImageGallery items={images04} />
+          )}
         </GalleryContainer>
 
         <GalleryContainer>

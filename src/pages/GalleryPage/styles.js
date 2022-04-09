@@ -20,3 +20,15 @@ export const GalleryContainer = styled.div`
     margin-bottom: 2rem;
   }
 `;
+
+export const ButtonsWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+`;
+
+export const VideoWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
