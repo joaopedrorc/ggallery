@@ -28,14 +28,23 @@ export const ButtonsWrapper = styled.div`
   justify-content: center;
   align-items: center;
   background-color: white;
-  min-width: 400px;
+  min-width: 392px;
   height: 58px;
   padding: 8px;
 
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   border: 1px solid white;
-  /* margin-bottom: 1px; */
+
+  @media screen and (max-width: 414px) {
+    margin-bottom: 5px;
+    min-width: 350px;
+  }
+
+  @media screen and (max-width: 350px) {
+    margin-bottom: 5px;
+    min-width: 315px;
+  }
 `;
 
 export const VideoWrapper = styled.div`
