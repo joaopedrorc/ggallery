@@ -1,8 +1,21 @@
 import React, { useState } from 'react';
 
 import ReactPlayer from 'react-player';
-import { Button } from 'react-bootstrap';
 import ImageGallery from 'react-image-gallery';
+
+import {
+  Wrapper,
+  GalleryContainer,
+  WrapperBtn,
+  ButtonsWrapper,
+  VideoWrapper,
+  CustomButton,
+  CustomButton2,
+} from './styles';
+
+import BackgroundGallery from './BackgroudGallery';
+import Title from '../../components/Title';
+import UpperFooter from '../../components/UpperFooter';
 
 import Bath0 from '../../assets/gallery/gallery-one/bath0.webp';
 import Bath01 from '../../assets/gallery/gallery-one/bath01.webp';
@@ -114,17 +127,6 @@ import gardenHouse39 from '../../assets/gallery/gallery-five/gardenHouse39.jpeg'
 import gardenHouse40 from '../../assets/gallery/gallery-five/gardenHouse40.jpeg';
 import gardenHouse41 from '../../assets/gallery/gallery-five/gardenHouse41.jpeg';
 import gardenHouse42 from '../../assets/gallery/gallery-five/gardenHouse42.jpeg';
-
-import {
-  Wrapper,
-  GalleryContainer,
-  ButtonsWrapper,
-  VideoWrapper,
-} from './styles';
-
-import BackgroundGallery from './BackgroudGallery';
-import Title from '../../components/Title';
-import UpperFooter from '../../components/UpperFooter';
 
 const summerHouseImages = [
   {
@@ -555,6 +557,20 @@ const images04 = [
 
 function GalleryPage() {
   const [showVideo, setShowVideo] = useState(false);
+  const [activeBtn1, setActiveBtn1] = useState(true);
+  const [activeBtn2, setActiveBtn2] = useState(false);
+
+  function btn1() {
+    setShowVideo(false);
+    setActiveBtn1(true);
+    setActiveBtn2(false);
+  }
+
+  function btn2() {
+    setShowVideo(true);
+    setActiveBtn1(false);
+    setActiveBtn2(true);
+  }
 
   return (
     <>
@@ -563,28 +579,29 @@ function GalleryPage() {
 
       <Wrapper>
         <GalleryContainer>
-          <ButtonsWrapper>
-            <Button
-              variant="primary"
-              size="sm"
-              onClick={() => {
-                setShowVideo(false);
-              }}
-            >
-              Images
-            </Button>
-            <Button
-              variant="outline-primary"
-              size="sm"
-              onClick={() => {
-                setShowVideo(true);
-              }}
-            >
-              Videos
-            </Button>
-          </ButtonsWrapper>
-
           <h2>Garden office and gym house</h2>
+
+          <WrapperBtn>
+            <ButtonsWrapper>
+              <CustomButton
+                active={activeBtn1}
+                onClick={() => {
+                  btn1();
+                }}
+              >
+                Images
+              </CustomButton>
+
+              <CustomButton2
+                active={activeBtn2}
+                onClick={() => {
+                  btn2();
+                }}
+              >
+                Videos
+              </CustomButton2>
+            </ButtonsWrapper>
+          </WrapperBtn>
 
           {showVideo ? (
             <VideoWrapper>
