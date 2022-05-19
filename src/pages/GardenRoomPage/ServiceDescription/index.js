@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-// import ImageGallery from 'react-image-gallery';
-
 import { Styles, ContainerBox } from './styles';
 
 import { Container } from 'react-bootstrap';
@@ -10,7 +8,6 @@ import Title from '../../../components/Title';
 import AllServices from '../../../components/AllServices';
 import UpperFooter from '../../../components/UpperFooter';
 import ImageGallery from 'react-image-gallery';
-
 
 import Image0 from '../../../assets/masterServices/gardenRoom/shed0.jpg';
 import Image01 from '../../../assets/masterServices/gardenRoom/shed01.jpg';
@@ -39,7 +36,6 @@ import SummerHouse14 from '../../../assets/masterServices/gardenRoom/summerHouse
 import SummerHouse15 from '../../../assets/masterServices/gardenRoom/summerHouse15.jpeg';
 import SummerHouse16 from '../../../assets/masterServices/gardenRoom/summerHouse16.jpeg';
 import SummerHouse17 from '../../../assets/masterServices/gardenRoom/summerHouse16.jpeg';
-
 
 const images = [
   {
@@ -115,7 +111,7 @@ const images = [
 export default function ServiceDescription() {
   return (
     <Styles>
-      <Title title="Insulated garden room office/studio" />
+      <Title title="Garden room office/studio" />
       <ContainerBox>
         <p className="p-container text-center">
           Increase your living space with one of our low maintenance summer

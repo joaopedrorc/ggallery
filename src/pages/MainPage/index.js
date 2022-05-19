@@ -42,7 +42,7 @@ function MainPage() {
       <Container className="text-center">
         <Player url={BgSong} />
       </Container>
-    
+
       <div className="w-100 pb-5 pt-lg-2 pb-lg-5">
         <div className="container pt-2 pb-2 pt-lg-2 pb-lg-0">
           <div className="row mb-1">
@@ -56,17 +56,12 @@ function MainPage() {
                   />
                 </div>
                 <div className="card-body p-3 card-height">
-                  <h5 className="card-title mb-3">
-                    Summer house
-                  </h5>
+                  <h5 className="card-title mb-3">Garden house</h5>
                   <p className="card-text">
                     Increase your living space with one of our low maintenance,
                     highly insulated garden buildings.
                   </p>
-                  <Link
-                    className="link-button btn btn-01"
-                    to="/summer-house"
-                  >
+                  <Link className="link-button btn btn-01" to="/garden-house">
                     Learn more
                   </Link>
                 </div>
@@ -107,7 +102,7 @@ function MainPage() {
                   <h5 className="card-title mb-3">Garden storage shed</h5>
                   <p className="card-text mb-4">
                     Whether you want to build a shed to store tools and bikes or
-                    a summer house to extend your living space, installation is
+                    a Garden house to extend your living space, installation is
                     key to ensuring your building will stand the test of time.
                   </p>
                   <Link
@@ -131,7 +126,8 @@ function MainPage() {
                 <div className="card-body p-3 card-height-img">
                   <h5 className="card-title mb-3">Painting and decorating</h5>
                   <p className="card-text">
-                  Our team of fully-qualified painters and decorators understand the importance of high-quality paintwork.
+                    Our team of fully-qualified painters and decorators
+                    understand the importance of high-quality paintwork.
                   </p>
                   <Link
                     className="link-button btn btn-04"
@@ -269,7 +265,7 @@ function MainPage() {
           </div>
         </div>
       </section>
-    
+
       <QuoteForm />
     </Styles>
   );

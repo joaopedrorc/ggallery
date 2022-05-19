@@ -104,7 +104,7 @@ function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-              <Instagram color="#000" width="50" height="50" />
+                <Instagram color="#000" width="50" height="50" />
               </a>
 
               <a
@@ -113,7 +113,7 @@ function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-              <Facebook color="#000" width="50" height="50" />
+                <Facebook color="#000" width="50" height="50" />
               </a>
 
               {/* <a
@@ -168,7 +168,7 @@ function Footer() {
                 </Dropdown.Item>
 
                 <Dropdown.Item>
-                  <Link to="/summer-house">
+                  <Link to="/garden-house">
                     Insulated garden room/office/studio
                   </Link>
                 </Dropdown.Item>
@@ -188,7 +188,9 @@ function Footer() {
                 </Dropdown.Item>
 
                 <Dropdown.Item>
-                  <Link to="/painting-decorating-general">Painting and decorating</Link>
+                  <Link to="/painting-decorating-general">
+                    Painting and decorating
+                  </Link>
                 </Dropdown.Item>
 
                 <Dropdown.Item>

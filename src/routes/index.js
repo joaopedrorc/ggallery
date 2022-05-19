@@ -65,7 +65,7 @@ export default function Routes() {
         <Route
           layout={LayoutDefault}
           exact
-          path="/summer-house"
+          path="/garden-house"
           component={GardenRoomPage}
         />
         <Route
@@ -104,7 +104,7 @@ export default function Routes() {
           path="/painting-decorating-general"
           component={PaintingGeneralAds}
         />
-        <Route 
+        <Route
           layout={LayoutDefault}
           exact
           path="/painting-decoration-commercial"

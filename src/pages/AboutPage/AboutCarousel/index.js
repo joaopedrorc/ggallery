@@ -41,7 +41,7 @@ function AboutCarousel() {
                 Increase your living space with one of our low maintenance,
                 highly insulated garden buildings.
               </p>
-              <Link className="link-button btn " to="/summer-house">
+              <Link className="link-button btn " to="/garden-house">
                 Learn more
               </Link>
             </div>
@@ -100,7 +100,7 @@ function AboutCarousel() {
               <h5 className="card-title mb-3">Garden storage shed</h5>
               <p className="card-text mb-4">
                 Whether you want to build a shed to store tools and bikes or a
-                summer house to extend your living space, installation is key to
+                Garden house to extend your living space, installation is key to
                 ensuring your building will stand the test of time.
               </p>
               <Link className="link-button btn " to="/garden-storage-shed">

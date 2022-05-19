@@ -622,7 +622,7 @@ function GalleryPage() {
         </GalleryContainer>
 
         <GalleryContainer>
-          <h2>Summer houses</h2>
+          <h2>Garden houses</h2>
           <ImageGallery items={summerHouseImages} />
         </GalleryContainer>
 

@@ -36,7 +36,9 @@ function NavBar() {
               className="navbar-items"
             >
               <NavDropdown.Item className="navbar-items">
-                <Link to="/painting-decorating-general">Painting and decorating</Link>
+                <Link to="/painting-decorating-general">
+                  Painting and decorating
+                </Link>
               </NavDropdown.Item>
 
               <NavDropdown.Item className="navbar-items">
@@ -48,9 +50,7 @@ function NavBar() {
               </NavDropdown.Item>
 
               <NavDropdown.Item>
-                <Link to="/summer-house">
-                  Summer houses
-                </Link>
+                <Link to="/garden-house">Garden houses</Link>
               </NavDropdown.Item>
 
               <NavDropdown.Divider />
@@ -68,9 +68,7 @@ function NavBar() {
               </NavDropdown.Item>
 
               <NavDropdown.Item>
-              <Link to="/bathroom-renovation">
-                Bathroom renovation
-              </Link>
+                <Link to="/bathroom-renovation">Bathroom renovation</Link>
               </NavDropdown.Item>
 
               <NavDropdown.Item>
@@ -113,7 +111,7 @@ function NavBar() {
 
           {/* <div className="call-bo"> */}
           <a href="tel:+44 7305 082737" className="button-style btn p-2 mr-3">
-            <TelephoneInboundFill color='#FFF' size={22} /> +44 7305 082737
+            <TelephoneInboundFill color="#FFF" size={22} /> +44 7305 082737
           </a>
           {/* </div> */}
         </Navbar.Collapse>
