@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Styles = styled.div`
   .p-container {
-    width: 59.333%;
     font-size: 1.75rem;
     font-weight: 300;
 
@@ -56,20 +55,17 @@ export const Styles = styled.div`
     justify-content: center;
     text-align: center;
 
-    /* margin-bottom: 1rem; */
-
     @media (min-width: 950px) {
       display: flex;
       flex-direction: column;
       justify-content: center;
       text-align: center;
 
-      width: 60%;
+      width: 50%;
       height: 800px;
 
       margin-right: auto;
       margin-left: auto;
-      /* margin-bottom: 1.5rem; */
     }
   }
 
@@ -91,13 +87,18 @@ export const Styles = styled.div`
     margin-bottom: 3rem;
     color: var(--white);
 
+    a {
+      color: var(--white);
+    }
+
     &:hover {
       background-color: var(--primary-dark);
       text-decoration: underline;
     }
 
     @media (max-width: 950px) {
-      margin-top: 2rem;
+      margin: 2rem 1rem 3rem 1rem;
+      width: 300px;
     }
   }
 `;
@@ -105,10 +106,6 @@ export const Styles = styled.div`
 export const ContainerBox = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-
-  @media (max-width: 767.98px) {
-    margin-left: 2rem;
-  }
 `;

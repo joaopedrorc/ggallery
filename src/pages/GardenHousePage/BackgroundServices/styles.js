@@ -51,8 +51,12 @@ export const Styles = styled.div`
     color: var(--black);
     text-decoration: underline;
 
+    a {
+      color: var(--black);
+    }
+
     :hover {
-      background-color: #DCDCDC ;
+      background-color: #dcdcdc;
     }
   }
 `;

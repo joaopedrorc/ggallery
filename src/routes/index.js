@@ -10,7 +10,7 @@ import AreasPage from '../pages/AreasPage';
 import AboutPage from '../pages/AboutPage';
 import GalleryPage from '../pages/GalleryPage';
 import GetAQuotePage from '../pages/GetAQuotePage';
-import GardenRoomPage from '../pages/GardenRoomPage';
+import GardenHousePage from '../pages/GardenHousePage';
 import FencePage from '../pages/FencePage';
 import GardenStoragePage from '../pages/GardenStoragePage';
 import BathRenovationPage from '../pages/BathRenovationPage';
@@ -66,7 +66,7 @@ export default function Routes() {
           layout={LayoutDefault}
           exact
           path="/garden-house"
-          component={GardenRoomPage}
+          component={GardenHousePage}
         />
         <Route
           layout={LayoutDefault}

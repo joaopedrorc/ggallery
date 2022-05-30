@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
@@ -20,7 +21,21 @@ function QuoteForm() {
   const [result, setResult] = useState(null);
   const [selectedFiles, setSelectedFiles] = useState('');
 
+  function gtag_report_conversion(url, key) {
+    var callback = function () {
+      if (typeof url != 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+      send_to: { key },
+      event_callback: callback,
+    });
+    return false;
+  }
+
   const handleSubmit = (event) => {
+    gtag_report_conversion((key = 'AW-430100064/ayB-CKG92sEDEOCci80B'));
     event.preventDefault();
     axios
       .post('/send', { ...state, files: state.files })
@@ -88,13 +103,10 @@ function QuoteForm() {
               console.error(err);
             });
         }
-
-        console.log('before', state);
         setState({
           ...state,
           files: [imageUrl].concat(state.files),
         });
-        console.log('after', state);
       } else {
         alert('Only 5 images can be uploaded at a time');
       }
@@ -106,15 +118,19 @@ function QuoteForm() {
     <Styles>
       <Container>
         <Title title="Contact us via WhatsApp" />
-
         <WhappButtonContainer>
           <WhappButton
             href="https://wa.me/+447305082737?text=Hi,%20I%20came%20from%20the%20website.%20I'd%20like%20to%20get%20a%20quote!"
             rel="noreferrer"
             target="_blank"
             className="whatsapp-button"
+            onClick={() =>
+              gtag_report_conversion(
+                (key = 'AW-430100064/nLQYCJ692sEDEOCci80B')
+              )
+            }
           >
-            <span>START CHAT</span>
+            <span>WhatsApp</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="30"
@@ -127,9 +143,7 @@ function QuoteForm() {
             </svg>
           </WhappButton>
         </WhappButtonContainer>
-
         <Title title="Or send us an email" />
-
         <div className="row mb-4">
           <div className="col-md-12 container-col">
             <div className="container-size">

@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -36,6 +37,7 @@ import SummerHouse14 from '../../../assets/masterServices/gardenRoom/summerHouse
 import SummerHouse15 from '../../../assets/masterServices/gardenRoom/summerHouse15.jpeg';
 import SummerHouse16 from '../../../assets/masterServices/gardenRoom/summerHouse16.jpeg';
 import SummerHouse17 from '../../../assets/masterServices/gardenRoom/summerHouse16.jpeg';
+import QuoteForm from '../../../components/QuoteForm';
 
 const images = [
   {
@@ -109,6 +111,19 @@ const images = [
 ];
 
 export default function ServiceDescription() {
+  function gtag_report_conversion(url, key) {
+    var callback = function () {
+      if (typeof url != 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+      send_to: { key },
+      event_callback: callback,
+    });
+    return false;
+  }
+
   return (
     <Styles>
       <Title title="Garden room office/studio" />
@@ -120,9 +135,14 @@ export default function ServiceDescription() {
         <div className="gallery-container">
           <ImageGallery items={images} />
         </div>
-        <Link className="link-button btn p-2 mb-5" to="/get-a-quote">
-          Get a free quote
-        </Link>
+        <button
+          className="link-button btn p-2 mb-5"
+          onClick={() =>
+            gtag_report_conversion((key = 'AW-430100064/jksJCOS72sEDEOCci80B'))
+          }
+        >
+          <Link to="/get-a-quote">Get a free quote</Link>
+        </button>
       </ContainerBox>
       <Title title="How would you use yours?" />
       <Container>
@@ -315,10 +335,12 @@ export default function ServiceDescription() {
         </div>
       </Container>
 
+      <QuoteForm />
+
       <ContainerBox>
-        <Link className="link-button btn p-2 mb-5" to="/get-a-quote">
+        {/* <Link className="link-button btn p-2 mb-5" to="/get-a-quote">
           Get a free quote
-        </Link>
+        </Link> */}
       </ContainerBox>
 
       <AllServices />

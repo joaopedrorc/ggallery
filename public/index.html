@@ -6,6 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
 
+    <!-- Global site tag (gtag.js) - Google Ads: 430100064 -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=AW-430100064"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'AW-430100064');
+    </script>
+
     <!-- Primary Meta Tags -->
     <title>
       Danansan Property Services - The best choice for your home needs.
@@ -77,27 +92,28 @@
     <div id="fb-root"></div>
 
     <!-- Your Chat plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
+    <div id="fb-customer-chat" class="fb-customerchat"></div>
 
     <script>
       var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "101170022154204");
-      chatbox.setAttribute("attribution", "biz_inbox");
-      window.fbAsyncInit = function() {
+      chatbox.setAttribute('page_id', '101170022154204');
+      chatbox.setAttribute('attribution', 'biz_inbox');
+      window.fbAsyncInit = function () {
         FB.init({
-          xfbml            : true,
-          version          : 'v10.0'
+          xfbml: true,
+          version: 'v10.0',
         });
       };
 
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
+        js = d.createElement(s);
+        js.id = id;
         js.src = 'https://connect.facebook.net/en_GB/sdk/xfbml.customerchat.js';
         fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
+      })(document, 'script', 'facebook-jssdk');
     </script>
     <div id="root"></div>
   </body>
