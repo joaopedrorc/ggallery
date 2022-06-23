@@ -21,21 +21,7 @@ function QuoteForm() {
   const [result, setResult] = useState(null);
   const [selectedFiles, setSelectedFiles] = useState('');
 
-  function gtag_report_conversion(url, key) {
-    var callback = function () {
-      if (typeof url != 'undefined') {
-        window.location = url;
-      }
-    };
-    gtag('event', 'conversion', {
-      send_to: { key },
-      event_callback: callback,
-    });
-    return false;
-  }
-
   const handleSubmit = (event) => {
-    gtag_report_conversion((key = 'AW-430100064/ayB-CKG92sEDEOCci80B'));
     event.preventDefault();
     axios
       .post('/send', { ...state, files: state.files })
@@ -124,11 +110,6 @@ function QuoteForm() {
             rel="noreferrer"
             target="_blank"
             className="whatsapp-button"
-            onClick={() =>
-              gtag_report_conversion(
-                (key = 'AW-430100064/nLQYCJ692sEDEOCci80B')
-              )
-            }
           >
             <span>WhatsApp</span>
             <svg

@@ -111,19 +111,6 @@ const images = [
 ];
 
 export default function ServiceDescription() {
-  function gtag_report_conversion(url, key) {
-    var callback = function () {
-      if (typeof url != 'undefined') {
-        window.location = url;
-      }
-    };
-    gtag('event', 'conversion', {
-      send_to: { key },
-      event_callback: callback,
-    });
-    return false;
-  }
-
   return (
     <Styles>
       <Title title="Tailor-maid Garden Room office/studio" />
@@ -135,12 +122,7 @@ export default function ServiceDescription() {
         <div className="gallery-container">
           <ImageGallery items={images} />
         </div>
-        <button
-          className="link-button btn p-2 mb-5"
-          onClick={() =>
-            gtag_report_conversion((key = 'AW-430100064/jksJCOS72sEDEOCci80B'))
-          }
-        >
+        <button className="link-button btn p-2 mb-5">
           <Link to="/get-a-quote">Get a free quote</Link>
         </button>
       </ContainerBox>
