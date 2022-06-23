@@ -25,11 +25,11 @@ export default function BackgroundServices() {
         <div className="container">
           <div className="banner-content">
             <h1>
-              <strong>Garden House</strong>
+              <strong>Custom Garden Houses</strong>
             </h1>
             <p>
               Increase your living space with one of our low maintenance <br />{' '}
-              highly insulated garden house
+              and custom build garden house
             </p>
             <button
               className="button-style btn p-2 mt-5"

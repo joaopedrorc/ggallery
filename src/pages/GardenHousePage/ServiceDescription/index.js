@@ -126,11 +126,11 @@ export default function ServiceDescription() {
 
   return (
     <Styles>
-      <Title title="Garden room office/studio" />
+      <Title title="Tailor-maid Garden Room office/studio" />
       <ContainerBox>
         <p className="p-container text-center">
-          Increase your living space with one of our low maintenance summer
-          houses.
+          Reveal the true beauty of your garden with a low maintenance garden
+          house.
         </p>
         <div className="gallery-container">
           <ImageGallery items={images} />
