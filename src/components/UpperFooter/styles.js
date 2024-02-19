@@ -5,6 +5,7 @@ export const Styles = styled.div`
     color: var(--white);
     margin-top: 1rem;
   }
+
   button {
     background-color: var(--primary);
     border: none;
@@ -26,7 +27,9 @@ export const Styles = styled.div`
     font-weight: 600;
     color: var(--white);
   }
+
   hr {
+    border: 1px solid var(--white);
     background-color: var(--white);
     height: 5px;
     width: 88px;
@@ -36,12 +39,11 @@ export const Styles = styled.div`
   .title-container {
     width: 100%;
     height: 220px;
-    background-color: var(--gray);
+    background-color: var(--black);
 
     @media (max-width: 550px) {
       width: 100%;
       height: 260px;
-      background-color: var(--gray);
     }
   }
 `;

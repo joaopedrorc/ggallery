@@ -12,6 +12,7 @@ export const Styles = styled.div`
     font-weight: 600;
     color: var(--white);
   }
+
   #footer-line {
     background-color: var(--white);
     height: 5px;
@@ -20,7 +21,7 @@ export const Styles = styled.div`
   }
 
   .master-container {
-    background-color: var(--primary);
+    background-color: var(--black);
     width: 100%;
   }
 
@@ -50,6 +51,6 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
 
-  padding-top: 1rem;
+  padding: 1rem;
   margin-bottom: 2rem;
 `;

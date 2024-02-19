@@ -20,8 +20,8 @@ export default createGlobalStyle`
   :root {
     --white: #fff;
     --black: #000;
-    --primary: #2156A2;
-    --primary-dark: #103f83;
+    --primary: #CA2B16;
+    --primary-dark: #EB5A47;
     --secondary: #A1AEC0;
     --gold: #FFD700;
     --green: #37A761;

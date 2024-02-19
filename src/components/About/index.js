@@ -11,7 +11,7 @@ function About() {
       <Container>
         <h2 className="text-center">
           Quality service, integrity and transparency are <br /> just some of
-          the virtues of Danansan.
+          the virtues of GGallery.
         </h2>
         <ul className="fa-ul">
           <li className="d-flex justify-content-center align-items-center">

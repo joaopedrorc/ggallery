@@ -39,9 +39,9 @@ function MainPage() {
 
       <Title title="Our services" />
 
-      <Container className="text-center">
+      {/* <Container className="text-center">
         <Player url={BgSong} />
-      </Container>
+      </Container> */}
 
       <div className="w-100 pb-5 pt-lg-2 pb-lg-5">
         <div className="container pt-2 pb-2 pt-lg-2 pb-lg-0">

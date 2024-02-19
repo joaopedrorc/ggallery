@@ -3,6 +3,10 @@ import styled from 'styled-components';
 export const Container = styled.div`
   margin-bottom: 3rem;
 
+  img {
+    object-fit: contain;
+  }
+
   .app {
     @media (min-width: 767.98px) {
       width: 70%;
@@ -15,6 +19,7 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
   }
+
   .card-button {
     width: 100%;
     background-color: var(--primary);
@@ -24,6 +29,7 @@ export const Container = styled.div`
       background-color: var(--primary-dark);
     }
   }
+
   .link-button {
     background-color: var(--primary);
     width: 100%;

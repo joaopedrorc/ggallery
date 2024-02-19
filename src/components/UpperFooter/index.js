@@ -11,10 +11,9 @@ function UpperFooter() {
     <Styles>
       <div className="title-container">
         <Container>
-          <h1 className="text-center">Would you like more information ?</h1>
+          <h1 className="text-center">Would you like more information?</h1>
           <hr />
           <p className="text-center">
-            {' '}
             Get in touch with one of our specialists and ask your questions.
           </p>
           <Button type="button" className="mr-3">

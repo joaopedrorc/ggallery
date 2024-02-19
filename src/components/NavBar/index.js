@@ -5,7 +5,7 @@ import { Styles } from './styles';
 
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import { TelephoneInboundFill } from 'react-bootstrap-icons';
-import Logo from '../../assets/logos/White.svg';
+import Logo from '../../assets/logos/Original.png';
 
 function NavBar() {
   return (
@@ -13,7 +13,13 @@ function NavBar() {
       <Navbar expand="md">
         <Navbar.Brand>
           <Link to="/">
-            <img className="logo" src={Logo} alt="Logo" />
+            <img
+              className="logo"
+              src={Logo}
+              alt="Logo"
+              height={75}
+              width={75}
+            />
           </Link>
         </Navbar.Brand>
 
@@ -110,7 +116,7 @@ function NavBar() {
           </Nav>
 
           {/* <div className="call-bo"> */}
-          <a href="tel:+44 7305 082737" className="button-style btn p-2 mr-3">
+          <a href="tel:+44 7305 082737" className="button-style btn p-2 ms-4">
             <TelephoneInboundFill color="#FFF" size={22} /> +44 7305 082737
           </a>
           {/* </div> */}

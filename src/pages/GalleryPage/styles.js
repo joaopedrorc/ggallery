@@ -1,10 +1,19 @@
 import styled from 'styled-components';
 
+export const Container = styled.div`
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+`;
+
 export const Wrapper = styled.div`
   width: 100%;
+  max-width: 950px;
   padding: 1rem 0;
 
-  background-color: var(--primary);
+  /* background-color: var(--primary); */
 `;
 
 export const GalleryContainer = styled.div`
@@ -17,7 +26,7 @@ export const GalleryContainer = styled.div`
   margin-bottom: 2.5rem;
 
   h2 {
-    color: var(--white);
+    color: var(--black);
     margin-bottom: 2rem;
   }
 `;

@@ -4,6 +4,7 @@ import ReactPlayer from 'react-player';
 import ImageGallery from 'react-image-gallery';
 
 import {
+  Container,
   Wrapper,
   GalleryContainer,
   WrapperBtn,
@@ -577,70 +578,72 @@ function GalleryPage() {
       <BackgroundGallery />
       <Title title="A collection of images from our services" />
 
-      <Wrapper>
-        <GalleryContainer>
-          <h2>Garden office and gym house</h2>
+      <Container>
+        <Wrapper>
+          <GalleryContainer>
+            <h2>Garden office and gym house</h2>
 
-          <WrapperBtn>
-            <ButtonsWrapper>
-              <CustomButton
-                active={activeBtn1}
-                onClick={() => {
-                  btn1();
-                }}
-              >
-                Images
-              </CustomButton>
+            <WrapperBtn>
+              <ButtonsWrapper>
+                <CustomButton
+                  active={activeBtn1}
+                  onClick={() => {
+                    btn1();
+                  }}
+                >
+                  Images
+                </CustomButton>
 
-              <CustomButton2
-                active={activeBtn2}
-                onClick={() => {
-                  btn2();
-                }}
-              >
-                Videos
-              </CustomButton2>
-            </ButtonsWrapper>
-          </WrapperBtn>
+                <CustomButton2
+                  active={activeBtn2}
+                  onClick={() => {
+                    btn2();
+                  }}
+                >
+                  Videos
+                </CustomButton2>
+              </ButtonsWrapper>
+            </WrapperBtn>
 
-          {showVideo ? (
-            <VideoWrapper>
-              <ReactPlayer
-                url="https://res.cloudinary.com/danansan-property-services/video/upload/v1649455775/Website%20videos/mobile-movie-transparent_nocxr4.mp4"
-                controls={true}
-                playing={true}
-              />
-            </VideoWrapper>
-          ) : (
-            <ImageGallery items={images04} />
-          )}
-        </GalleryContainer>
+            {showVideo ? (
+              <VideoWrapper>
+                <ReactPlayer
+                  url="https://res.cloudinary.com/danansan-property-services/video/upload/v1649455775/Website%20videos/mobile-movie-transparent_nocxr4.mp4"
+                  controls={true}
+                  playing={true}
+                />
+              </VideoWrapper>
+            ) : (
+              <ImageGallery items={images04} />
+            )}
+          </GalleryContainer>
 
-        <GalleryContainer>
-          <h2>Painting and decoration</h2>
-          <ImageGallery items={images03} />
-        </GalleryContainer>
+          <GalleryContainer>
+            <h2>Painting and decoration</h2>
+            <ImageGallery items={images03} />
+          </GalleryContainer>
 
-        <GalleryContainer>
-          <h2>Garden houses</h2>
-          <ImageGallery items={summerHouseImages} />
-        </GalleryContainer>
+          <GalleryContainer>
+            <h2>Garden houses</h2>
+            <ImageGallery items={summerHouseImages} />
+          </GalleryContainer>
 
-        <GalleryContainer>
-          <h2>Bathroom renovation</h2>
-          <ImageGallery items={images0} />
-        </GalleryContainer>
+          <GalleryContainer>
+            <h2>Bathroom renovation</h2>
+            <ImageGallery items={images0} />
+          </GalleryContainer>
 
-        <GalleryContainer>
-          <h2>Wood flooring and tile installation</h2>
-          <ImageGallery items={images01} />
-        </GalleryContainer>
+          <GalleryContainer>
+            <h2>Wood flooring and tile installation</h2>
+            <ImageGallery items={images01} />
+          </GalleryContainer>
 
-        <GalleryContainer>
-          <h2>Fence erecting</h2>
-          <ImageGallery items={images02} />
-        </GalleryContainer>
-      </Wrapper>
+          <GalleryContainer>
+            <h2>Fence erecting</h2>
+            <ImageGallery items={images02} />
+          </GalleryContainer>
+        </Wrapper>
+      </Container>
 
       <UpperFooter />
     </>

@@ -31,6 +31,7 @@ function AboutCarousel() {
                 src={Service0}
                 className="card-img-top"
                 alt="Insulated garden room"
+                style={{ height: '492px' }}
               />
             </div>
             <div className="card-body p-3">
@@ -53,13 +54,14 @@ function AboutCarousel() {
                 src={Service03}
                 className="card-img-top"
                 alt="Bathroom renovation"
+                style={{ height: '485px' }}
               />
             </div>
             <div className="card-body p-3">
-              <h5 className="card-title mb-3">Bathroom renovation</h5>
+              <h5 className="card-title mb-3">Painting and decorating</h5>
               <p className="card-text mb-4">
-                If you want a gorgeous and functonal bathroom, your bathroom
-                renovation project will require a team of experts.
+                We offer a full range of painting and decorating services for
+                both residential and commercial properties.
               </p>
               <Link className="link-button btn" to="/bathroom-renovation">
                 Learn more

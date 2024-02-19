@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Styles = styled.div`
   .navbar {
     background: var(--black);
+    padding: 10px 25px;
   }
 
   .navbar-items {

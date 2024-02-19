@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { BrowserRouter, Switch } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import Route from './Route';
+// import Route from './Route';
 
 import MainPage from '../pages/MainPage';
 import ContractPage from '../pages/ContractPage';
@@ -27,128 +27,67 @@ import GardenMaintenance from '../pages/GardenContracts';
 import NotFound from '../pages/NotFound';
 import LayoutDefault from '../pages/_layout';
 
-export default function Routes() {
+export default function AppRoutes() {
   return (
     <BrowserRouter>
-      <Switch>
-        <Route layout={LayoutDefault} exact path="/" component={MainPage} />
-        <Route
-          layout={LayoutDefault}
-          exact
-          path="/contracts"
-          component={ContractPage}
-        />
-        <Route
-          layout={LayoutDefault}
-          exact
-          path="/areas"
-          component={AreasPage}
-        />
-        <Route
-          layout={LayoutDefault}
-          exact
-          path="/about"
-          component={AboutPage}
-        />
-        <Route
-          layout={LayoutDefault}
-          exact
-          path="/gallery"
-          component={GalleryPage}
-        />
-        <Route
-          layout={LayoutDefault}
-          exact
-          path="/get-a-quote"
-          component={GetAQuotePage}
-        />
-        <Route
-          layout={LayoutDefault}
-          exact
-          path="/garden-house"
-          component={GardenHousePage}
-        />
-        <Route
-          layout={LayoutDefault}
-          exact
-          path="/erecting-fence"
-          component={FencePage}
-        />
-        <Route
-          layout={LayoutDefault}
-          exact
-          path="/garden-storage-shed"
-          component={GardenStoragePage}
-        />
-        <Route
-          layout={LayoutDefault}
-          exact
-          path="/bathroom-renovation"
-          component={BathRenovationPage}
-        />
-        <Route
-          layout={LayoutDefault}
-          exact
-          path="/roof-cleaning"
-          component={RoofCleaningPage}
-        />
-        <Route
-          layout={LayoutDefault}
-          exact
-          path="/painting-decorating"
-          component={PaintingDecorationPage}
-        />
-        <Route
-          layout={LayoutDefault}
-          exact
-          path="/painting-decorating-general"
-          component={PaintingGeneralAds}
-        />
-        <Route
-          layout={LayoutDefault}
-          exact
-          path="/painting-decoration-commercial"
-          component={PaintingCommercialAds}
-        />
-        <Route
-          layout={LayoutDefault}
-          exact
-          path="/flooring-tiles-installation"
-          component={FlooringTilesPage}
-        />
-        <Route
-          layout={LayoutDefault}
-          exact
-          path="/eletical-services"
-          component={EletricalPage}
-        />
-        <Route
-          layout={LayoutDefault}
-          exact
-          path="/heating-plumbing"
-          component={HeatingPlumbingPage}
-        />
-        <Route
-          layout={LayoutDefault}
-          exact
-          path="/window-cleaning"
-          component={WindowCleaning}
-        />
-        <Route
-          layout={LayoutDefault}
-          exact
-          path="/office-cleaning"
-          component={OfficeCleaning}
-        />
-        <Route
-          layout={LayoutDefault}
-          exact
-          path="/garden-maintenance"
-          component={GardenMaintenance}
-        />
+      <LayoutDefault>
+        <Routes>
+          <Route exact path="/" element={<MainPage />} />
+          <Route exact path="/contracts" element={<ContractPage />} />
+          <Route exact path="/areas" element={<AreasPage />} />
+          <Route exact path="/about" element={<AboutPage />} />
+          <Route exact path="/gallery" element={<GalleryPage />} />
+          <Route exact path="/get-a-quote" element={<GetAQuotePage />} />
+          <Route exact path="/garden-house" element={<GardenHousePage />} />
+          <Route exact path="/erecting-fence" element={<FencePage />} />
+          <Route
+            exact
+            path="/garden-storage-shed"
+            element={<GardenStoragePage />}
+          />
+          <Route
+            exact
+            path="/bathroom-renovation"
+            element={<BathRenovationPage />}
+          />
+          <Route exact path="/roof-cleaning" element={<RoofCleaningPage />} />
+          <Route
+            exact
+            path="/painting-decorating"
+            element={<PaintingDecorationPage />}
+          />
+          <Route
+            exact
+            path="/painting-decorating-general"
+            element={<PaintingGeneralAds />}
+          />
+          <Route
+            exact
+            path="/painting-decoration-commercial"
+            element={<PaintingCommercialAds />}
+          />
+          <Route
+            exact
+            path="/flooring-tiles-installation"
+            element={<FlooringTilesPage />}
+          />
+          <Route exact path="/eletical-services" element={<EletricalPage />} />
+          <Route
+            exact
+            path="/heating-plumbing"
+            element={<HeatingPlumbingPage />}
+          />
+          <Route exact path="/window-cleaning" element={<WindowCleaning />} />
+          <Route exact path="/office-cleaning" element={<OfficeCleaning />} />
+          <Route
+            exact
+            path="/garden-maintenance"
+            element={<GardenMaintenance />}
+          />
 
-        <Route layout={LayoutDefault} component={NotFound} />
-      </Switch>
+          <Route element={<NotFound />} />
+        </Routes>
+      </LayoutDefault>
     </BrowserRouter>
   );
 }

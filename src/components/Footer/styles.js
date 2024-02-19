@@ -5,6 +5,7 @@ export const Styles = styled.div`
     background-color: var(--primary);
     width: 100%;
   }
+
   h2 {
     color: var(--primary);
   }
@@ -56,6 +57,11 @@ export const Styles = styled.div`
     }
   }
 
+  .dropdown-item a {
+    color: var(--black);
+    font-weight: 300;
+  }
+
   .text-container {
     width: 125px;
     display: flex;
@@ -66,7 +72,7 @@ export const Styles = styled.div`
   }
 
   .horizontal-line {
-    border-color: var(--primary);
+    border-color: var(--black);
     margin-top: 0;
     margin-bottom: 2rem;
   }

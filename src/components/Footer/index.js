@@ -8,7 +8,7 @@ import Tools from '../../assets/footerIcons/underConstruction.png';
 import Privacy from '../../assets/footerIcons/Privacy.png';
 import About from '../../assets/footerIcons/About.png';
 import Upgrade from '../../assets/footerIcons/Upgrade.png';
-import FooterLogo from '../../assets/logos/Original.svg';
+import FooterLogo from '../../assets/logos/Original.png';
 
 import { Instagram, Facebook } from 'react-bootstrap-icons';
 
@@ -18,12 +18,12 @@ function Footer() {
       <hr className="horizontal-line" />
       <Container>
         <div className="row">
-          <div className="col col-md-12 col-lg-6 mb-5">
-            <img src={FooterLogo} alt="Logo" />
+          <div className="col col-md-12 col-lg-6 mb-5 d-flex justify-content-center">
+            <img src={FooterLogo} alt="Logo" height={150} width={150} />
           </div>
 
           <div className="col col-md-12 col-lg-6 mb-5">
-            <h2 className="text-center">Follw us </h2>
+            <h2 className="text-center">Follow us</h2>
           </div>
         </div>
 
@@ -99,8 +99,8 @@ function Footer() {
           <div className="col col-md-12 col-lg-6 align-self-center">
             <div className="mb-3 mb-md-3 text-center social-box">
               <a
-                className="button-box  "
-                href="https://www.instagram.com/danansan_property_services/"
+                className="button-box"
+                // href="https://www.instagram.com/danansan_property_services/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -109,30 +109,12 @@ function Footer() {
 
               <a
                 className="button-box "
-                href="https://www.facebook.com/danansanps/"
+                // href="https://www.facebook.com/danansanps/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Facebook color="#000" width="50" height="50" />
               </a>
-
-              {/* <a
-                className="button-box "
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-              > */}
-              {/* <Twitter color="#000" width="50" height="50" /> */}
-              {/* </a> */}
-
-              {/* <a
-                className="button-box "
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-              > */}
-              {/* <Youtube color="#000" width="50" height="50" /> */}
-              {/* </a> */}
             </div>
           </div>
         </div>
