@@ -234,8 +234,8 @@ function Footer() {
                 United Kingdom.
               </p>
               <p className="text-white mt-0">Hours: 9:00am as 5:00pm</p>
-              <a href="tel:+44 7305 082737" className="mb-0 text-white">
-                +44 7305 082737 |
+              <a href="tel:+44 7916 685198" className="mb-0 text-white">
+                +44 7916 685198 |
               </a>
               <br />
 

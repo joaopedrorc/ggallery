@@ -242,7 +242,7 @@ function MainPage() {
       </div>
       <div />
 
-      <Title title="Where to find us" />
+      {/* <Title title="Where to find us" />
 
       <section>
         <div className="row mb-4">
@@ -264,7 +264,7 @@ function MainPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <QuoteForm />
     </Styles>

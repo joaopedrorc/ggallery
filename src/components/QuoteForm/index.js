@@ -125,7 +125,7 @@ function QuoteForm() {
           </WhappButton>
         </WhappButtonContainer>
         <Title title="Or send us an email" />
-        <div className="row mb-4">
+        <div className="row mb-4 d-flex flex-column align-items-center justify-content-center">
           <div className="col-md-12 container-col">
             <div className="container-size">
               <form className="pb-lg-2" onSubmit={handleSubmit}>
