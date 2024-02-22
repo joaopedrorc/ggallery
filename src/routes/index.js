@@ -2,8 +2,6 @@ import React from 'react';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-// import Route from './Route';
-
 import MainPage from '../pages/MainPage';
 import ContractPage from '../pages/ContractPage';
 import AreasPage from '../pages/AreasPage';
@@ -19,9 +17,8 @@ import PaintingDecorationPage from '../pages/PaintingDecorationPage';
 import PaintingGeneralAds from '../pages/PaintingGeneralAds';
 import PaintingCommercialAds from '../pages/PaintingCommercialAds';
 import FlooringTilesPage from '../pages/FlooringTilesPage';
-import EletricalPage from '../pages/EletricalPage';
 import HeatingPlumbingPage from '../pages/HeatingPlumbingPage';
-import WindowCleaning from '../pages/WindowContrats';
+import WindowCleaning from '../pages/WindowContracts';
 import OfficeCleaning from '../pages/OfficeContracts';
 import GardenMaintenance from '../pages/GardenContracts';
 import NotFound from '../pages/NotFound';
@@ -71,7 +68,6 @@ export default function AppRoutes() {
             path="/flooring-tiles-installation"
             element={<FlooringTilesPage />}
           />
-          <Route exact path="/eletical-services" element={<EletricalPage />} />
           <Route
             exact
             path="/heating-plumbing"

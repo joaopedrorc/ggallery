@@ -92,7 +92,7 @@ function NavBar() {
               </NavDropdown.Item> */}
 
               {/* <NavDropdown.Item>
-                <Link to="/eletical-services">Eletrical services</Link>
+                <Link to="/electrical-services">Eletrical services</Link>
               </NavDropdown.Item> */}
             </NavDropdown>
 

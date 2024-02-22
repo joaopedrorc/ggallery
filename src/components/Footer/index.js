@@ -190,7 +190,7 @@ function Footer() {
                 </Dropdown.Item> */}
 
                 <Dropdown.Item>
-                  <Link to="/eletical-services">Eletrical services</Link>
+                  <Link to="/electrical-services">Eletrical services</Link>
                 </Dropdown.Item>
               </DropdownButton>
               <p className="mb-0 ">
