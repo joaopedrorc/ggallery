@@ -1,7 +1,6 @@
 /* eslint-disable no-undef */
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ReactGA from 'react-ga';
 
 import { Styles, ContainerBox } from './styles';
 
@@ -112,12 +111,6 @@ const images = [
 ];
 
 export default function ServiceDescription() {
-  const gaEventTracker = ReactGA.event({
-    category: 'some category',
-    action: 'example_action',
-    label: 'example label',
-  });
-
   return (
     <Styles>
       <Title title="Tailor-maid Garden Room office/studio" />

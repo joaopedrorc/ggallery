@@ -1,67 +1,133 @@
 import styled from 'styled-components';
 
 export const Styles = styled.div`
-  button {
-    width: 180px;
-    background-color: var(--primary);
-
-    &:hover {
-      background-color: var(--primary-dark);
-    }
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    margin: 0 0 24px 0;
   }
 
-  input {
-    border-color: var(--black);
+  .checkboxGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 0 20px 0;
+  }
+
+  .checkboxGroup input {
+    margin: 0 15px;
+    height: 30px;
+    width: 30px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+  }
+
+  form label {
+    font-size: 18px;
+    margin: 0 0 5px 0;
+    color: var(--gray-light);
+  }
+
+  form input {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    border-radius: 8px;
+    border: 1px solid var(--gray);
+  }
+
+  form select {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    border-radius: 8px;
+    border: 1px solid var(--gray);\
+    background-image:
+    linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    calc(100% - 2.5em) 0.5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+  }
+
+  form select:focus {
+    background-image:
+      linear-gradient(45deg, green 50%, transparent 50%),
+      linear-gradient(135deg, transparent 50%, green 50%),
+      linear-gradient(to right, #ccc, #ccc);
+    background-position:
+      calc(100% - 15px) 1em,
+      calc(100% - 20px) 1em,
+      calc(100% - 2.5em) 0.5em;
+    background-size:
+      5px 5px,
+      5px 5px,
+      1px 1.5em;
+    background-repeat: no-repeat;
+    border-color: green;
+    outline: 0;
   }
 
   select {
-    border-color: var(--black);
+    margin: 0;      
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
   }
 
-  textarea {
-    border-color: var(--black);
-  }
-
-  .container {
-    margin-bottom: 48px;
-  }
-  .container-col {
-    width: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .container-size {
-    max-width: 550px;
-  }
-
-  .check-container {
-    height: 25px;
-  }
-
-  .success-message {
+  form textarea {
     width: 100%;
     padding: 10px;
-    background-color: green;
-    color: white;
+    margin: 0 0 20px 0;
+    border-radius: 8px;
+    border: 1px solid var(--gray);
   }
 
-  .error-message {
+  form input[type='submit'] {
     width: 100%;
-    padding: 10px;
-    background-color: red;
-    color: white;
+    height: 60px;
+    margin: 0 0 20px 0;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--primary);
+    color: var(--white);
+    font-size: 22px;
+    cursor: pointer;
+  }
+
+  form input[type='submit']:hover {
+    background-color: var(--primary-dark);
   }
 `;
 
-export const WhappButtonContainer = styled.div`
+export const WhatsAppButtonContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
 `;
 
-export const WhappButton = styled.a`
+export const WhatsAppButton = styled.a`
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
