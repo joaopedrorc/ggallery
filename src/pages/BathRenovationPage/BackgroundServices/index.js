@@ -14,7 +14,7 @@ export default function BackgroundServices() {
               <strong>Bathrooom Renovation</strong>
             </h1>
             <p>
-              At Danansan Property Services We'll make your dream modern
+              At GGallery Painting and Decoration We'll make your dream modern
               <br /> bathroom a reality
             </p>
           </div>

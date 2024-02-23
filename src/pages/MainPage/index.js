@@ -254,7 +254,7 @@ function MainPage() {
             >
               <iframe
                 src="https://www.google.com/maps/d/embed?mid=1ErNRXkgqL6LhZKUNjpBqvVmuN3pocESB"
-                title="Danansan Property Services"
+                title=" GGallery Painting and Decoration"
                 frameborder="0"
                 style={{ border: 0 }}
                 allowfullscreen

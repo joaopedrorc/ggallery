@@ -55,8 +55,8 @@ export default function ServiceDescription() {
       <Title title="Painting and decorating" />
       <ContainerBox>
         <p className="p-container text-center">
-          When you choose a professional painting service like Danansan Property
-          Services you are making a wise choice
+          When you choose a professional painting service like GGallery Painting
+          and Decorating you are making a wise choice
         </p>
       </ContainerBox>
       <Title title="Our painting and decorating services can include:" />

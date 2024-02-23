@@ -250,7 +250,7 @@ function Footer() {
         </Container>
         <div className="w-100 rights-container d-flex justify-content-center align-items-center">
           <p className="m-0 text-black">
-            &copy; 2021 Copyright: Danansan Propery Services
+            &copy; 2024 Copyright: GGallery Painting and Decoration
           </p>
         </div>
       </footer>

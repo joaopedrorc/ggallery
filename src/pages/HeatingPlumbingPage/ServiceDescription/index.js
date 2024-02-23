@@ -64,7 +64,7 @@ export default function ServiceDescription() {
                     <strong>Tubs and Showers:</strong> Whether you want a new
                     tub or shower to freshen up the style of your space or you
                     just need to fix a leak in the shower, a plumber from
-                    Danansan Property Services can help.
+                    GGallery Painting and Decoration can help.
                   </p>
                 </div>
                 <div className="cities-column">
@@ -109,7 +109,7 @@ export default function ServiceDescription() {
                     clean water into your home and carry away waste to the sewer
                     are often taken for granted by homeowners—until something
                     goes wrong. When that happens, call on the proven services
-                    of Danansan Property Services.
+                    of GGallery Painting and Decoration.
                   </p>
                 </div>
               </div>

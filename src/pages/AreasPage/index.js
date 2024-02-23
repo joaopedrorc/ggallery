@@ -16,11 +16,11 @@ function AreasPage() {
       <Title title="Areas we cover" />
       <Container className="mb-4">
         <h2 className="text-center">
-          Danansan Property services provides several services to commercial and
-          residential customers across Basingstoke and nearby areas. Most of our
-          customers are located in the following cities. If you are for
-          property/business services in basingstoke or in any other city please
-          contact us to check availability in your area.
+          GGallery Painting and Decoration provides several services to
+          commercial and residential customers across Basingstoke and nearby
+          areas. Most of our customers are located in the following cities. If
+          you are for property/business services in Basingstoke or in any other
+          city please contact us to check availability in your area.
         </h2>
 
         <div className="row mb-4">

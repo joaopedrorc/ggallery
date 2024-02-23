@@ -15,8 +15,8 @@ export default function BackgroundServices() {
               <strong>Fence Erecting</strong>
             </h1>
             <p>
-              Danansan Property Services supply and fit new and replacement
-              fence panels <br />
+              GGallery Painting and Decoration supply and fit new and
+              replacement fence panels <br />
               at yours exact requirements.
             </p>
 

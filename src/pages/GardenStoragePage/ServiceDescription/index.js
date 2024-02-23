@@ -95,8 +95,9 @@ export default function ServiceDescription() {
                 <div className="cities-column">
                   <div className="rounded-bol"></div>
                   <p>
-                    Once you have made your purchase, Danansan Property Services
-                    will be in touch to arrange delivery and installation.
+                    Once you have made your purchase, GGallery Painting and
+                    Decoration will be in touch to arrange delivery and
+                    installation.
                   </p>
                 </div>
               </div>
