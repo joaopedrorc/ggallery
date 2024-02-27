@@ -239,12 +239,12 @@ function Footer() {
               </a>
               <br />
 
-              <a
+              {/* <a
                 href="mailto: contact@danansanps.com"
                 className="mb-0 text-white"
               >
-                contact@danansanps.com
-              </a>
+                contact@gallery.com
+              </a> */}
             </div>
           </div>
         </Container>
