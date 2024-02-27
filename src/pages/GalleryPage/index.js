@@ -83,13 +83,26 @@ import Painting0 from '../../assets/gallery/gallery-four/painting0.jpeg';
 import Painting01 from '../../assets/gallery/gallery-four/painting01.jpeg';
 import Painting02 from '../../assets/gallery/gallery-four/painting02.jpeg';
 import Painting03 from '../../assets/gallery/gallery-four/painting03.jpeg';
-import Painting04 from '../../assets/gallery/gallery-four/paintingImage4.jpeg';
-import Painting05 from '../../assets/gallery/gallery-four/paintingImage5.jpeg';
-import Painting06 from '../../assets/gallery/gallery-four/paintingImage6.jpeg';
-import Painting07 from '../../assets/gallery/gallery-four/paintingImage7.jpeg';
-import Painting08 from '../../assets/gallery/gallery-four/paintingImage8.jpeg';
-import Painting09 from '../../assets/gallery/gallery-four/paintingImage9.jpeg';
-import Painting10 from '../../assets/gallery/gallery-four/paintingImage10.jpeg';
+import Painting04 from '../../assets/gallery/gallery-four/painting4.jpeg';
+import Painting05 from '../../assets/gallery/gallery-four/painting5.jpeg';
+import Painting06 from '../../assets/gallery/gallery-four/painting6.jpeg';
+import Painting07 from '../../assets/gallery/gallery-four/painting7.jpeg';
+import Painting08 from '../../assets/gallery/gallery-four/painting8.jpeg';
+import Painting09 from '../../assets/gallery/gallery-four/painting9.jpeg';
+import Painting10 from '../../assets/gallery/gallery-four/painting10.jpeg';
+import Painting11 from '../../assets/gallery/gallery-four/painting11.jpeg';
+import Painting12 from '../../assets/gallery/gallery-four/painting12.jpeg';
+import Painting13 from '../../assets/gallery/gallery-four/painting13.jpeg';
+import Painting14 from '../../assets/gallery/gallery-four/painting14.jpeg';
+import Painting15 from '../../assets/gallery/gallery-four/painting15.jpeg';
+import Painting16 from '../../assets/gallery/gallery-four/painting16.jpeg';
+import Painting17 from '../../assets/gallery/gallery-four/painting17.jpeg';
+import Painting18 from '../../assets/gallery/gallery-four/painting18.jpeg';
+import Painting19 from '../../assets/gallery/gallery-four/painting19.jpeg';
+import Painting20 from '../../assets/gallery/gallery-four/painting20.jpeg';
+import Painting21 from '../../assets/gallery/gallery-four/painting21.jpeg';
+import Painting22 from '../../assets/gallery/gallery-four/painting22.jpeg';
+import Painting23 from '../../assets/gallery/gallery-four/painting23.jpeg';
 
 import SummerHouse01 from '../../assets/masterServices/gardenRoom/summerHouse01.jpeg';
 import SummerHouse02 from '../../assets/masterServices/gardenRoom/summerHouse02.jpeg';
@@ -431,6 +444,58 @@ const images02 = [
 ];
 
 const images03 = [
+  {
+    original: Painting11,
+    thumbnail: Painting11,
+  },
+  {
+    original: Painting12,
+    thumbnail: Painting12,
+  },
+  {
+    original: Painting13,
+    thumbnail: Painting13,
+  },
+  {
+    original: Painting14,
+    thumbnail: Painting14,
+  },
+  {
+    original: Painting15,
+    thumbnail: Painting15,
+  },
+  {
+    original: Painting16,
+    thumbnail: Painting16,
+  },
+  {
+    original: Painting17,
+    thumbnail: Painting17,
+  },
+  {
+    original: Painting18,
+    thumbnail: Painting18,
+  },
+  {
+    original: Painting19,
+    thumbnail: Painting19,
+  },
+  {
+    original: Painting20,
+    thumbnail: Painting20,
+  },
+  {
+    original: Painting21,
+    thumbnail: Painting21,
+  },
+  {
+    original: Painting22,
+    thumbnail: Painting22,
+  },
+  {
+    original: Painting23,
+    thumbnail: Painting23,
+  },
   {
     original: Painting04,
     thumbnail: Painting04,
