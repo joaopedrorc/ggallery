@@ -19,7 +19,7 @@ function Footer() {
       <Container>
         <div className="row">
           <div className="col col-md-12 col-lg-6 mb-5 d-flex justify-content-center">
-            <img src={FooterLogo} alt="Logo" height={150} width={150} />
+            <img src={FooterLogo} alt="Logo" height={250} width={250} />
           </div>
 
           <div className="col col-md-12 col-lg-6 mb-5">

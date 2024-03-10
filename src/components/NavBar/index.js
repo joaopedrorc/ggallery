@@ -10,17 +10,20 @@ import Logo from '../../assets/logos/Original.png';
 function NavBar() {
   return (
     <Styles>
-      <Navbar expand="md">
+      <Navbar expand="md" className="justify-content-between">
         <Navbar.Brand>
-          <Link to="/">
-            <img
-              className="logo"
-              src={Logo}
-              alt="Logo"
-              height={75}
-              width={75}
-            />
-          </Link>
+          <div className="d-flex flex-column justify-content-center align-items-center p-2">
+            <Link to="/">
+              <img
+                className="logo"
+                src={Logo}
+                alt="Logo"
+                height={200}
+                width={200}
+              />
+            </Link>
+            <h4 className="text-light mt-2">GGallery Painting & Decorating</h4>
+          </div>
         </Navbar.Brand>
 
         <Navbar.Toggle
@@ -28,14 +31,11 @@ function NavBar() {
           aria-controls="basic-navbar-nav"
         />
 
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse
+          id="basic-navbar-nav"
+          className="justify-content-end p-2"
+        >
           <Nav className="ml-auto mr-3">
-            {/* <Nav.Item>
-              <Nav.Link>
-                <Link to="/contracts">CONTRACTS</Link>
-              </Nav.Link>
-            </Nav.Item> */}
-
             <NavDropdown
               title="SERVICES"
               id="basic-nav-dropdown"
