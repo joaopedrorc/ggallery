@@ -230,8 +230,8 @@ function Footer() {
               </h4>
               <p className="mb-0 text-white">Basingstoke</p>
               <p className="mb-0 text-white mb-4">
-                5 Thames Ct, Basingstoke RG21 4DP, <br />
-                United Kingdom.
+                51 Quilter Road, Basingstoke RG22 4HD, <br />
+                England.
               </p>
               <p className="text-white mt-0">Hours: 9:00am as 5:00pm</p>
               <a href="tel:+44 7916 685198" className="mb-0 text-white">
